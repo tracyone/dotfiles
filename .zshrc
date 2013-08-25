@@ -1,3 +1,8 @@
+# author   :tracyone
+# date     :2013-08-25/17:25:29
+# note:
+# ---------------------------------------------------
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -7,7 +12,8 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
-# Example aliases
+
+#{{{ aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias grep='grep --color=auto'
@@ -21,7 +27,9 @@ alias c='clear'
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
 alias -s zip='unzip'
+#}}}
 
+# {{{shell basic setting
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -48,6 +56,27 @@ alias -s zip='unzip'
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+# {{{deal with ctrl-s in vim
+alias vim="stty stop '' -ixoff ; vim"
+# `Frozing' tty, so after any command terminal settings will be restored
+ttyctl -f
+
+# bash
+# No ttyctl, so we need to save and then restore terminal settings
+vim()
+{
+    local STTYOPTS="$(stty --save)"
+    stty stop '' -ixoff
+    command vim "$@"
+    stty "$STTYOPTS"
+}
+# }}}
+
+# }}}
+
+# {{{plugin setting
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
@@ -59,6 +88,9 @@ bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 source $ZSH/oh-my-zsh.sh
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
-# Customize to your needs...
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-autoload -U compinit && compinit -u
+
+autoload -U compinit promptinit
+compinit
+# }}}
+
+# vim: set fdm=marker: 
