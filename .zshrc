@@ -80,7 +80,7 @@ vim()
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git OSX autojump mvn gradle zsh-history-substring-search command-not-found \
+plugins=(git OSX autojump mvn gradle history-substring-search command-not-found \
 	 svn web-search) 
 
 zmodload zsh/terminfo
@@ -93,4 +93,4 @@ autoload -U compinit promptinit
 compinit
 # }}}
 
-# vim: set fdm=marker: 
+# vim: set fdm=marker foldlevel=0:
