@@ -1,6 +1,6 @@
-# author   :tracyone
-# date     :2013-08-25/17:25:29
-# note:
+# author      :tracyone
+# date        :2013-08-25/17:25:29
+# lastchange  :2014-02-23/01:20:00
 # ---------------------------------------------------
 
 # Path to your oh-my-zsh configuration.
@@ -24,6 +24,8 @@ alias ll='ls -al'
 alias la='ls -A'
 alias l='ls -CF'
 alias c='clear'
+alias cls='clear'
+alias o='nautilus'
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
 alias -s zip='unzip'

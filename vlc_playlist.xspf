@@ -1,0 +1,4213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>播放列表</title>
+	<trackList>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%281%29.mp3</location>
+			<title>Canon(1)</title>
+			<creator>Clive Carroll</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>10</trackNum>
+			<annotation> </annotation>
+			<duration>245585</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%282%29.mp3</location>
+			<title>Canon(2)</title>
+			<creator>Platinum</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>11</trackNum>
+			<duration>159718</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%283%29.mp3</location>
+			<title>Canon(3)</title>
+			<creator>Romero, Glaser, Irwin, Washington &amp; Leatherbarrow</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>13</trackNum>
+			<duration>253001</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20%26%20Gigue%20in%20D.mp3</location>
+			<title>Canon &amp; Gigue in D</title>
+			<creator>Robert Salter &amp; Guildhall String Ensemble with Paul Nicholson</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>15</trackNum>
+			<annotation> </annotation>
+			<duration>322669</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20D%281%29.mp3</location>
+			<title>Canon in D(1)</title>
+			<creator>James Galway &amp; Munich Radio Orchestra with John Georgiadis</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>2</trackNum>
+			<duration>312325</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20D%282%29.mp3</location>
+			<title>Canon in D(2)</title>
+			<creator>Arthur Fiedler Sinfionetta</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>14</trackNum>
+			<annotation> </annotation>
+			<duration>199164</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20D.mp3</location>
+			<title>Canon in D</title>
+			<creator>Jean-Francois Paillard Chamber Orchestra</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>1</trackNum>
+			<duration>365381</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20F.mp3</location>
+			<title>Canon in F</title>
+			<creator>BRR</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>8</trackNum>
+			<duration>333799</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon.mp3</location>
+			<title>Canon</title>
+			<creator>The Canadian Brass</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>7</trackNum>
+			<annotation> </annotation>
+			<duration>273742</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20of%20the%20Three%20Stars.mp3</location>
+			<title>Canon of the Three Stars</title>
+			<creator>Isao Tomita &amp; the Plasma Symphony Orchestra</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>4</trackNum>
+			<duration>349734</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20%28over%20a%20Basso%20Ostinato%29.mp3</location>
+			<title>Canon (over a Basso Ostinato)</title>
+			<creator>Peerless 2x2</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>3</trackNum>
+			<annotation> </annotation>
+			<duration>202637</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Earth%20Angel.mp3</location>
+			<title>Earth Angel</title>
+			<creator>The Hampton String Quartet</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>6</trackNum>
+			<annotation> </annotation>
+			<duration>261962</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/How%2C%20Where%2C%20When%20%28Canon%20in%20D%29.mp3</location>
+			<title>How, Where, When? (Canon in D)</title>
+			<creator>Cleo Laine, James Galway &amp; John Dankworth</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>5</trackNum>
+			<annotation> </annotation>
+			<duration>227167</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20I-%20Allemanda.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - I: Allemanda</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>5</trackNum>
+			<duration>265044</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20II-%20Double.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - II: Double</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>6</trackNum>
+			<duration>117034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20III-%20Corrente.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - III: Corrente</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>7</trackNum>
+			<duration>149034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20IV-%20Double%20%28Presto%29.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - IV: Double (Presto)</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>8</trackNum>
+			<duration>154050</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20VI-%20Double.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - VI: Double</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>10</trackNum>
+			<duration>86052</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20VIII-%20Double.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - VIII: Double</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>12</trackNum>
+			<duration>155042</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20VII-%20Tempo%20di%20Borea.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - VII: Tempo di Borea</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>11</trackNum>
+			<duration>149034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20V-%20Sarabande.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - V: Sarabande</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>9</trackNum>
+			<duration>123042</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-%20I-%20Adagio.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 - I: Adagio</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>1</trackNum>
+			<duration>224031</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-%20II-%20Fuga%20%28Allegro%29.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 - II: Fuga (Allegro)</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>2</trackNum>
+			<duration>314049</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-III-%20Siciliana.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 -III: Siciliana</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>3</trackNum>
+			<duration>146056</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-%20IV-%20Presto.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 - IV: Presto</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>4</trackNum>
+			<duration>164054</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20I-%20Grave.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - I: Grave</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>13</trackNum>
+			<duration>223039</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20II-%20Fuga.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - II: Fuga</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>14</trackNum>
+			<duration>468043</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20III-%20Andante.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - III: Andante</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>15</trackNum>
+			<duration>210056</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20IV-%20Allegro.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - IV: Allegro</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>16</trackNum>
+			<duration>238033</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sweet%20Home%20%28based%20on%20Pachelbel%27s%20Canon%29.mp3</location>
+			<title>Sweet Home (based on Pachelbel&#39;s Canon)</title>
+			<creator>Sakibara, Matsumoto, Tashiro &amp; Ikeda</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>12</trackNum>
+			<duration>368464</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Variations%20on%20the%20Pachelbel%20Canon%20in%20D.mp3</location>
+			<title>Variations on the Pachelbel Canon in D</title>
+			<creator>The Concord String Quartet</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>9</trackNum>
+			<annotation> </annotation>
+			<duration>496882</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E4%B8%8D%E4%BA%86%E6%83%85.mp3</location>
+			<title>不了情</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>4</trackNum>
+			<duration>203029</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E8%94%A1%E7%90%B4</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E7%97%B4%E6%83%85%E6%B3%AA.mp3</location>
+			<title>痴情泪</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>7</trackNum>
+			<duration>213478</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%88%9D%E6%81%8B.mp3</location>
+			<title>初恋</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>10</trackNum>
+			<duration>155773</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%80%80%E5%BF%B5.mp3</location>
+			<title>怀念</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>2</trackNum>
+			<duration>228838</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E8%93%9D%E8%89%B2%E7%9A%84%E6%A2%A6.mp3</location>
+			<title>蓝色的梦</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>1</trackNum>
+			<duration>182837</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%81%8B%E7%97%95.mp3</location>
+			<title>恋痕</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>5</trackNum>
+			<duration>183123</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/46%20%E9%A6%99%E5%A5%88%E5%84%BF.m4a</location>
+			<title>香奈儿</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>14</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>296006</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/alison%20krauss%20-%20when%20you%20say%20nothing%20at%20all.mp3</location>
+			<title>When You Say Nothing At All</title>
+			<creator>Alison Krauss</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<duration>263761</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/dreaming%20my%20dream%20-%20cranberries.mp3</location>
+			<title>Dream</title>
+			<creator>Cranberries</creator>
+			<album>流行歌曲</album>
+			<annotation>风之翼音乐宝盒</annotation>
+			<duration>275058</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/guns%20n%27%20roses%20-%20don%27t%20cry.mp3</location>
+			<album>流行歌曲</album>
+			<duration>285340</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/nana%20-%20lonely%20-%20%E5%AE%8C%E6%95%B4%E7%89%88.mp3</location>
+			<title>Lonely</title>
+			<creator>Nana</creator>
+			<album>流行歌曲</album>
+			<duration>382780</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/oh%2Csusanna.mp3</location>
+			<album>流行歌曲</album>
+			<duration>221335</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/shawn%20colvin%20-%20sunny%20came%20home.mp3</location>
+			<title>Sunny Came Home</title>
+			<creator>Shawn Colvin</creator>
+			<album>流行歌曲</album>
+			<trackNum>2</trackNum>
+			<annotation>www.VeryCD.com</annotation>
+			<duration>266848</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/stay%20-%20williams.mp3</location>
+			<title>stay</title>
+			<creator>Tonya mitchell</creator>
+			<album>流行歌曲</album>
+			<trackNum>3</trackNum>
+			<duration>321095</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/the%20beatles%20-%20let%20it%20be.mp3</location>
+			<title>Let It Be</title>
+			<creator>The Beatles</creator>
+			<album>流行歌曲</album>
+			<trackNum>11</trackNum>
+			<annotation>yaya</annotation>
+			<duration>233985</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/the%20one%20-%20mr%20big.mp3</location>
+			<title>The One</title>
+			<creator>Mr big</creator>
+			<album>流行歌曲</album>
+			<duration>273327</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/venke%20knutson%20-%20love%20explains%20it%20all.mp3</location>
+			<title>Love Explains It All</title>
+			<creator>Venke Knutson</creator>
+			<album>流行歌曲</album>
+			<trackNum>7</trackNum>
+			<duration>269479</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E5%8D%95%E8%BD%A6.mp3</location>
+			<title>单车</title>
+			<creator>陈奕迅</creator>
+			<album>流行歌曲</album>
+			<trackNum>7</trackNum>
+			<annotation>http://www.9sky.com</annotation>
+			<duration>211155</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E6%B5%AE%E5%A4%B8%20-%20u.mp3</location>
+			<album>流行歌曲</album>
+			<duration>286176</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E4%BB%8A%E5%A4%A9%E5%8F%AA%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B.mp3</location>
+			<title>今天只做一件事</title>
+			<creator>陈奕迅</creator>
+			<album>流行歌曲</album>
+			<duration>236228</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5.mp3</location>
+			<title>明年今日</title>
+			<creator>陈奕迅</creator>
+			<album>流行歌曲</album>
+			<trackNum>3</trackNum>
+			<annotation>http://musicspeed.cnjx.net</annotation>
+			<duration>206163</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E4%BD%A0%E7%9A%84%E8%83%8C%E5%8C%85.mp3</location>
+			<title>你的背包</title>
+			<creator>http://music.zsnet.com-陈奕迅</creator>
+			<album>流行歌曲</album>
+			<trackNum>2</trackNum>
+			<annotation>http://music.zsnet.com</annotation>
+			<duration>238897</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%8A%A8%E7%89%A9%E7%8B%82%E6%AC%A2%E8%8A%82%20%E5%A4%A9%E9%B9%85.mp3</location>
+			<title>13.动物狂欢节.天鹅</title>
+			<creator>圣桑.法国乐坛的巨匠</creator>
+			<album>流行歌曲</album>
+			<trackNum>13</trackNum>
+			<annotation>[CHN][BTPIG][edilan]</annotation>
+			<duration>164330</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%A3%AE%E6%9E%97%E7%8B%82%E6%83%B3%E6%9B%B2.mp3</location>
+			<album>流行歌曲</album>
+			<duration>280876</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E4%B8%96%E7%95%8C%E5%90%8D%E6%9B%B2%20%E8%93%9D%E8%89%B2%E5%A4%9A%E7%91%99%E6%B2%B3%E8%88%9E%E6%9B%B2%20%E7%BA%A6%E7%BF%B0%20%E6%96%BD%E7%89%B9%E5%8A%B3%E6%96%AF.mp3</location>
+			<album>流行歌曲</album>
+			<duration>230643</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E8%88%92%E4%BC%AF%E7%89%B9%20-%20%E5%86%9B%E9%98%9F%E8%BF%9B%E8%A1%8C%E6%9B%B2.mp3</location>
+			<album>流行歌曲</album>
+			<duration>189030</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%AD%99%E7%87%95%E5%A7%BF%20-%20%E6%9C%A8%E5%85%B0%E6%83%85%20-%20%E7%94%B5%E5%BD%B1%20%E8%8A%B1%E6%9C%A8%E5%85%B0%20%E4%B8%BB%E9%A2%98%E6%9B%B2.mp3</location>
+			<title>木兰情(电影《花木兰》主题曲)</title>
+			<creator>孙燕姿</creator>
+			<album>流行歌曲</album>
+			<duration>273379</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E4%B8%87%E8%8A%B3%20-%20%E6%96%B0%E4%B8%8D%E4%BA%86%E6%83%85%20-%20%E7%94%B5%E5%BD%B1%E5%8E%9F%E5%A3%B0%E5%B8%A6.mp3</location>
+			<title>新不了情</title>
+			<creator>万芳</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<annotation>Ò¶ÇïÀë</annotation>
+			<duration>268047</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%BA%A2%E8%B1%86.mp3</location>
+			<title>红豆</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>9</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>256511</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E5%B0%86%E7%88%B1.mp3</location>
+			<title>将爱</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>247408</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%A9%BA%E5%9F%8E.mp3</location>
+			<title>空城</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>2</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>299575</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E6%B5%81%E6%B5%AA%E7%9A%84%E7%BA%A2%E8%88%9E%E9%9E%8B.mp3</location>
+			<title>流浪的红舞鞋</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>7</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>255981</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E6%B5%81%E5%B9%B4.mp3</location>
+			<title>瑈</title>
+			<creator>滇</creator>
+			<album>流行歌曲</album>
+			<trackNum>5</trackNum>
+			<duration>277010</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2-%E4%BA%BA%E9%97%B4.mp3</location>
+			<album>流行歌曲</album>
+			<duration>283454</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%AC%91%E5%BF%98%E4%B9%A6.mp3</location>
+			<title>Track 10</title>
+			<creator>artist</creator>
+			<album>流行歌曲</album>
+			<trackNum>10</trackNum>
+			<annotation>www.9sky.com</annotation>
+			<duration>267867</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%AC%91%E5%BF%98%E4%B9%A6%20-%20%E7%BB%99%E8%87%AA%E5%B7%B1%E4%B8%80%E5%B0%81%E6%83%85%E4%B9%A6%20%E7%B2%A4%E8%AF%AD%E7%89%88.mp3</location>
+			<title>给自己一封情书(笑忘书</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>269830</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E6%97%8B%E6%9C%A8.mp3</location>
+			<title>旋木</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>253239</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%83%9F.mp3</location>
+			<title>烟</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>10</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>256186</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E5%86%8D%E8%A7%81%E8%90%A4%E7%81%AB%E8%99%AB.mp3</location>
+			<title>再见萤火虫</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>3</trackNum>
+			<annotation>http://www.21gamer.com</annotation>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>305120</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8B%A5%E7%90%B3%20-%20let%27s%20start%20from%20here.mp3</location>
+			<title>01.Let&#39;s Start From Here</title>
+			<creator>王若琳</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<annotation>http://www.oimp3.com</annotation>
+			<duration>216101</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%88%91%E7%9A%84%E5%90%8D%E5%AD%97%E5%8F%AB%E4%BC%8A%E8%8E%B2%20%E6%B3%95%E8%AF%AD%E5%86%A0%E5%86%9B%E6%AD%8C%E6%9B%B2.mp3</location>
+			<album>流行歌曲</album>
+			<duration>228421</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E3%80%90%E7%86%8A%E7%8C%AB%E5%A4%A7%E4%BE%A0%E3%80%91%E5%BC%A0%E9%9D%93%E9%A2%96-%E6%9C%9D%E6%80%9D%E6%9A%AE%E6%83%B3.mp3</location>
+			<album>流行歌曲</album>
+			<duration>236251</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%9D%A8%E5%8D%83%E5%AC%85%20-%20%E5%8F%AF%E6%83%9C%E6%88%91%E6%98%AF%E6%B0%B4%E7%93%B6%E5%BA%A7.mp3</location>
+			<title>可能我是水瓶座</title>
+			<creator>杨千桦</creator>
+			<album>流行歌曲</album>
+			<trackNum>4</trackNum>
+			<annotation>http://www.21gamer.com</annotation>
+			<duration>214212</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%9D%A8%E5%8D%83%E6%A1%A6%E2%80%94%E5%B0%8F%E5%9F%8E%E5%A4%A7%E4%BA%8B.MP3</location>
+			<album>流行歌曲</album>
+			<duration>208417</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%9D%A8%E5%8D%83%E6%A1%A6%20-%20%E9%87%8E%E5%AD%A9%E5%AD%90.mp3</location>
+			<title>野孩子</title>
+			<creator>杨千嬅</creator>
+			<album>流行歌曲</album>
+			<trackNum>32</trackNum>
+			<annotation>www.9sky.com</annotation>
+			<duration>223877</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E4%B8%80%E9%A6%96%E8%8B%B1%E6%96%87%E6%AD%8C%20i%20could%20be%20the%20one%20%E8%B6%85%E5%A5%BD%E5%90%AC.mp3</location>
+			<album>流行歌曲</album>
+			<duration>226176</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%BC%A0%E9%9D%93%E9%A2%96%20-%20%E6%9C%A8%E5%85%B0%E6%98%9F.mp3</location>
+			<title>木兰星</title>
+			<creator>张靓颖</creator>
+			<album>流行歌曲</album>
+			<duration>297072</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%BC%A0%E9%9D%93%E9%A2%96%20-%20%E5%A6%82%E6%9E%9C%E7%88%B1%E4%B8%8B%E5%8E%BB.mp3</location>
+			<album>流行歌曲</album>
+			<duration>242337</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%BC%A0%E9%9D%93%E9%A2%96%20-%20%E5%A6%82%E6%9E%9C%E8%BF%99%E5%B0%B1%E6%98%AF%E7%88%B1%E6%83%85%20-%20k.mp3</location>
+			<title>Èç¹ûÕâ¾ÍÊÇ°®Çé</title>
+			<creator>ÕÅö¦Ó±</creator>
+			<album>ÎÒÏàÐÅ</album>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%C3%95%C3%85%C3%B6%C2%A6%C3%93%C2%B1/%C3%8E%C3%92%C3%8F%C3%A0%C3%90%C3%85/art.jpg</image>
+			<duration>282984</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%BA%B5%E8%B4%AF%E7%BA%BF%20-%20%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%9D%92%E6%98%A5%E8%88%9E%E6%9B%B2%20-%20live.mp3</location>
+			<title>14.美好的青春舞曲 (真心英雄/亲</title>
+			<creator>李宗盛/周华健/罗大佑/张震岳</creator>
+			<album>流行歌曲</album>
+			<trackNum>255</trackNum>
+			<duration>431835</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%BA%B5%E8%B4%AF%E7%BA%BF%20-%20%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E6%84%9F%E8%A7%89.mp3</location>
+			<title>5583.Com 高品质音乐网</title>
+			<creator>5583.Com 高品质音乐网</creator>
+			<album>流行歌曲</album>
+			<annotation>5583.Com 高品质音乐网</annotation>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/5583.Com%20%E9%AB%98%E5%93%81%E8%B4%A8%E9%9F%B3%E4%B9%90%E7%BD%91/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>379942</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%A2%A6%E4%B8%AD%E4%BA%BA.mp3</location>
+			<title>梦中人</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>3</trackNum>
+			<duration>214810</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%AD%8C.mp3</location>
+			<title>明日之歌</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>11</trackNum>
+			<duration>246994</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E7%A7%A6%E6%B7%AE%E6%B2%B3%E7%95%94.mp3</location>
+			<title>秦淮河畔</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>8</trackNum>
+			<duration>195219</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%83%85%E4%BA%BA%E7%9A%84%E7%9C%BC%E6%B3%AA.mp3</location>
+			<title>情人的眼泪</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>9</trackNum>
+			<duration>179284</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%83%85%E4%BA%BA%E5%B1%B1.mp3</location>
+			<title>情人山</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>15</trackNum>
+			<duration>173772</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E7%A5%9E%E7%A7%98%E5%A5%B3%E9%83%8E.mp3</location>
+			<title>神秘女郎</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>13</trackNum>
+			<duration>169514</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%9C%AA%E8%AF%86%E7%BB%AE%E7%BD%97%E9%A6%99.mp3</location>
+			<title>未识绮罗香</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>6</trackNum>
+			<duration>213870</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%B0%8F%E7%AA%97%E7%9B%B8%E6%80%9D.mp3</location>
+			<title>小窗相思</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>12</trackNum>
+			<duration>251853</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%84%BF%E5%AB%81%E6%B1%89%E5%AE%B6%E9%83%8E.mp3</location>
+			<title>愿嫁汉家郎</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>14</trackNum>
+			<duration>177559</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%87%8D%E7%9B%B8%E9%80%A2.mp3</location>
+			<title>重相逢</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>16</trackNum>
+			<duration>212538</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+				<vlc:option>recursive=collapse</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%281%29.mp3</location>
+			<title>Canon(1)</title>
+			<creator>Clive Carroll</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>10</trackNum>
+			<annotation> </annotation>
+			<duration>245585</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%282%29.mp3</location>
+			<title>Canon(2)</title>
+			<creator>Platinum</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>11</trackNum>
+			<annotation> </annotation>
+			<duration>159718</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%283%29.mp3</location>
+			<title>Canon(3)</title>
+			<creator>Romero, Glaser, Irwin, Washington &amp; Leatherbarrow</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>13</trackNum>
+			<annotation> </annotation>
+			<duration>253001</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20%26%20Gigue%20in%20D.mp3</location>
+			<title>Canon &amp; Gigue in D</title>
+			<creator>Robert Salter &amp; Guildhall String Ensemble with Paul Nicholson</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>15</trackNum>
+			<annotation> </annotation>
+			<duration>322669</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20D%281%29.mp3</location>
+			<title>Canon in D(1)</title>
+			<creator>James Galway &amp; Munich Radio Orchestra with John Georgiadis</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>2</trackNum>
+			<annotation> </annotation>
+			<duration>312325</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20D%282%29.mp3</location>
+			<title>Canon in D(2)</title>
+			<creator>Arthur Fiedler Sinfionetta</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>14</trackNum>
+			<annotation> </annotation>
+			<duration>199164</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20D.mp3</location>
+			<title>Canon in D</title>
+			<creator>Jean-Francois Paillard Chamber Orchestra</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>1</trackNum>
+			<annotation> </annotation>
+			<duration>365381</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20in%20F.mp3</location>
+			<title>Canon in F</title>
+			<creator>BRR</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>8</trackNum>
+			<annotation> </annotation>
+			<duration>333799</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon.mp3</location>
+			<title>Canon</title>
+			<creator>The Canadian Brass</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>7</trackNum>
+			<annotation> </annotation>
+			<duration>273742</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20of%20the%20Three%20Stars.mp3</location>
+			<title>Canon of the Three Stars</title>
+			<creator>Isao Tomita &amp; the Plasma Symphony Orchestra</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>4</trackNum>
+			<annotation> </annotation>
+			<duration>349734</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Canon%20%28over%20a%20Basso%20Ostinato%29.mp3</location>
+			<title>Canon (over a Basso Ostinato)</title>
+			<creator>Peerless 2x2</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>3</trackNum>
+			<annotation> </annotation>
+			<duration>202637</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Earth%20Angel.mp3</location>
+			<title>Earth Angel</title>
+			<creator>The Hampton String Quartet</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>6</trackNum>
+			<annotation> </annotation>
+			<duration>261962</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/How%2C%20Where%2C%20When%20%28Canon%20in%20D%29.mp3</location>
+			<title>How, Where, When? (Canon in D)</title>
+			<creator>Cleo Laine, James Galway &amp; John Dankworth</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>5</trackNum>
+			<annotation> </annotation>
+			<duration>227167</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.10%20in%20sol%20minore%20%28Vivace%29.mp3</location>
+			<title>n.10 in sol minore (Vivace)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>10</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>139369</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.11%20in%20do%20maggiore%20%28Andante-Presto-Tempo%20I%29.mp3</location>
+			<title>n.11 in do maggiore (Andante-Presto-Tempo I)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>11</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>239706</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.12%20in%20la%20bemolle%20maggiore%20%28Allegro%29.mp3</location>
+			<title>n.12 in la bemolle maggiore (Allegro)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>12</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>196055</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>112</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.13%20in%20si%20bemolle%20maggiore%20%28Allegro%29.mp3</location>
+			<title>n.13 in si bemolle maggiore (Allegro)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>13</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>150706</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>113</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.14%20in%20mi%20bemolle%20maggiore%20%28Moderato%29.mp3</location>
+			<title>n.14 in mi bemolle maggiore (Moderato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>14</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>120718</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>114</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.15%20in%20mi%20minore%20%28Posato%29.mp3</location>
+			<title>n.15 in mi minore (Posato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>15</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>178057</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>115</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.16%20in%20sol%20minore%20%28Presto%29.mp3</location>
+			<title>n.16 in sol minore (Presto)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>16</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>90389</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>116</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.17%20in%20mi%20bemolle%20maggiore%20%28Sostenuto%29.mp3</location>
+			<title>n.17 in mi bemolle maggiore (Sostenuto)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>17</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>214054</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>117</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.18%20in%20do%20maggiore%20%28Corrente-Allegro%29.mp3</location>
+			<title>n.18 in do maggiore (Corrente-Allegro)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>18</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>144045</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>118</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.19%20in%20mi%20bemolle%20maggiore%20%28Lento-Allegro%20assai%29.mp3</location>
+			<title>n.19 in mi bemolle maggiore (Lento-Allegro assai)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>19</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>172049</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>119</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.1%20in%20mi%20maggiore%20%28Andante%29.mp3</location>
+			<title>n.1 in mi maggiore (Andante)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>1</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>111052</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>120</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.20%20in%20ri%20maggiore%20%28Allegretto%29.mp3</location>
+			<title>n.20 in ri maggiore (Allegretto)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>20</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>260368</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>121</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.21%20in%20la%20maggiore%20%28Amoroso-Presto%29.mp3</location>
+			<title>n.21 in la maggiore (Amoroso-Presto)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>21</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>220715</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>122</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.22%20in%20fa%20maggiore%20%28Marcato%29.mp3</location>
+			<title>n.22 in fa maggiore (Marcato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>22</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>193051</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>123</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.23%20in%20mi%20bemolle%20maggiore%20%28Posato%29.mp3</location>
+			<title>n.23 in mi bemolle maggiore (Posato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>23</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>197701</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>124</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.24%20in%20la%20minore%20%28Tema-Quasi%20presto-Variazionia-Finale%29.mp3</location>
+			<title>n.24 in la minore (Tema-Quasi presto-Variazionia-Finale)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>24</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>271367</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>125</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.2%20in%20si%20minore%20%28Moderato%29.mp3</location>
+			<title>n.2 in si minore (Moderato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>2</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>131036</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>126</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.3%20in%20mi%20minore%20%28Sostenuto-Presto-Sostenuto%29.mp3</location>
+			<title>n.3 in mi minore (Sostenuto-Presto-Sostenuto)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>3</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>169384</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>127</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.4%20in%20do%20maggiore%20%28Maestoso%29.mp3</location>
+			<title>n.4 in do maggiore (Maestoso)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>4</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>336047</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>128</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.5%20in%20la%20minore%20%28Agitato%29.mp3</location>
+			<title>n.5 in la minore (Agitato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>5</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>123042</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>129</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.6%20in%20sol%20minore%20%28Lento%29.mp3</location>
+			<title>n.6 in sol minore (Lento)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>6</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>351380</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>130</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.7%20in%20la%20minore%20%28Posato%29.mp3</location>
+			<title>n.7 in la minore (Posato)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>7</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>222386</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>131</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.8%20in%20mi%20bemolle%20maggiore%20%28Maestoso%29.mp3</location>
+			<title>n.8 in mi bemolle maggiore (Maestoso)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>8</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>179049</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>132</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/la%20minore/n.9%20in%20mi%20maggiore%20%27La%20Caccia%27%20%28Allegretto%29.mp3</location>
+			<title>n.9 in mi maggiore &#39;La Caccia&#39; (Allegretto)</title>
+			<creator>Nicolo Paganini (Ruggero Ricci)</creator>
+			<album>24 Capricci Op. 1</album>
+			<trackNum>9</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>172388</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>133</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20I-%20Allemanda.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - I: Allemanda</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>5</trackNum>
+			<duration>265044</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>134</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20II-%20Double.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - II: Double</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>6</trackNum>
+			<duration>117034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>135</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20III-%20Corrente.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - III: Corrente</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>7</trackNum>
+			<duration>149034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>136</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20IV-%20Double%20%28Presto%29.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - IV: Double (Presto)</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>8</trackNum>
+			<duration>154050</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>137</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20VI-%20Double.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - VI: Double</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>10</trackNum>
+			<duration>86052</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>138</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20VIII-%20Double.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - VIII: Double</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>12</trackNum>
+			<duration>155042</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>139</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20VII-%20Tempo%20di%20Borea.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - VII: Tempo di Borea</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>11</trackNum>
+			<duration>149034</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>140</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Partita%20Nr.%201%20h-moll%20f.%20Violine%20solo%20BWV1002%20-%20V-%20Sarabande.mp3</location>
+			<title>Partita Nr. 1 h-moll f. Violine solo BWV1002 - V: Sarabande</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>9</trackNum>
+			<duration>123042</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>141</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-%20I-%20Adagio.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 - I: Adagio</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>1</trackNum>
+			<duration>224031</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>142</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-%20II-%20Fuga%20%28Allegro%29.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 - II: Fuga (Allegro)</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>2</trackNum>
+			<duration>314049</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>143</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-III-%20Siciliana.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 -III: Siciliana</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>3</trackNum>
+			<duration>146056</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>144</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%201%20g-moll%20f.%20Violine%20solo%20BWV1001%20-%20IV-%20Presto.mp3</location>
+			<title>Sonate Nr. 1 g-moll f. Violine solo BWV1001 - IV: Presto</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>4</trackNum>
+			<duration>164054</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>145</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20I-%20Grave.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - I: Grave</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>13</trackNum>
+			<duration>223039</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>146</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20II-%20Fuga.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - II: Fuga</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>14</trackNum>
+			<duration>468043</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>147</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20III-%20Andante.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - III: Andante</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>15</trackNum>
+			<duration>210056</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>148</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sonate%20Nr.%202%20a-moll%20f.%20Violine%20solo%20BWV1003%20-%20IV-%20Allegro.mp3</location>
+			<title>Sonate Nr. 2 a-moll f. Violine solo BWV1003 - IV: Allegro</title>
+			<creator>Bach - Grumiaux</creator>
+			<album>Philips 438 737-2</album>
+			<trackNum>16</trackNum>
+			<duration>238033</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>149</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Sweet%20Home%20%28based%20on%20Pachelbel%27s%20Canon%29.mp3</location>
+			<title>Sweet Home (based on Pachelbel&#39;s Canon)</title>
+			<creator>Sakibara, Matsumoto, Tashiro &amp; Ikeda</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>12</trackNum>
+			<annotation> </annotation>
+			<duration>368464</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>150</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/Variations%20on%20the%20Pachelbel%20Canon%20in%20D.mp3</location>
+			<title>Variations on the Pachelbel Canon in D</title>
+			<creator>The Concord String Quartet</creator>
+			<album>Pachelbel&#39;s Greatest Hit: The Ultimate Canon</album>
+			<trackNum>9</trackNum>
+			<annotation> </annotation>
+			<duration>496882</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>151</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E4%B8%8D%E4%BA%86%E6%83%85.mp3</location>
+			<title>不了情</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>4</trackNum>
+			<duration>203029</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>152</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>vlc://nop</location>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>153</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E7%97%B4%E6%83%85%E6%B3%AA.mp3</location>
+			<title>痴情泪</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>7</trackNum>
+			<duration>213478</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>154</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%88%9D%E6%81%8B.mp3</location>
+			<title>初恋</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>10</trackNum>
+			<duration>155773</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>155</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E9%98%BF%E5%B0%94%E6%AF%94%E8%AF%BA%E5%B0%BC-g%E5%B0%8F%E8%B0%83%E6%9F%94%E7%89%88.mp3</location>
+			<title>Albinoni : Adagio in G minor for Strings and Organ</title>
+			<creator>Herbert von Karajan &amp; Berliner Philharmoniker</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<annotation>ExactAudioCopy v0.99pb5</annotation>
+			<duration>711712</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>156</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%A5%A5%E5%B0%94%E5%A4%AB-%E5%B8%83%E5%85%B0%E8%AF%97%E7%AF%87%E7%AC%AC1%E6%AE%B5.mp3</location>
+			<title>Fortuna Imperatrix Mundi / O Fortuna</title>
+			<creator>Carl Orff</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<duration>156009</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>157</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%B7%B4%E4%BC%AF-%E5%BC%A6%E4%B9%90%E6%9F%94%E7%89%88.mp3</location>
+			<title>Adagio for Strings op. 11</title>
+			<creator>Leonard Bernstein</creator>
+			<album>classical music</album>
+			<trackNum>5</trackNum>
+			<annotation>Exact Audio Copy</annotation>
+			<duration>609052</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>158</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%B7%B4%E8%B5%AB-G%E5%BC%A6%E7%9A%84%E5%92%8F%E5%8F%B9%E8%B0%83.mp3</location>
+			<title>J. S. Bach : Air from the Suite for Orchestra No.3 in D major, BWV 1068</title>
+			<creator>Herbert von Karajan &amp; Berliner Philharmoniker</creator>
+			<album>classical music</album>
+			<trackNum>5</trackNum>
+			<annotation>ExactAudioCopy v0.99pb5</annotation>
+			<duration>366059</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>159</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E9%B2%8D%E7%BD%97%E4%B8%81-%E7%AC%AC2%E5%BC%A6%E4%B9%90%E5%9B%9B%E9%87%8D%E5%A5%8F%E7%AC%AC3%E4%B9%90%E7%AB%A0%E5%A4%9C%E6%9B%B2.mp3</location>
+			<title>String Quartet No. 2, III. Notturno (Andante)</title>
+			<creator>Alexander Borodin</creator>
+			<album>classical music</album>
+			<trackNum>7</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>519322</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>160</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%B4%9D%E5%A4%9A%E8%8A%AC-%E7%AC%AC14%E9%92%A2%E7%90%B4%E5%A5%8F%E9%B8%A3%E6%9B%B2%E6%9C%88%E5%85%89%E7%AC%AC1%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Sonata #14 m1 - Adagio sotenuto attacca</title>
+			<creator>Beethoven</creator>
+			<album>classical music</album>
+			<trackNum>5</trackNum>
+			<duration>343542</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>161</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%B4%9D%E5%A4%9A%E8%8A%AC-%E7%AC%AC17%E9%92%A2%E7%90%B4%E5%A5%8F%E9%B8%A3%E6%9B%B2%E7%AC%AC2%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Piano Sonata No.17 in D minor, op.31 no.1 - II. Adagio</title>
+			<creator>Ludwig van Beethoven</creator>
+			<album>classical music</album>
+			<trackNum>2</trackNum>
+			<duration>377031</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>162</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%B4%9D%E5%A4%9A%E8%8A%AC-%E7%AC%AC5%E4%BA%A4%E5%93%8D%E6%9B%B2%E7%AC%AC1%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Symphony No. 5 In C Minor, Op.67 - Allegro Con Brio</title>
+			<creator>Ludwig van Beethoven</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<duration>433117</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>163</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%B4%9D%E5%A4%9A%E8%8A%AC-%E7%AC%AC8%E9%92%A2%E7%90%B4%E5%A5%8F%E9%B8%A3%E6%9B%B2%E6%82%B2%E6%80%86%E7%AC%AC2%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Piano Sonata No.8 in C minor, op.13 - I. Adagio cantabile</title>
+			<creator>Ludwig van Beethoven</creator>
+			<album>classical music</album>
+			<trackNum>13</trackNum>
+			<duration>286909</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>164</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%B4%9D%E5%A4%9A%E8%8A%AC-%E7%AC%AC%E4%B9%9D%E4%BA%A4%E5%93%8D%E6%9B%B2%E6%AC%A2%E4%B9%90%E9%A2%82.mp3</location>
+			<title>Presto ‘O Freunde, nicht diese Tone!’ Allegro assai</title>
+			<creator>Herbert von Karajan</creator>
+			<album>classical music</album>
+			<trackNum>5</trackNum>
+			<duration>1076095</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>165</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%8B%83%E6%8B%89%E5%A7%86%E6%96%AF-%E5%B8%95%E6%A0%BC%E5%B0%BC%E5%B0%BC%E5%8F%98%E5%A5%8F%E6%9B%B2%E7%AC%AC%E4%B8%80%E5%8D%B7.mp3</location>
+			<title>Variations on a Theme by Paganini (a) Op.35 Book 1 / Thema. Non troppo presto</title>
+			<creator>Tamas Vasary</creator>
+			<album>classical music</album>
+			<trackNum>3</trackNum>
+			<annotation>ExactAudioCopy v0.95b2</annotation>
+			<duration>712626</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>166</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%B8%83%E9%B2%81%E6%96%AF%E5%8F%A3%E7%90%B4%20%E7%88%B1%E5%B0%94%E5%85%B0%E7%94%BB%E7%9C%89.mp3</location>
+			<album>classical music</album>
+			<annotation>通过WaveCN 2.0.0.5 + Lame进行</annotation>
+			<duration>111208</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>167</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9F%B4%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA-%E7%AC%AC1%E9%92%A2%E7%90%B4%E5%8D%8F%E5%A5%8F%E6%9B%B2%E7%AC%AC1%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Tchaikovsky - Concerto No.1, Op.23 - i. Allegro non troppo e molto maestoso</title>
+			<creator>Vladimir Horowitz, piano</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<duration>1138901</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>168</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9F%B4%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA-%E5%9B%9B%E5%AD%A3%E7%AC%AC3%E9%A6%96%E5%A4%9C%E8%8E%BA%E4%B9%8B%E6%AD%8C.mp3</location>
+			<title>March - Song of the Lark</title>
+			<album>classical music</album>
+			<trackNum>3</trackNum>
+			<annotation>ExactAudioCopy v0.95b3</annotation>
+			<duration>139343</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>169</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9F%B4%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA-%E5%9B%9B%E5%AD%A3%E7%AC%AC6%E9%A6%96%E8%88%B9%E6%AD%8C.mp3</location>
+			<title>June - Barkarole</title>
+			<album>classical music</album>
+			<trackNum>6</trackNum>
+			<annotation>ExactAudioCopy v0.95b3</annotation>
+			<duration>280456</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>170</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9F%B4%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA-%E5%A4%A9%E9%B9%85%E6%B9%96%E5%9C%BA%E6%99%AF.mp3</location>
+			<title>Le Lac des cygnes - Suite de ballet op. 20 - 01 - Scne</title>
+			<creator>Peter Tschaikowsky</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<annotation>Exact Audio Copy</annotation>
+			<duration>183045</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>171</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9F%B4%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA-%E5%BC%A6%E4%B9%90%E5%B0%8F%E5%A4%9C%E6%9B%B2.mp3</location>
+			<title>Tchaikovsky Serenade for Strings in C Op.48 </title>
+			<creator>BPO - Karajan</creator>
+			<album>classical music</album>
+			<duration>1784593</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>172</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%A4%A7%E6%8F%90%E7%90%B4%20-%20%E7%A6%8F%E9%9B%B7%E8%A5%BF%E8%A5%BF%E9%87%8C%E8%88%9E%E6%9B%B2%20-%20%E9%92%A2%E7%90%B4.mp3</location>
+			<title>\Music Software\wav\西西里</title>
+			<album>classical music</album>
+			<duration>236043</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>173</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%8D%95%E7%B0%A7%E7%AE%A1%E6%B3%A2%E5%B0%94%E5%8D%A1.mp3</location>
+			<album>classical music</album>
+			<duration>202308</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>174</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%BE%B7%E6%B2%83%E5%A4%8F%E5%85%8B-%E7%AC%AC9%E4%BA%A4%E5%93%8D%E6%9B%B2%E7%AC%AC2%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Symphony no.9 in E minor, op.95 : &#39;From The New World&#39; : 2. Largo</title>
+			<creator>Antonin Dvorak (Rafael Kubelik, Berliner Philharmoniker)</creator>
+			<album>classical music</album>
+			<trackNum>4</trackNum>
+			<duration>783497</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>175</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%BE%B7%E6%B2%83%E5%A4%8F%E5%85%8B-%E7%AC%AC9%E4%BA%A4%E5%93%8D%E6%9B%B2%E7%AC%AC4%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Symphony no.9 in E minor, op.95 : &#39;From The New World&#39; : 4. Allegro Con Fuoco</title>
+			<creator>Antonin Dvorak (Rafael Kubelik, Berliner Philharmoniker)</creator>
+			<album>classical music</album>
+			<trackNum>6</trackNum>
+			<duration>708319</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>176</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%BE%B7%E6%B2%83%E5%A4%8F%E5%85%8B-%E5%BC%A6%E4%B9%90%E5%B0%8F%E5%A4%9C%E6%9B%B2.mp3</location>
+			<title>Tchaikovsky Serenade for Strings in C Op.48 </title>
+			<creator>BPO - Karajan</creator>
+			<album>classical music</album>
+			<duration>1843389</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>177</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%A0%BC%E9%87%8C%E6%A0%BC-%E7%B4%A2%E5%B0%94%E7%BB%B4%E6%A0%BC%E4%B9%8B%E6%AD%8C.mp3</location>
+			<title>Grieg / Peer Gynt - 09. Solveig&#39;s Song</title>
+			<creator>Grieg</creator>
+			<album>classical music</album>
+			<trackNum>9</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>326067</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>178</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%87%AF%E7%89%B9%E5%B0%94%E6%AF%94-%E6%B3%A2%E6%96%AF%E5%B8%82%E5%9C%BA.mp3</location>
+			<title>In A Persian Market</title>
+			<creator>Philharmonia Orchestra (John Lanchbery)</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<duration>347070</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>179</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%8B%89%E8%B5%AB%E7%8E%9B%E5%B0%BC%E8%AF%BA%E5%A4%AB-%E7%BB%83%E5%A3%B0%E6%9B%B2.mp3</location>
+			<title>Rachmaninoff - Vocalise, Op. 34, No. 14</title>
+			<creator>Sergey Rachmaninov,Philadelphia Orchestra</creator>
+			<album>classical music</album>
+			<trackNum>2</trackNum>
+			<duration>236757</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>180</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%8B%89%E8%B5%AB%E7%8E%9B%E5%B0%BC%E8%AF%BA%E5%A4%AB-%E6%AD%BB%E4%B9%8B%E5%B2%9B.mp3</location>
+			<title>Rachmaninov：Isle Of The Dead, Op. 29</title>
+			<creator>Fritz Reiner-Chicago Symphony Orchestra</creator>
+			<album>classical music</album>
+			<trackNum>8</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>1199968</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>181</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%8B%89%E5%A8%81%E5%B0%94-%E4%B8%BA%E6%97%A9%E9%80%9D%E5%85%AC%E4%B8%BB%E7%9A%84%E5%B8%95%E5%87%A1%E8%88%9E%E6%9B%B2%E9%92%A2%E7%90%B4%E7%89%88.mp3</location>
+			<title>RAVEL Pavane pour une infante defunte</title>
+			<creator>Samson Fran?ois</creator>
+			<album>classical music</album>
+			<trackNum>12</trackNum>
+			<annotation>ExactAudioCopy v0.99pb5</annotation>
+			<duration>359451</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>182</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%8B%89%E5%A8%81%E5%B0%94-%E4%B8%BA%E6%97%A9%E9%80%9D%E5%85%AC%E4%B8%BB%E6%89%80%E5%81%9A%E7%9A%84%E5%B8%95%E5%87%A1%E8%88%9E%E6%9B%B2%E4%BA%A4%E5%93%8D%E7%89%88.mp3</location>
+			<title>Ravel：Pavan For A Dead Princess</title>
+			<creator>Fritz Reiner-Chicago Symphony Orchestra</creator>
+			<album>classical music</album>
+			<trackNum>5</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>389963</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>183</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9D%8E%E6%96%AF%E7%89%B9-%E6%AD%BB%E4%B9%8B%E8%88%9E.mp3</location>
+			<title>Liszt：Totentanz</title>
+			<creator>Fritz Reiner-Chicago Symphony Orchestra</creator>
+			<album>classical music</album>
+			<trackNum>6</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>927718</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>184</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%9D%8E%E6%96%AF%E7%89%B9-%E9%92%9F.mp3</location>
+			<title>Liszt - 钟</title>
+			<creator>Michelangeli</creator>
+			<album>classical music</album>
+			<duration>341870</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>185</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E7%90%86%E6%9F%A5%E6%96%BD%E7%89%B9%E5%8A%B3%E6%96%AF-%E6%9F%A5%E6%8B%89%E6%96%AF%E5%9B%BE%E6%8B%89%E5%A6%82%E6%98%AF%E8%AF%B4%E7%AC%AC1%E6%AE%B5.mp3</location>
+			<title>Einleitung</title>
+			<creator>Richard Strauss</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<annotation>ExactAudioCopy v0.99pb5</annotation>
+			<duration>110216</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>186</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E9%A9%AC%E5%8B%92-%E7%AC%AC1%E4%BA%A4%E5%93%8D%E6%9B%B2%E7%AC%AC3%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>symphony no 1 Track03</title>
+			<creator>Unknown Artist</creator>
+			<album>classical music</album>
+			<trackNum>3</trackNum>
+			<duration>627050</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>187</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E9%97%A8%E5%BE%B7%E5%B0%94%E6%9D%BE%20-%20%E4%B9%98%E7%9D%80%E6%AD%8C%E5%A3%B0%E7%9A%84%E7%BF%85%E8%86%80.mp3</location>
+			<album>classical music</album>
+			<duration>208822</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>188</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%8E%AB%E6%89%8E%E7%89%B9-%E7%AC%AC13%E5%8F%B7%E5%B0%8F%E5%A4%9C%E6%9B%B2%E7%AC%AC1%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Eine kleine Nachtmusik K. 525 - Allegro</title>
+			<creator>Wolfgang Amadeus Mozart - Karl B?hm</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<duration>374054</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>189</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%8E%AB%E6%89%8E%E7%89%B9-%E7%AC%AC40%E4%BA%A4%E5%93%8D%E6%9B%B2%E7%AC%AC1%E4%B9%90%E7%AB%A0.mp3</location>
+			<title>Symphony No.40 in G minor K.550 (1) molto Allegro</title>
+			<creator>Mozart</creator>
+			<album>classical music</album>
+			<trackNum>1</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>537111</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>190</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%8E%AB%E6%89%8E%E7%89%B9-%E5%B0%8F%E6%98%9F%E6%98%9F%E5%8F%98%E5%A5%8F%E6%9B%B2.mp3</location>
+			<title>12 Variationen über Ah, vous dirais-je, Maman C-Dur KV 265 (300e)</title>
+			<creator>Mozart</creator>
+			<album>classical music</album>
+			<trackNum>9</trackNum>
+			<duration>375469</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>191</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%B8%95%E8%B5%AB%E8%B4%9D%E5%B0%94-%E5%8D%A1%E5%86%9C%E4%B8%8E%E5%90%89%E6%A0%BC%E8%88%9E%E6%9B%B2.mp3</location>
+			<title>Pachelbel : Canon and Gigue in D major for 3 Violins and Basso Continuo</title>
+			<creator>Herbert von Karajan &amp; Berliner Philharmoniker</creator>
+			<album>classical music</album>
+			<trackNum>6</trackNum>
+			<annotation>ExactAudioCopy v0.99pb5</annotation>
+			<duration>429381</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>192</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%88%92%E6%9B%BC-%E6%A2%A6%E5%B9%BB%E6%9B%B2.mp3</location>
+			<title>Track20</title>
+			<creator>Schumann. Kempff</creator>
+			<album>classical music</album>
+			<trackNum>20</trackNum>
+			<duration>145925</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>193</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%96%AF%E7%BE%8E%E5%A1%94%E9%82%A3-%E6%B2%83%E5%B0%94%E5%A1%94%E7%93%A6%E6%B2%B3.mp3</location>
+			<title>II.  Die Moldau (Vltava)</title>
+			<creator>Smetana, Bedrich - Boston SO - Rafael Kubelik</creator>
+			<album>classical music</album>
+			<trackNum>2</trackNum>
+			<duration>722918</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>194</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E7%93%A6%E6%A0%BC%E7%BA%B3-%E5%A5%B3%E6%AD%A6%E7%A5%9E%E7%9A%84%E9%AA%91%E8%A1%8C.mp3</location>
+			<title>The Ride Of The Valkyries from &#39;Die Walkure&#39;</title>
+			<creator>Richard Wagner</creator>
+			<album>classical music</album>
+			<trackNum>2</trackNum>
+			<annotation>ExactAudioCopy v0.99pb4</annotation>
+			<duration>326457</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>195</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E7%BB%B4%E7%93%A6%E5%B0%94%E7%AC%AC-%E5%9B%9B%E5%AD%A3.mp3</location>
+			<title>Vivaldi--The four seasons</title>
+			<creator>Vivaldi</creator>
+			<album>classical music</album>
+			<duration>2490762</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>196</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%A5%BF%E8%B4%9D%E6%9F%B3%E6%96%AF-%E8%8A%AC%E5%85%B0%E9%A2%82.mp3</location>
+			<title>Finlandia Op26</title>
+			<creator>BSO, Sir Colin Davis</creator>
+			<album>classical music</album>
+			<trackNum>4</trackNum>
+			<duration>478046</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>197</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%A5%BF%E8%B4%9D%E6%9F%B3%E6%96%AF-%E5%A1%94%E7%9A%AE%E5%A5%A5%E6%8B%89.mp3</location>
+			<title>Tapiola Op112</title>
+			<creator>BSO, Sir Colin Davis</creator>
+			<album>classical music</album>
+			<trackNum>5</trackNum>
+			<duration>1082050</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>198</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E8%A5%BF%E8%B4%9D%E6%9F%B3%E6%96%AF-%E5%9B%BE%E5%86%85%E6%8B%89%E7%9A%84%E5%A4%A9%E9%B9%85.mp3</location>
+			<title>The Swan of Tuonela Op22 2</title>
+			<creator>BSO, Sir Colin Davis</creator>
+			<album>classical music</album>
+			<trackNum>6</trackNum>
+			<duration>562058</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>199</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E5%B0%8F%E6%8F%90%E7%90%B4%E7%8B%AC%E5%A5%8F%20%E4%B8%96%E7%95%8C%E5%90%8D%E6%9B%B2%20%E6%B5%81%E6%B5%AA%E8%80%85%E4%B9%8B%E6%AD%8C%20%E8%90%A8%E6%8B%89%E8%90%A8%E8%92%82.mp3</location>
+			<title>小提琴1 独奏</title>
+			<creator>穆特</creator>
+			<album>classical music</album>
+			<trackNum>19</trackNum>
+			<duration>180274</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>200</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%8F%A4%E5%85%B8%E9%9F%B3%E4%B9%90%E5%85%A5%E9%97%A8%E9%9B%86/%E6%91%87%E7%AF%AE%E6%9B%B2%20%E5%8B%83%E6%8B%89%E5%A7%86%E6%96%AF%E7%89%88.mp3</location>
+			<title>摇篮曲（勃拉姆斯版）</title>
+			<creator>勃拉姆斯</creator>
+			<album>classical music</album>
+			<duration>180602</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>201</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%80%80%E5%BF%B5.mp3</location>
+			<title>怀念</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>2</trackNum>
+			<duration>228838</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>202</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E8%93%9D%E8%89%B2%E7%9A%84%E6%A2%A6.mp3</location>
+			<title>蓝色的梦</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>1</trackNum>
+			<duration>182837</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>203</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%81%8B%E7%97%95.mp3</location>
+			<title>恋痕</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>5</trackNum>
+			<duration>183123</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>204</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/46%20%E9%A6%99%E5%A5%88%E5%84%BF.m4a</location>
+			<title>香奈儿</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>14</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>296006</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>205</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/alison%20krauss%20-%20when%20you%20say%20nothing%20at%20all.mp3</location>
+			<title>When You Say Nothing At All</title>
+			<creator>Alison Krauss</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<duration>263761</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>206</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/dreaming%20my%20dream%20-%20cranberries.mp3</location>
+			<title>Dream</title>
+			<creator>Cranberries</creator>
+			<album>流行歌曲</album>
+			<annotation>风之翼音乐宝盒</annotation>
+			<duration>275058</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>207</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/guns%20n%27%20roses%20-%20don%27t%20cry.mp3</location>
+			<album>流行歌曲</album>
+			<duration>285340</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>208</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/nana%20-%20lonely%20-%20%E5%AE%8C%E6%95%B4%E7%89%88.mp3</location>
+			<title>Lonely</title>
+			<creator>Nana</creator>
+			<album>流行歌曲</album>
+			<duration>382780</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>209</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/oh%2Csusanna.mp3</location>
+			<album>流行歌曲</album>
+			<duration>221335</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>210</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/shawn%20colvin%20-%20sunny%20came%20home.mp3</location>
+			<title>Sunny Came Home</title>
+			<creator>Shawn Colvin</creator>
+			<album>流行歌曲</album>
+			<trackNum>2</trackNum>
+			<annotation>www.VeryCD.com</annotation>
+			<duration>266848</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>211</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/stay%20-%20williams.mp3</location>
+			<title>stay</title>
+			<creator>Tonya mitchell</creator>
+			<album>流行歌曲</album>
+			<trackNum>3</trackNum>
+			<duration>321095</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>212</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/the%20beatles%20-%20let%20it%20be.mp3</location>
+			<title>Let It Be</title>
+			<creator>The Beatles</creator>
+			<album>流行歌曲</album>
+			<trackNum>11</trackNum>
+			<annotation>yaya</annotation>
+			<duration>233985</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>213</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/the%20one%20-%20mr%20big.mp3</location>
+			<title>The One</title>
+			<creator>Mr big</creator>
+			<album>流行歌曲</album>
+			<duration>273327</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>214</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/venke%20knutson%20-%20love%20explains%20it%20all.mp3</location>
+			<title>Love Explains It All</title>
+			<creator>Venke Knutson</creator>
+			<album>流行歌曲</album>
+			<trackNum>7</trackNum>
+			<duration>269479</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>215</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E5%8D%95%E8%BD%A6.mp3</location>
+			<title>单车</title>
+			<creator>陈奕迅</creator>
+			<album>流行歌曲</album>
+			<trackNum>7</trackNum>
+			<annotation>http://www.9sky.com</annotation>
+			<duration>211155</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>216</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E6%B5%AE%E5%A4%B8%20-%20u.mp3</location>
+			<album>流行歌曲</album>
+			<duration>286176</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>217</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E4%BB%8A%E5%A4%A9%E5%8F%AA%E5%81%9A%E4%B8%80%E4%BB%B6%E4%BA%8B.mp3</location>
+			<title>今天只做一件事</title>
+			<creator>陈奕迅</creator>
+			<album>流行歌曲</album>
+			<duration>236228</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>218</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E6%98%8E%E5%B9%B4%E4%BB%8A%E6%97%A5.mp3</location>
+			<title>明年今日</title>
+			<creator>陈奕迅</creator>
+			<album>流行歌曲</album>
+			<trackNum>3</trackNum>
+			<annotation>http://musicspeed.cnjx.net</annotation>
+			<duration>206163</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>219</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E9%99%88%E5%A5%95%E8%BF%85%20-%20%E4%BD%A0%E7%9A%84%E8%83%8C%E5%8C%85.mp3</location>
+			<title>你的背包</title>
+			<creator>http://music.zsnet.com-陈奕迅</creator>
+			<album>流行歌曲</album>
+			<trackNum>2</trackNum>
+			<annotation>http://music.zsnet.com</annotation>
+			<duration>238897</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>220</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%8A%A8%E7%89%A9%E7%8B%82%E6%AC%A2%E8%8A%82%20%E5%A4%A9%E9%B9%85.mp3</location>
+			<title>13.动物狂欢节.天鹅</title>
+			<creator>圣桑.法国乐坛的巨匠</creator>
+			<album>流行歌曲</album>
+			<trackNum>13</trackNum>
+			<annotation>[CHN][BTPIG][edilan]</annotation>
+			<duration>164330</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>221</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%A3%AE%E6%9E%97%E7%8B%82%E6%83%B3%E6%9B%B2.mp3</location>
+			<album>流行歌曲</album>
+			<duration>280876</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>222</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E4%B8%96%E7%95%8C%E5%90%8D%E6%9B%B2%20%E8%93%9D%E8%89%B2%E5%A4%9A%E7%91%99%E6%B2%B3%E8%88%9E%E6%9B%B2%20%E7%BA%A6%E7%BF%B0%20%E6%96%BD%E7%89%B9%E5%8A%B3%E6%96%AF.mp3</location>
+			<album>流行歌曲</album>
+			<duration>230643</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>223</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E8%88%92%E4%BC%AF%E7%89%B9%20-%20%E5%86%9B%E9%98%9F%E8%BF%9B%E8%A1%8C%E6%9B%B2.mp3</location>
+			<album>流行歌曲</album>
+			<duration>189030</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>224</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%AD%99%E7%87%95%E5%A7%BF%20-%20%E6%9C%A8%E5%85%B0%E6%83%85%20-%20%E7%94%B5%E5%BD%B1%20%E8%8A%B1%E6%9C%A8%E5%85%B0%20%E4%B8%BB%E9%A2%98%E6%9B%B2.mp3</location>
+			<title>木兰情(电影《花木兰》主题曲)</title>
+			<creator>孙燕姿</creator>
+			<album>流行歌曲</album>
+			<duration>273379</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>225</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E4%B8%87%E8%8A%B3%20-%20%E6%96%B0%E4%B8%8D%E4%BA%86%E6%83%85%20-%20%E7%94%B5%E5%BD%B1%E5%8E%9F%E5%A3%B0%E5%B8%A6.mp3</location>
+			<title>新不了情</title>
+			<creator>万芳</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<annotation>Ò¶ÇïÀë</annotation>
+			<duration>268047</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>226</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%BA%A2%E8%B1%86.mp3</location>
+			<title>红豆</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>9</trackNum>
+			<duration>256511</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>227</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E5%B0%86%E7%88%B1.mp3</location>
+			<title>将爱</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>247408</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>228</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%A9%BA%E5%9F%8E.mp3</location>
+			<title>空城</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>2</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>299575</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>229</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E6%B5%81%E6%B5%AA%E7%9A%84%E7%BA%A2%E8%88%9E%E9%9E%8B.mp3</location>
+			<title>流浪的红舞鞋</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>7</trackNum>
+			<duration>255981</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>230</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E6%B5%81%E5%B9%B4.mp3</location>
+			<title>瑈</title>
+			<creator>滇</creator>
+			<album>流行歌曲</album>
+			<trackNum>5</trackNum>
+			<duration>277010</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>231</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2-%E4%BA%BA%E9%97%B4.mp3</location>
+			<album>流行歌曲</album>
+			<duration>283454</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>232</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%AC%91%E5%BF%98%E4%B9%A6.mp3</location>
+			<title>Track 10</title>
+			<creator>artist</creator>
+			<album>流行歌曲</album>
+			<trackNum>10</trackNum>
+			<annotation>www.9sky.com</annotation>
+			<duration>267867</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>233</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%AC%91%E5%BF%98%E4%B9%A6%20-%20%E7%BB%99%E8%87%AA%E5%B7%B1%E4%B8%80%E5%B0%81%E6%83%85%E4%B9%A6%20%E7%B2%A4%E8%AF%AD%E7%89%88.mp3</location>
+			<title>给自己一封情书(笑忘书</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<duration>269830</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>234</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E6%97%8B%E6%9C%A8.mp3</location>
+			<title>旋木</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<duration>253239</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>235</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E7%83%9F.mp3</location>
+			<title>烟</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>10</trackNum>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%E7%8E%8B%E8%8F%B2/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>256186</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>236</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8F%B2%20-%20%E5%86%8D%E8%A7%81%E8%90%A4%E7%81%AB%E8%99%AB.mp3</location>
+			<title>再见萤火虫</title>
+			<creator>王菲</creator>
+			<album>流行歌曲</album>
+			<trackNum>3</trackNum>
+			<annotation>http://www.21gamer.com</annotation>
+			<duration>305118</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>237</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%8B%A5%E7%90%B3%20-%20let%27s%20start%20from%20here.mp3</location>
+			<title>01.Let&#39;s Start From Here</title>
+			<creator>王若琳</creator>
+			<album>流行歌曲</album>
+			<trackNum>1</trackNum>
+			<annotation>http://www.oimp3.com</annotation>
+			<duration>216101</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>238</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%88%91%E7%9A%84%E5%90%8D%E5%AD%97%E5%8F%AB%E4%BC%8A%E8%8E%B2%20%E6%B3%95%E8%AF%AD%E5%86%A0%E5%86%9B%E6%AD%8C%E6%9B%B2.mp3</location>
+			<album>流行歌曲</album>
+			<duration>228421</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>239</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E3%80%90%E7%86%8A%E7%8C%AB%E5%A4%A7%E4%BE%A0%E3%80%91%E5%BC%A0%E9%9D%93%E9%A2%96-%E6%9C%9D%E6%80%9D%E6%9A%AE%E6%83%B3.mp3</location>
+			<album>流行歌曲</album>
+			<duration>236251</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>240</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%9D%A8%E5%8D%83%E5%AC%85%20-%20%E5%8F%AF%E6%83%9C%E6%88%91%E6%98%AF%E6%B0%B4%E7%93%B6%E5%BA%A7.mp3</location>
+			<title>可能我是水瓶座</title>
+			<creator>杨千桦</creator>
+			<album>流行歌曲</album>
+			<trackNum>4</trackNum>
+			<annotation>http://www.21gamer.com</annotation>
+			<duration>214212</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>241</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%9D%A8%E5%8D%83%E6%A1%A6%E2%80%94%E5%B0%8F%E5%9F%8E%E5%A4%A7%E4%BA%8B.MP3</location>
+			<album>流行歌曲</album>
+			<duration>208417</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>242</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E6%9D%A8%E5%8D%83%E6%A1%A6%20-%20%E9%87%8E%E5%AD%A9%E5%AD%90.mp3</location>
+			<title>野孩子</title>
+			<creator>杨千嬅</creator>
+			<album>流行歌曲</album>
+			<trackNum>32</trackNum>
+			<annotation>www.9sky.com</annotation>
+			<duration>223877</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>243</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E4%B8%80%E9%A6%96%E8%8B%B1%E6%96%87%E6%AD%8C%20i%20could%20be%20the%20one%20%E8%B6%85%E5%A5%BD%E5%90%AC.mp3</location>
+			<album>流行歌曲</album>
+			<duration>226176</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>244</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%BC%A0%E9%9D%93%E9%A2%96%20-%20%E6%9C%A8%E5%85%B0%E6%98%9F.mp3</location>
+			<title>木兰星</title>
+			<creator>张靓颖</creator>
+			<album>流行歌曲</album>
+			<duration>297072</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>245</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%BC%A0%E9%9D%93%E9%A2%96%20-%20%E5%A6%82%E6%9E%9C%E7%88%B1%E4%B8%8B%E5%8E%BB.mp3</location>
+			<album>流行歌曲</album>
+			<duration>242337</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>246</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E5%BC%A0%E9%9D%93%E9%A2%96%20-%20%E5%A6%82%E6%9E%9C%E8%BF%99%E5%B0%B1%E6%98%AF%E7%88%B1%E6%83%85%20-%20k.mp3</location>
+			<title>Èç¹ûÕâ¾ÍÊÇ°®Çé</title>
+			<creator>ÕÅö¦Ó±</creator>
+			<album>ÎÒÏàÐÅ</album>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/%C3%95%C3%85%C3%B6%C2%A6%C3%93%C2%B1/%C3%8E%C3%92%C3%8F%C3%A0%C3%90%C3%85/art.jpg</image>
+			<duration>282984</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>247</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%BA%B5%E8%B4%AF%E7%BA%BF%20-%20%E7%BE%8E%E5%A5%BD%E7%9A%84%E9%9D%92%E6%98%A5%E8%88%9E%E6%9B%B2%20-%20live.mp3</location>
+			<title>14.美好的青春舞曲 (真心英雄/亲</title>
+			<creator>李宗盛/周华健/罗大佑/张震岳</creator>
+			<album>流行歌曲</album>
+			<trackNum>255</trackNum>
+			<duration>431835</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>248</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/%E7%BA%B5%E8%B4%AF%E7%BA%BF%20-%20%E6%88%91%E6%83%B3%E8%A6%81%E7%9A%84%E6%84%9F%E8%A7%89.mp3</location>
+			<title>5583.Com 高品质音乐网</title>
+			<creator>5583.Com 高品质音乐网</creator>
+			<album>流行歌曲</album>
+			<annotation>5583.Com 高品质音乐网</annotation>
+			<image>file:///home/tracyone/.cache/vlc/art/artistalbum/5583.Com%20%E9%AB%98%E5%93%81%E8%B4%A8%E9%9F%B3%E4%B9%90%E7%BD%91/%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2/art.jpg</image>
+			<duration>379942</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>249</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%A2%A6%E4%B8%AD%E4%BA%BA.mp3</location>
+			<title>梦中人</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>3</trackNum>
+			<duration>214810</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>250</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%98%8E%E6%97%A5%E4%B9%8B%E6%AD%8C.mp3</location>
+			<title>明日之歌</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>11</trackNum>
+			<duration>246994</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>251</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E7%A7%A6%E6%B7%AE%E6%B2%B3%E7%95%94.mp3</location>
+			<title>秦淮河畔</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>8</trackNum>
+			<duration>195219</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>252</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%83%85%E4%BA%BA%E7%9A%84%E7%9C%BC%E6%B3%AA.mp3</location>
+			<title>情人的眼泪</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>9</trackNum>
+			<duration>179284</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>253</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%83%85%E4%BA%BA%E5%B1%B1.mp3</location>
+			<title>情人山</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>15</trackNum>
+			<duration>173772</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>254</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E7%A5%9E%E7%A7%98%E5%A5%B3%E9%83%8E.mp3</location>
+			<title>神秘女郎</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>13</trackNum>
+			<duration>169514</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>255</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%9C%AA%E8%AF%86%E7%BB%AE%E7%BD%97%E9%A6%99.mp3</location>
+			<title>未识绮罗香</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>6</trackNum>
+			<duration>213870</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>256</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E5%B0%8F%E7%AA%97%E7%9B%B8%E6%80%9D.mp3</location>
+			<title>小窗相思</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>12</trackNum>
+			<duration>251853</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>257</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/01.The%20Language%20of%20Music.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>128345</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>258</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/02.Schooling%20and%20Education.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>132028</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>259</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/03.The%20Definition%20of%20%E2%80%9CPrice%E2%80%9D.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>109171</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>260</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/04.Electricity.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>119829</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>261</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/05.The%20Beginning%20of%20Drama.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>150654</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>262</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/06.Television.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>148851</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>263</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/07.Andrew%20Carnegie.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>113194</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>264</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/08.American%20Revolution.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>99872</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>265</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/09.Suburbanization.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>145769</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>266</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/10.Types%20of%20Speech.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>145325</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>267</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/11.Archaeology.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>142634</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>268</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/12.Museums.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>107003</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>269</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/13.Skyscrapers%20and%20Environment.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>115467</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>270</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/14.A%20Rare%20Fossil%20Record.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>156374</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>271</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/15.The%20Nobel%20Academy.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>119516</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>272</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/16.The%20War%20between%20Britain%20and%20France.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>142190</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>273</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/17.Evolution%20of%20Sleep.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>124766</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>274</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/18.Modern%20American%20Universities.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>165596</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>275</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/19.Children%27s%20Numerical%20Skills.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>127797</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>276</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/20.The%20Historical%20Significance%20of%20American%20Revolution.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>93785</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>277</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/21.The%20Origin%20of%20Sports.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>124035</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>278</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/22.Collectibles.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>125811</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>279</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/23.Henry%20Ford.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>122859</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>280</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/24.Piano.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>117974</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>281</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/25.Movie%20Music.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>150079</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>282</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/26.International%20Business%20and%20Cross-cultural%20Communication.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>147989</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>283</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/27.Scientific%20Theories.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>132943</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>284</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/28.Changing%20Roles%20of%20Public%20Education.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>185266</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>285</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/29.Telecommuting.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>143183</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>286</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/30.The%20Origin%20of%20Refrigerators.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>144985</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>287</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/31.British%20Columbia.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>117818</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>288</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/32.Botany.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>135921</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>289</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/33.Plankton.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>111940</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>290</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/34.Raising%20Oysters.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>144776</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>291</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/35.Oil%20Refining.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>121057</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>292</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/36.Plate%20Tectonics%20and%20Sea-floor%20Spreading.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>147754</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>293</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/37.Icebergs.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>142399</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>294</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/38.Topaz.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>90938</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>295</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/39.The%20Salinity%20of%20Ocean%20Waters.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>134066</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>296</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/40.Cohesion-tension%20Theory.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>127405</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>297</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/41.American%20Black%20Bears.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>111339</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>298</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/42.Coal-fired%20Power%20Plants.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>142765</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>299</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/43.Statistics.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>150523</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>300</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/44.Obtaining%20Fresh%20Water%20from%20Icebergs.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>132394</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>301</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/45.The%20Source%20of%20Energy.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>105305</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>302</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/46.Vision.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>90128</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>303</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/47.Folk%20Cultures.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>162226</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>304</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/48.Bacteria.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>141093</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>305</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/49.Sleep.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>166040</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>306</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/50.Cells%20and%20Temperature.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>121188</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>307</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/51.Marine%20Mammals.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>114526</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>308</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/52.Chimpanzee.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>147806</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>309</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/53.Nitinol.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>166954</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>310</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/54.Treasure%20in%20Sunken%20Ships.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>105801</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>311</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/55.creating%20colors.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>153893</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>312</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/56.The%20Organic%20Foods.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>126412</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>313</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/57.Lighthouses.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>155460</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>314</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/58.Animals%27%20Compasses.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>116564</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>315</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/59.Muscles%20and%20Human%20Body.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>133935</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>316</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/60.Colds%20and%20Age.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>122311</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>317</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/61.Pottery.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>128763</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>318</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/62.Mimicry%20in%20Plants.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>137279</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>319</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/63.Oil%20and%20Water.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>123408</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>320</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/64.Salt%20and%20Metabolism.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>118549</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>321</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/65.The%20Early%20Settlers%20in%20North%20America.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>135973</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>322</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/66.Plants%20in%20the%20Deserts.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>154076</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>323</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/67.The%20American%20Civil%20War.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>147049</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>324</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/68.Women%20in%20Colonial%20North%20America.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>133439</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>325</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/69.The%20Revolution%20in%20American%20Higher%20Education.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>150628</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>326</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/70.Garza%27s%20Art%20Works.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>159248</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>327</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/71.The%20Alaska%20Pipeline.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>148668</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>328</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/72.The%20Satiric%20Literature.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>165779</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>329</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/73.The%20Microscopic%20Technique.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>173197</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>330</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/74.The%20History%20of%20Chemistry.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>147049</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>331</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/75.Hydrogen%20and%20Industries.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>98566</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>332</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/76.Mars.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>162853</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>333</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/77.Food%20and%20Health.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>99767</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>334</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/78.Police%20and%20Communities.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>107081</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>335</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/79.Population%20Growth.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>104077</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>336</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%96%B0%E6%96%87%E4%BB%B6%E5%A4%B9/80.Evolution%20and%20Wheels.mp3</location>
+			<creator>新东方</creator>
+			<album>背诵80篇</album>
+			<duration>99819</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>337</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E6%84%BF%E5%AB%81%E6%B1%89%E5%AE%B6%E9%83%8E.mp3</location>
+			<title>愿嫁汉家郎</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>14</trackNum>
+			<duration>177559</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>338</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E9%98%BF%E6%A0%B9%E5%BB%B7%E4%B8%8D%E8%A6%81%E4%B8%BA%E6%88%91%E5%93%AD%E6%B3%A3.mp3</location>
+			<title>阿根廷不要为我哭泣</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>14</trackNum>
+			<duration>339965</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>339</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%8A%8A%E6%9C%80%E5%90%8E%E4%B8%80%E6%94%AF%E8%88%9E%E7%95%99%E7%BB%99%E6%88%91%E5%90%A7.mp3</location>
+			<title>把最后一支舞留给我吧</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>4</trackNum>
+			<duration>230432</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>340</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%9B%BE%E5%87%A0%E4%BD%95%E6%97%B6%E7%9A%84%E6%A2%A6.mp3</location>
+			<title>曾几何时的梦</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>1</trackNum>
+			<duration>179545</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>341</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E5%BD%93%E6%88%91%E7%96%B2%E5%80%A6%E6%97%B6.mp3</location>
+			<title>当我疲倦时</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>5</trackNum>
+			<duration>234664</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>342</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E5%84%BF%E6%97%B6%E6%83%85%E6%99%AF.mp3</location>
+			<title>儿时情景</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>8</trackNum>
+			<duration>193860</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>343</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E5%81%87%E6%83%B3%E8%BF%99%E6%98%AF%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1.mp3</location>
+			<title>假想这是你的第一次</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>11</trackNum>
+			<duration>194122</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>344</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E8%B7%AF%E6%98%93%E6%96%AF%E5%AE%89%E5%A8%9C%E7%9A%84%E7%87%88%E7%81%AB.mp3</location>
+			<title>路易斯安娜的燈火</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>6</trackNum>
+			<duration>266194</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>345</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E5%A5%87%E5%BC%82%E6%81%A9%E5%85%B8.mp3</location>
+			<title>奇异恩典</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>10</trackNum>
+			<duration>235160</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>346</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E8%AE%A9%E6%88%91%E6%88%90%E4%B8%BA%E4%B8%80%E5%8F%AA%E5%A4%9C%E8%8E%BA%E5%90%A7.mp3</location>
+			<title>让我成为一只夜莺吧</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>7</trackNum>
+			<duration>255666</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>347</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E8%AE%A9%E6%88%91%E7%89%B5%E4%BD%A0%E7%9A%84%E6%89%8B.mp3</location>
+			<title>让我牵你的手</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>2</trackNum>
+			<duration>235030</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>348</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%97%A5%E4%B8%8E%E7%BB%A7%E5%A4%9C.mp3</location>
+			<title>日与继夜</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>16</trackNum>
+			<duration>331916</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>349</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E5%9C%A3%E5%85%8B%E9%87%8C%E6%96%AF%E6%89%98%E5%BC%97%E7%9A%84%E6%9C%88%E4%BA%AE.mp3</location>
+			<title>圣克里斯托弗的月亮</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>12</trackNum>
+			<duration>250389</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>350</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%88%91%E5%A6%82%E6%AD%A4%E5%9C%B0%E7%88%B1%E4%BD%A0.mp3</location>
+			<title>我如此地爱你</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>9</trackNum>
+			<duration>253028</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>351</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%88%91%E8%A6%81%E7%9A%84%E5%B9%B8%E7%A6%8F.mp3</location>
+			<title>我要的幸福</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>13</trackNum>
+			<duration>153188</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>352</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%93%88%E8%8F%9C%E5%A7%86%E5%8C%BA.mp3</location>
+			<title>西班牙哈菜姆区</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>17</trackNum>
+			<duration>221394</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>353</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%9C%88%E4%BA%AE%E6%98%AF%E4%B8%AA%E6%97%A0%E6%83%85%E7%9A%84%E6%83%85%E4%BA%BA.mp3</location>
+			<title>月亮是个无情的情人</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>3</trackNum>
+			<duration>192921</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>354</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%88%98%E8%BD%A6%E4%B8%8B%E6%9D%A5%E8%BD%BD%E6%88%91%E5%9B%9E%E5%AE%B6.mp3</location>
+			<title>战车下来载我回家</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>15</trackNum>
+			<duration>228760</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>355</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%9C%87%E6%92%BC%E5%8D%81%E5%85%AB%E9%9F%B3/%E6%BF%81%E6%B0%B4%E4%B9%8B%E6%A1%A5.mp3</location>
+			<title>濁水之桥</title>
+			<creator>群星</creator>
+			<album>世界最震撼的十八女声</album>
+			<trackNum>18</trackNum>
+			<duration>346938</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>356</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>file:///home/tracyone/Music/%E9%87%8D%E7%9B%B8%E9%80%A2.mp3</location>
+			<title>重相逢</title>
+			<creator>蔡琴</creator>
+			<album>一致公认最发烧人声试音天碟1</album>
+			<trackNum>16</trackNum>
+			<duration>212538</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>357</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+			<vlc:item tid="20"/>
+			<vlc:item tid="21"/>
+			<vlc:item tid="22"/>
+			<vlc:item tid="23"/>
+			<vlc:item tid="24"/>
+			<vlc:item tid="25"/>
+			<vlc:item tid="26"/>
+			<vlc:item tid="27"/>
+			<vlc:item tid="28"/>
+			<vlc:item tid="29"/>
+			<vlc:item tid="30"/>
+			<vlc:item tid="31"/>
+			<vlc:item tid="32"/>
+			<vlc:item tid="33"/>
+			<vlc:item tid="34"/>
+			<vlc:item tid="35"/>
+			<vlc:item tid="36"/>
+			<vlc:item tid="37"/>
+			<vlc:item tid="38"/>
+			<vlc:item tid="39"/>
+			<vlc:item tid="40"/>
+			<vlc:item tid="41"/>
+			<vlc:item tid="42"/>
+			<vlc:item tid="43"/>
+			<vlc:item tid="44"/>
+			<vlc:item tid="45"/>
+			<vlc:item tid="46"/>
+			<vlc:item tid="47"/>
+			<vlc:item tid="48"/>
+			<vlc:item tid="49"/>
+			<vlc:item tid="50"/>
+			<vlc:item tid="51"/>
+			<vlc:item tid="52"/>
+			<vlc:item tid="53"/>
+			<vlc:item tid="54"/>
+			<vlc:item tid="55"/>
+			<vlc:item tid="56"/>
+			<vlc:item tid="57"/>
+			<vlc:item tid="58"/>
+			<vlc:item tid="59"/>
+			<vlc:item tid="60"/>
+			<vlc:item tid="61"/>
+			<vlc:item tid="62"/>
+			<vlc:item tid="63"/>
+			<vlc:item tid="64"/>
+			<vlc:item tid="65"/>
+			<vlc:item tid="66"/>
+			<vlc:item tid="67"/>
+			<vlc:item tid="68"/>
+			<vlc:item tid="69"/>
+			<vlc:item tid="70"/>
+			<vlc:item tid="71"/>
+			<vlc:item tid="72"/>
+			<vlc:item tid="73"/>
+			<vlc:item tid="74"/>
+			<vlc:item tid="75"/>
+			<vlc:item tid="76"/>
+			<vlc:item tid="77"/>
+			<vlc:item tid="78"/>
+			<vlc:item tid="79"/>
+			<vlc:item tid="80"/>
+			<vlc:item tid="81"/>
+			<vlc:item tid="82"/>
+			<vlc:item tid="83"/>
+			<vlc:item tid="84"/>
+			<vlc:item tid="85"/>
+			<vlc:item tid="86"/>
+			<vlc:item tid="87"/>
+			<vlc:item tid="88"/>
+			<vlc:item tid="89"/>
+			<vlc:item tid="90"/>
+			<vlc:item tid="91"/>
+			<vlc:item tid="92"/>
+			<vlc:item tid="93"/>
+			<vlc:item tid="94"/>
+			<vlc:item tid="95"/>
+			<vlc:item tid="96"/>
+			<vlc:item tid="97"/>
+			<vlc:item tid="98"/>
+			<vlc:item tid="99"/>
+			<vlc:item tid="100"/>
+			<vlc:item tid="101"/>
+			<vlc:item tid="102"/>
+			<vlc:item tid="103"/>
+			<vlc:item tid="104"/>
+			<vlc:item tid="105"/>
+			<vlc:item tid="106"/>
+			<vlc:item tid="107"/>
+			<vlc:item tid="108"/>
+			<vlc:item tid="109"/>
+			<vlc:item tid="110"/>
+			<vlc:item tid="111"/>
+			<vlc:item tid="112"/>
+			<vlc:item tid="113"/>
+			<vlc:item tid="114"/>
+			<vlc:item tid="115"/>
+			<vlc:item tid="116"/>
+			<vlc:item tid="117"/>
+			<vlc:item tid="118"/>
+			<vlc:item tid="119"/>
+			<vlc:item tid="120"/>
+			<vlc:item tid="121"/>
+			<vlc:item tid="122"/>
+			<vlc:item tid="123"/>
+			<vlc:item tid="124"/>
+			<vlc:item tid="125"/>
+			<vlc:item tid="126"/>
+			<vlc:item tid="127"/>
+			<vlc:item tid="128"/>
+			<vlc:item tid="129"/>
+			<vlc:item tid="130"/>
+			<vlc:item tid="131"/>
+			<vlc:item tid="132"/>
+			<vlc:item tid="133"/>
+			<vlc:item tid="134"/>
+			<vlc:item tid="135"/>
+			<vlc:item tid="136"/>
+			<vlc:item tid="137"/>
+			<vlc:item tid="138"/>
+			<vlc:item tid="139"/>
+			<vlc:item tid="140"/>
+			<vlc:item tid="141"/>
+			<vlc:item tid="142"/>
+			<vlc:item tid="143"/>
+			<vlc:item tid="144"/>
+			<vlc:item tid="145"/>
+			<vlc:item tid="146"/>
+			<vlc:item tid="147"/>
+			<vlc:item tid="148"/>
+			<vlc:item tid="149"/>
+			<vlc:item tid="150"/>
+			<vlc:item tid="151"/>
+			<vlc:item tid="152"/>
+			<vlc:item tid="153"/>
+			<vlc:item tid="154"/>
+			<vlc:item tid="155"/>
+			<vlc:item tid="156"/>
+			<vlc:item tid="157"/>
+			<vlc:item tid="158"/>
+			<vlc:item tid="159"/>
+			<vlc:item tid="160"/>
+			<vlc:item tid="161"/>
+			<vlc:item tid="162"/>
+			<vlc:item tid="163"/>
+			<vlc:item tid="164"/>
+			<vlc:item tid="165"/>
+			<vlc:item tid="166"/>
+			<vlc:item tid="167"/>
+			<vlc:item tid="168"/>
+			<vlc:item tid="169"/>
+			<vlc:item tid="170"/>
+			<vlc:item tid="171"/>
+			<vlc:item tid="172"/>
+			<vlc:item tid="173"/>
+			<vlc:item tid="174"/>
+			<vlc:item tid="175"/>
+			<vlc:item tid="176"/>
+			<vlc:item tid="177"/>
+			<vlc:item tid="178"/>
+			<vlc:item tid="179"/>
+			<vlc:item tid="180"/>
+			<vlc:item tid="181"/>
+			<vlc:item tid="182"/>
+			<vlc:item tid="183"/>
+			<vlc:item tid="184"/>
+			<vlc:item tid="185"/>
+			<vlc:item tid="186"/>
+			<vlc:item tid="187"/>
+			<vlc:item tid="188"/>
+			<vlc:item tid="189"/>
+			<vlc:item tid="190"/>
+			<vlc:item tid="191"/>
+			<vlc:item tid="192"/>
+			<vlc:item tid="193"/>
+			<vlc:item tid="194"/>
+			<vlc:item tid="195"/>
+			<vlc:item tid="196"/>
+			<vlc:item tid="197"/>
+			<vlc:item tid="198"/>
+			<vlc:item tid="199"/>
+			<vlc:item tid="200"/>
+			<vlc:item tid="201"/>
+			<vlc:item tid="202"/>
+			<vlc:item tid="203"/>
+			<vlc:item tid="204"/>
+			<vlc:item tid="205"/>
+			<vlc:item tid="206"/>
+			<vlc:item tid="207"/>
+			<vlc:item tid="208"/>
+			<vlc:item tid="209"/>
+			<vlc:item tid="210"/>
+			<vlc:item tid="211"/>
+			<vlc:item tid="212"/>
+			<vlc:item tid="213"/>
+			<vlc:item tid="214"/>
+			<vlc:item tid="215"/>
+			<vlc:item tid="216"/>
+			<vlc:item tid="217"/>
+			<vlc:item tid="218"/>
+			<vlc:item tid="219"/>
+			<vlc:item tid="220"/>
+			<vlc:item tid="221"/>
+			<vlc:item tid="222"/>
+			<vlc:item tid="223"/>
+			<vlc:item tid="224"/>
+			<vlc:item tid="225"/>
+			<vlc:item tid="226"/>
+			<vlc:item tid="227"/>
+			<vlc:item tid="228"/>
+			<vlc:item tid="229"/>
+			<vlc:item tid="230"/>
+			<vlc:item tid="231"/>
+			<vlc:item tid="232"/>
+			<vlc:item tid="233"/>
+			<vlc:item tid="234"/>
+			<vlc:item tid="235"/>
+			<vlc:item tid="236"/>
+			<vlc:item tid="237"/>
+			<vlc:item tid="238"/>
+			<vlc:item tid="239"/>
+			<vlc:item tid="240"/>
+			<vlc:item tid="241"/>
+			<vlc:item tid="242"/>
+			<vlc:item tid="243"/>
+			<vlc:item tid="244"/>
+			<vlc:item tid="245"/>
+			<vlc:item tid="246"/>
+			<vlc:item tid="247"/>
+			<vlc:item tid="248"/>
+			<vlc:item tid="249"/>
+			<vlc:item tid="250"/>
+			<vlc:item tid="251"/>
+			<vlc:item tid="252"/>
+			<vlc:item tid="253"/>
+			<vlc:item tid="254"/>
+			<vlc:item tid="255"/>
+			<vlc:item tid="256"/>
+			<vlc:item tid="257"/>
+			<vlc:item tid="258"/>
+			<vlc:item tid="259"/>
+			<vlc:item tid="260"/>
+			<vlc:item tid="261"/>
+			<vlc:item tid="262"/>
+			<vlc:item tid="263"/>
+			<vlc:item tid="264"/>
+			<vlc:item tid="265"/>
+			<vlc:item tid="266"/>
+			<vlc:item tid="267"/>
+			<vlc:item tid="268"/>
+			<vlc:item tid="269"/>
+			<vlc:item tid="270"/>
+			<vlc:item tid="271"/>
+			<vlc:item tid="272"/>
+			<vlc:item tid="273"/>
+			<vlc:item tid="274"/>
+			<vlc:item tid="275"/>
+			<vlc:item tid="276"/>
+			<vlc:item tid="277"/>
+			<vlc:item tid="278"/>
+			<vlc:item tid="279"/>
+			<vlc:item tid="280"/>
+			<vlc:item tid="281"/>
+			<vlc:item tid="282"/>
+			<vlc:item tid="283"/>
+			<vlc:item tid="284"/>
+			<vlc:item tid="285"/>
+			<vlc:item tid="286"/>
+			<vlc:item tid="287"/>
+			<vlc:item tid="288"/>
+			<vlc:item tid="289"/>
+			<vlc:item tid="290"/>
+			<vlc:item tid="291"/>
+			<vlc:item tid="292"/>
+			<vlc:item tid="293"/>
+			<vlc:item tid="294"/>
+			<vlc:item tid="295"/>
+			<vlc:item tid="296"/>
+			<vlc:item tid="297"/>
+			<vlc:item tid="298"/>
+			<vlc:item tid="299"/>
+			<vlc:item tid="300"/>
+			<vlc:item tid="301"/>
+			<vlc:item tid="302"/>
+			<vlc:item tid="303"/>
+			<vlc:item tid="304"/>
+			<vlc:item tid="305"/>
+			<vlc:item tid="306"/>
+			<vlc:item tid="307"/>
+			<vlc:item tid="308"/>
+			<vlc:item tid="309"/>
+			<vlc:item tid="310"/>
+			<vlc:item tid="311"/>
+			<vlc:item tid="312"/>
+			<vlc:item tid="313"/>
+			<vlc:item tid="314"/>
+			<vlc:item tid="315"/>
+			<vlc:item tid="316"/>
+			<vlc:item tid="317"/>
+			<vlc:item tid="318"/>
+			<vlc:item tid="319"/>
+			<vlc:item tid="320"/>
+			<vlc:item tid="321"/>
+			<vlc:item tid="322"/>
+			<vlc:item tid="323"/>
+			<vlc:item tid="324"/>
+			<vlc:item tid="325"/>
+			<vlc:item tid="326"/>
+			<vlc:item tid="327"/>
+			<vlc:item tid="328"/>
+			<vlc:item tid="329"/>
+			<vlc:item tid="330"/>
+			<vlc:item tid="331"/>
+			<vlc:item tid="332"/>
+			<vlc:item tid="333"/>
+			<vlc:item tid="334"/>
+			<vlc:item tid="335"/>
+			<vlc:item tid="336"/>
+			<vlc:item tid="337"/>
+			<vlc:item tid="338"/>
+			<vlc:item tid="339"/>
+			<vlc:item tid="340"/>
+			<vlc:item tid="341"/>
+			<vlc:item tid="342"/>
+			<vlc:item tid="343"/>
+			<vlc:item tid="344"/>
+			<vlc:item tid="345"/>
+			<vlc:item tid="346"/>
+			<vlc:item tid="347"/>
+			<vlc:item tid="348"/>
+			<vlc:item tid="349"/>
+			<vlc:item tid="350"/>
+			<vlc:item tid="351"/>
+			<vlc:item tid="352"/>
+			<vlc:item tid="353"/>
+			<vlc:item tid="354"/>
+			<vlc:item tid="355"/>
+			<vlc:item tid="356"/>
+			<vlc:item tid="357"/>
+	</extension>
+</playlist>
