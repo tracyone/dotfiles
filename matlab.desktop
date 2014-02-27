@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=MATLAB
+Exec=/opt/MATLAB/R2013a/matlab
+Terminal=false
+Icon=/opt/MATLAB/R2013a/toolbox/nnet/nnresource/icons/matlab.png
+Type=Application
+Categories=Development

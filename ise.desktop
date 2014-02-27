@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=ise
+Exec=/opt/Xilinx/14.7/ISE_DS/ise
+Terminal=false
+Comment[zh_CN]=xilinx 项目管理软件
+Icon=/opt/Xilinx/14.7/ISE_DS/ISE/data/images/pn-ise.png
+Type=Application
+StartupNotify=true
+Categories=Development
