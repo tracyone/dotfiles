@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Quartus II 13.1 (64-bit)
+Comment=Quartus II 13.1 (64-bit)
+Icon=/opt/altera/13.1/quartus/adm/quartusii.png
+Exec=/opt/altera/13.1/quartus/quartus 
+Terminal=false
+Path=/opt/altera/13.1
