@@ -4,4 +4,5 @@ Exec=/opt/MATLAB/R2013a/matlab
 Terminal=false
 Icon=/opt/MATLAB/R2013a/toolbox/nnet/nnresource/icons/matlab.png
 Type=Application
+StartupNotify=true
 Categories=Development
