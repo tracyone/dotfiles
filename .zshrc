@@ -29,6 +29,7 @@ alias o='nautilus'
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
 alias -s zip='unzip'
+alias gvim='gvim 2> /dev/null'
 #}}}
 
 # {{{shell basic setting
