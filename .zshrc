@@ -60,7 +60,7 @@ alias gvim='gvim 2> /dev/null'
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-
+export SVN_EDITOR=vim
 # {{{deal with ctrl-s in vim
 alias vim="stty stop '' -ixoff ; vim"
 # `Frozing' tty, so after any command terminal settings will be restored
