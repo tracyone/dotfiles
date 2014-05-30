@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=kuaipan4uk
+Name[zh_CN]=金山快盘-UbuntuKylin
+Comment=金山快盘-UbuntuKylin
+Exec=/usr/bin/kuaipan4uk
+Icon=kuaipan4uk.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;RasterGraphics;Viewer;Utility;Network;

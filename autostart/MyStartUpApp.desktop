@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=MyStartUpApp
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[zh_CN]=MyStartUp
+Name=MyStartUp
+Comment[zh_CN]=
+Comment=
