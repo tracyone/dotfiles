@@ -29,7 +29,11 @@ alias o='nautilus'
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
 alias -s zip='unzip'
-alias gvim='gvim 2> /dev/null'
+alias gvim='gvim 2>/dev/null'
+alias gtab='gvim --remote-tab-silent '
+alias wps='wps 2>/dev/null'
+alias evince='evince 2>/dev/null'
+alias et='et 2>/dev/null'
 #}}}
 
 # {{{shell basic setting
@@ -60,7 +64,9 @@ alias gvim='gvim 2> /dev/null'
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
 export SVN_EDITOR=vim
+
 # {{{deal with ctrl-s in vim
 alias vim="stty stop '' -ixoff ; vim"
 # `Frozing' tty, so after any command terminal settings will be restored
