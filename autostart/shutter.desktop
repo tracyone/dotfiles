@@ -9,11 +9,11 @@ GenericName[pt_BR]=Captura de tela
 Comment=Capture, edit and share screenshots
 Comment[de_DE]=Bildschirmfotos aufnehmen, bearbeiten und mit Anderen teilen
 Comment[pt_BR]=Aplicativo avançado para capturar imagens da tela
-Exec=shutter
+Exec=shutter --min_at_startup
 Icon=shutter
 Terminal=false
 Type=Application
 Categories=Utility;Application;
-X-GNOME-Autostart-enabled=false
-Hidden=true
+X-GNOME-Autostart-enabled=true
+Hidden=false
 

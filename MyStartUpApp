@@ -1,3 +1,4 @@
 #!/bin/bash
 xlight
 svnserve -d -r /home/tracyone/KuaiPan/vpr-repos
+goldendict
