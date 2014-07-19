@@ -34,6 +34,7 @@ alias gtab='gvim --remote-tab-silent '
 alias wps='wps 2>/dev/null'
 alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
+alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
 #}}}
 
 # {{{shell basic setting
@@ -63,9 +64,11 @@ alias et='et 2>/dev/null'
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin
+export PATH=$PATH:/nfsroot/arm-linux-gdb/bin
 export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
 export SVN_EDITOR=vim
+export MINICOM='-m -c on' 
 
 # {{{deal with ctrl-s in vim
 alias vim="stty stop '' -ixoff ; vim"
