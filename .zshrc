@@ -35,6 +35,7 @@ alias wps='wps 2>/dev/null'
 alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
 alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
+alias locate="locate -r"  #regular expression support
 #}}}
 
 # {{{shell basic setting
@@ -42,7 +43,7 @@ alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
 # CASE_SENSITIVE="true"
 
 # Comment this out to disable bi-weekly auto-update checks
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
 # export UPDATE_ZSH_DAYS=13
@@ -64,7 +65,7 @@ alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin
 export PATH=$PATH:/nfsroot/arm-linux-gdb/bin
 export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
 export SVN_EDITOR=vim
