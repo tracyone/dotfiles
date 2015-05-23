@@ -13,3 +13,5 @@
 `desktop_files`:文件夹放一些第三方软件所编写的desktop文件。
 
 `tfptd-hpa`:tftpd-hap服务器的配置文件，主目录是`/tftpboot`
+
+`.gitconfig`:我的git配置，difftool使用`gvimdiff`，而mergetool使用`meld`

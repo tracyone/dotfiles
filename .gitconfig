@@ -1,0 +1,13 @@
+[user]
+	name = \"tracyone\"
+	email = \"tracyone@live.cn\"
+[credential]
+	helper = cache --timeout=86400
+[core]
+	editor = vim
+[diff]
+	tool = gvimdiff
+[merge]
+	tool = meld
+[difftool]
+	prompt = 0
