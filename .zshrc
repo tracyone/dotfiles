@@ -19,8 +19,8 @@ ZSH_THEME="robbyrussell"
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-alias ls='ls --color=auto'
-alias ll='ls -al'
+#alias ls='ls --color=auto'
+alias ll='ls -ahl'
 alias la='ls -A'
 alias l='ls -CF'
 alias c='clear'
@@ -68,7 +68,7 @@ DISABLE_AUTO_UPDATE="true"
 export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin
 export PATH=$PATH:/nfsroot/arm-linux-gdb/bin
 export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
-export SVN_EDITOR=vim
+export SVN_EDITOR=nvim
 export MINICOM='-m -c on' 
 
 # {{{deal with ctrl-s in vim
@@ -82,7 +82,7 @@ vim()
 {
     local STTYOPTS="$(stty --save)"
     stty stop '' -ixoff
-    command vim "$@"
+    command nvim "$@"
     stty "$STTYOPTS"
 }
 # }}}
@@ -106,4 +106,8 @@ autoload -U compinit promptinit
 compinit
 # }}}
 
+case $- in *i*)
+	[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
+esac
+export TERM=xterm-256color
 # vim: set fdm=marker foldlevel=0:
