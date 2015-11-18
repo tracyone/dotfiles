@@ -2,7 +2,7 @@
 
 cur_dir=$(pwd)
 echo "Start install..."
-sudo apt-get install zsh tmux git 
+sudo apt-get install zsh tmux git xclip
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 ln -sf ${cur_dir}/.zshrc ${HOME}
 ln -sf ${cur_dir}/.tmux.conf ${HOME}
