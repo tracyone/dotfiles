@@ -6,8 +6,12 @@
 [core]
 	editor = vim
 [diff]
-	tool = gvimdiff
+	tool = vimdiff
 [merge]
 	tool = meld
 [difftool]
 	prompt = 0
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
