@@ -12,6 +12,52 @@ ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="mgutz"
 
+OS=$(uname)
+
+if [[ ${OS} == "Linux" ]]; then
+	alias locate='locate -r'  #regular expression support
+	alias ls='ls --color=auto'
+	alias ll='ls -ahl'
+	alias la='ls -A'
+	alias gvim='gvim 2>/dev/null'
+	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin
+	export PATH=$PATH:/nfsroot/arm-linux-gdb/bin
+elif [[ ${OS} == "Darwin" ]]; then
+	alias locate="locate"  #regular expression support
+	alias gvim=mvim
+	PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+fi
+
+which nvim > /dev/null
+if [[ $? -eq 0 ]]; then
+	alias nvim='nvim -u ~/.nvimrc'
+	alias vim="stty stop '' -ixoff ; nvim"
+	# {{{deal with ctrl-s in vim
+	# `Frozing' tty, so after any command terminal settings will be restored
+	ttyctl -f
+
+	# bash
+	# No ttyctl, so we need to save and then restore terminal settings
+	vim()
+	{
+		local STTYOPTS="$(stty --save)"
+		stty stop '' -ixoff
+		command nvim "$@"
+		stty "$STTYOPTS"
+	}
+	# }}}
+else
+	#{{{
+	alias vim="stty stop '' -ixoff ; vim"
+	vim()
+	{
+		local STTYOPTS="$(stty --save)"
+		stty stop '' -ixoff
+		command vim "$@"
+		stty "$STTYOPTS"
+	}
+	#}}}
+fi
 
 #{{{ aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -19,9 +65,6 @@ ZSH_THEME="mgutz"
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
-#alias ls='ls --color=auto'
-alias ll='ls -ahl'
-alias la='ls -A'
 alias l='ls -CF'
 alias c='clear'
 alias cls='clear'
@@ -29,16 +72,15 @@ alias o='nautilus'
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
 alias -s zip='unzip'
-alias gvim='gvim 2>/dev/null'
 alias gtab='gvim --remote-tab-silent '
 alias wps='wps 2>/dev/null'
 alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
 alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
-alias locate="locate -r"  #regular expression support
 #}}}
 
 # {{{shell basic setting
+
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -65,27 +107,10 @@ DISABLE_AUTO_UPDATE="true"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin
-export PATH=$PATH:/nfsroot/arm-linux-gdb/bin
 export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
-export SVN_EDITOR=nvim
+export SVN_EDITOR=vim
 export MINICOM='-m -c on' 
 
-# {{{deal with ctrl-s in vim
-alias vim="stty stop '' -ixoff ; vim"
-# `Frozing' tty, so after any command terminal settings will be restored
-ttyctl -f
-
-# bash
-# No ttyctl, so we need to save and then restore terminal settings
-vim()
-{
-    local STTYOPTS="$(stty --save)"
-    stty stop '' -ixoff
-    command nvim "$@"
-    stty "$STTYOPTS"
-}
-# }}}
 
 # }}}
 
@@ -94,7 +119,7 @@ vim()
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git OSX autojump mvn gradle history-substring-search command-not-found \
-	 svn web-search) 
+	 svn web-search zshmarks) 
 
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
@@ -106,8 +131,11 @@ autoload -U compinit promptinit
 compinit
 # }}}
 
-case $- in *i*)
-	[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
-esac
+which tmux > /dev/null
+if [[ $? -eq 0  ]]; then
+	case $- in *i*)
+		[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
+	esac
+fi
 export TERM=xterm-256color
 # vim: set fdm=marker foldlevel=0:
