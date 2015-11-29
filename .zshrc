@@ -25,20 +25,22 @@ if [[ ${OS} == "Linux" ]]; then
 elif [[ ${OS} == "Darwin" ]]; then
 	alias locate="locate"  #regular expression support
 	alias gvim=mvim
-	PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+	# instead of coreutils 
+	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 fi
 
 which nvim > /dev/null
 if [[ $? -eq 0 ]]; then
 	#alias nvim='nvim -u ~/.nvimrc'
-	alias vim="stty stop '' -ixoff ; nvim"
+	alias nvim="stty stop '' -ixoff ; nvim"
 	# {{{deal with ctrl-s in vim
 	# `Frozing' tty, so after any command terminal settings will be restored
 	ttyctl -f
 
+	# {{{
 	# bash
 	# No ttyctl, so we need to save and then restore terminal settings
-	vim()
+	nvim()
 	{
 		local STTYOPTS="$(stty --save)"
 		stty stop '' -ixoff
@@ -46,18 +48,18 @@ if [[ $? -eq 0 ]]; then
 		stty "$STTYOPTS"
 	}
 	# }}}
-else
-	#{{{
-	alias vim="stty stop '' -ixoff ; vim"
-	vim()
-	{
-		local STTYOPTS="$(stty --save)"
-		stty stop '' -ixoff
-		command vim "$@"
-		stty "$STTYOPTS"
-	}
-	#}}}
+	# }}}
 fi
+#{{{vim()
+alias vim="stty stop '' -ixoff ; vim"
+vim()
+{
+	local STTYOPTS="$(stty --save)"
+	stty stop '' -ixoff
+	command vim "$@"
+	stty "$STTYOPTS"
+}
+#}}}
 
 #{{{ aliases
 # alias zshconfig="mate ~/.zshrc"
