@@ -30,7 +30,7 @@ fi
 
 which nvim > /dev/null
 if [[ $? -eq 0 ]]; then
-	alias nvim='nvim -u ~/.nvimrc'
+	#alias nvim='nvim -u ~/.nvimrc'
 	alias vim="stty stop '' -ixoff ; nvim"
 	# {{{deal with ctrl-s in vim
 	# `Frozing' tty, so after any command terminal settings will be restored
