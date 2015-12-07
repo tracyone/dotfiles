@@ -17,3 +17,4 @@
 	required = true
 [alias]
 	st = status
+	co = checkout

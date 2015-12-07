@@ -18,6 +18,8 @@ else
 	echo "Error!Please install oh-my-zsh first."
 fi
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo "Install tpm successfully!"
+
 ln -sf ${cur_dir}/.zshrc ${HOME}
 ln -sf ${cur_dir}/.tmux.conf ${HOME}
 ln -sf ${cur_dir}/.gitconfig ${HOME}
