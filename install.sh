@@ -3,18 +3,20 @@
 OS=$(uname)
 echo OS is $OS
 cur_dir=$(pwd)
-echo "Start install..."
+echo "Start install zsh tmux git...."
 if [[ $OS == "Linux" ]] ;then
 	sudo apt-get install zsh tmux git xclip
     sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
 elif [[ $OS == 'Darwin' ]]; then
 	brew install zsh tmux git xclip
+elif [[ $OS =~ MSYS_NT.* ]]; then
+	pacman -S zsh tmux git 
 fi
 if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
 	sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
 fi
 
-if [[ $? -eq 0 && -d ~/.oh-my-zsh/plugins ]]; then
+if [[ $? -eq 0 && -d ${HOME}/.oh-my-zsh/plugins ]]; then
 	git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo "Install zshmarks successfully!"
 else
 	echo "Error!Please install oh-my-zsh first."
