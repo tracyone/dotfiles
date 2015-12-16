@@ -10,7 +10,9 @@ if [[ $OS == "Linux" ]] ;then
 elif [[ $OS == 'Darwin' ]]; then
 	brew install zsh tmux git xclip
 fi
-sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
+if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
+	sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
+fi
 
 if [[ $? -eq 0 && -d ~/.oh-my-zsh/plugins ]]; then
 	git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo "Install zshmarks successfully!"
