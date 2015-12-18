@@ -76,6 +76,7 @@ alias -s bz2='tar -xjvf'
 alias -s zip='unzip'
 alias gtab='gvim --remote-tab-silent '
 alias wps='wps 2>/dev/null'
+alias j='jump'
 alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
 alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
