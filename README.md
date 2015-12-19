@@ -14,4 +14,51 @@
 
 `tfptd-hpa`:tftpd-hap服务器的配置文件，主目录是`/tftpboot`
 
-`.gitconfig`:我的git配置，difftool使用`gvimdiff`，而mergetool使用`meld`
+`.gitconfig`:我的git配置。
+
+
+# 安装
+
+支持debain系的linux发行版本和Mac OS X系统还有win下的msys2。
+
+```bash
+./install.sh
+```
+
+# zsh配置说明
+
+用了oh-my-zsh之外的一个插件:[zshmarks](https://github.com/jocelynmallon/zshmarks)，作用是标记书签然后跳转，详细用法请看链接，我另外alias了一下：
+
+```bash
+# 保存当前路劲为书签
+b <书签名>
+```
+
+```bash
+# 跳转到指定书签路劲上面，支持tab补全。
+j <书签名>
+```
+
+# tmux配置说明
+
+主要是参考大神[Val Markovic](https://github.com/Valloric)的[配置](https://github.com/Valloric/dotfiles/blob/master/tmux/tmux-main.conf)，然后做了一些修改，解决了一些痛点。
+
+* 本配置支持tmux 1.8以上包括2.1以上。支持Mac OS X系统，支持Windows下地msys2，支持所有linux发行版本。
+* 支持复制到三个操作系统的系统剪贴板上面。
+* prefix按键是Ctrl-a。
+* **prefix +  -**是水平分屏
+* **prefix +  \**是垂直分屏
+* **prefix + m**是关闭鼠标功能
+* **prefix + M**是开启鼠标功能，默认开启。
+* **prefix + K**是关闭当前session并跳到下一个。
+* 按**prefix + [**进入复制模式的时候，是使用vi模式的快捷键进行选中、复制、搜索和移动。
+* **prefix +  r**重新加载tmux配置文件
+* **prefix +  +**当前pannel最大化**prefix +  _**恢复。
+* **prefix + h**、**prefix + j**、**prefix + k**和**prefix + l**用于Pane之间的移动，遵循vim的hjkl的方向。
+* 使用插件管理器[tpm](https://github.com/tmux-plugins/tpm)来管理插件，按**prefix + I**执行插件的安装。
+* 使用插件[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)用于保存当前session的布局以及打开的文件然后下次可以迅速的恢复，按**prefix + Ctrl-s **进行保存，按**prefix +  Ctrl-r**进行恢复。
+* 使用插件[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)用于更复杂的搜索，支持正则表达式搜索。按**prefix + /**进行搜索。
+
+**截图**
+
+![zsh和tmux的结合](https://cloud.githubusercontent.com/assets/4246425/11912547/06507e76-a67c-11e5-9a46-946c1aa9b545.png)
