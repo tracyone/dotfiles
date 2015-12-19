@@ -1,6 +1,6 @@
 # dotfiles
 
-`.zshrc`:你需要安装`oh-my-zsh`，请参考 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)。
+`.zshrc`:需要安装`oh-my-zsh`，请参考 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)。
 
 `.hgrc`:mercurial source code management system.
 
@@ -25,6 +25,9 @@
 ./install.sh
 ```
 
+上面脚本会帮你安装`tmux`、`zsh`、`git`和`xclip`等必要软件。然后会帮你装[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)以及其插件还有tmux的插件，最后将相关文件链接到相关目录下，完成安装。
+
+
 # zsh配置说明
 
 用了oh-my-zsh之外的一个插件:[zshmarks](https://github.com/jocelynmallon/zshmarks)，作用是标记书签然后跳转，详细用法请看链接，我另外alias了一下：
@@ -43,9 +46,9 @@ j <书签名>
 
 主要是参考大神[Val Markovic](https://github.com/Valloric)的[配置](https://github.com/Valloric/dotfiles/blob/master/tmux/tmux-main.conf)，然后做了一些修改，解决了一些痛点。
 
-* 本配置支持tmux 1.8以上包括2.1以上。支持Mac OS X系统，支持Windows下地msys2，支持所有linux发行版本。
+* 本配置支持tmux 1.8以上包括2.1以上。支持Mac OS X系统，支持Windows下的msys2，支持所有linux发行版本。
 * 支持复制到三个操作系统的系统剪贴板上面。
-* prefix按键是Ctrl-a。
+* **prefix**按键是**Ctrl-a**。
 * **prefix +  -**是水平分屏
 * **prefix +  \**是垂直分屏
 * **prefix + m**是关闭鼠标功能
@@ -56,7 +59,7 @@ j <书签名>
 * **prefix +  +**当前pannel最大化**prefix +  _**恢复。
 * **prefix + h**、**prefix + j**、**prefix + k**和**prefix + l**用于Pane之间的移动，遵循vim的hjkl的方向。
 * 使用插件管理器[tpm](https://github.com/tmux-plugins/tpm)来管理插件，按**prefix + I**执行插件的安装。
-* 使用插件[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)用于保存当前session的布局以及打开的文件然后下次可以迅速的恢复，按**prefix + Ctrl-s **进行保存，按**prefix +  Ctrl-r**进行恢复。
+* 使用插件[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)用于保存当前session的布局以及打开的文件然后下次可以迅速的恢复，按**prefix + Ctrl-s**  进行保存，按**prefix + Ctrl-r** 进行恢复。
 * 使用插件[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)用于更复杂的搜索，支持正则表达式搜索。按**prefix + /**进行搜索。
 
 **截图**
