@@ -53,11 +53,13 @@ j <书签名>
 * **prefix +  \**是垂直分屏
 * **prefix + m**是关闭鼠标功能
 * **prefix + M**是开启鼠标功能，默认开启。
-* **prefix + K**是关闭当前session并跳到下一个。
+* **prefix + Ctrl-K**是关闭当前session并跳到下一个。
 * 按**prefix + [**进入复制模式的时候，是使用vi模式的快捷键进行选中、复制、搜索和移动。
 * **prefix +  r**重新加载tmux配置文件
 * **prefix +  +**当前pannel最大化**prefix +  _**恢复。
+* **prefix + (**和**prefix + )**用于切换前后session。
 * **prefix + h**、**prefix + j**、**prefix + k**和**prefix + l**用于Pane之间的移动，遵循vim的hjkl的方向。
+* **prefix + H**、**prefix + J**、**prefix + K**和**prefix + L**用于微调pane的大小。
 * 使用插件管理器[tpm](https://github.com/tmux-plugins/tpm)来管理插件，按**prefix + I**执行插件的安装。
 * 使用插件[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)用于保存当前session的布局以及打开的文件然后下次可以迅速的恢复，按**prefix + Ctrl-s**  进行保存，按**prefix + Ctrl-r** 进行恢复。
 * 使用插件[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)用于更复杂的搜索，支持正则表达式搜索。按**prefix + /**进行搜索。
