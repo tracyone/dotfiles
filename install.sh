@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author:tracyone
+# Email:tracyone@live.cn
 
 OS=$(uname)
 echo OS is $OS
@@ -12,16 +14,19 @@ elif [[ $OS == 'Darwin' ]]; then
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	pacman -S zsh tmux git 
 fi
+
 if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
+	echo "Install oh-my-zsh ..."
 	sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
 fi
 
-if [[ $? -eq 0 && -d ${HOME}/.oh-my-zsh/plugins ]]; then
+if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
 	git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo "Install zshmarks successfully!"
 else
 	echo "Error!Please install oh-my-zsh first."
 fi
 
+echo "Install tmux plugin manager ..."
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo "Install tpm successfully!"
 
 ln -sf ${cur_dir}/.zshrc ${HOME}
