@@ -29,7 +29,15 @@ fi
 echo "Install tmux plugin manager ..."
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo "Install tpm successfully!"
 
-ln -sf ${cur_dir}/.zshrc ${HOME}
-ln -sf ${cur_dir}/.tmux.conf ${HOME}
-ln -sf ${cur_dir}/.gitconfig ${HOME}
+read -n1 -p "Copy  or Link(soft link) the dotfiles ? (c|l)" ans
+if [[ ${ans} =~ [Cc] ]]; then
+	install_cmd="cp -a"
+fi
+if [[ ${ans} =~ [lL] ]]; then
+	install_cmd="ln -sf"
+fi
+${install_cmd} ${cur_dir}/.zshrc ${HOME}
+${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
+${install_cmd} ${cur_dir}/.gitconfig ${HOME}
+${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
 echo "Install finish."
