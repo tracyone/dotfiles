@@ -9,7 +9,9 @@ echo "Start install zsh tmux git...."
 if [[ $OS == "Linux" ]] ;then
 	sudo apt-get install zsh git xclip
     sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
-	git clone https://github.com/tmux/tmux && cd tmux && ./configure && make && sudo make install ;cd -
+sudo apt-get install libevent-dev libcurses-ocaml-dev
+	git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install
+cd ${cur_dir}
 elif [[ $OS == 'Darwin' ]]; then
 	brew install zsh tmux git xclip
 elif [[ $OS =~ MSYS_NT.* ]]; then
