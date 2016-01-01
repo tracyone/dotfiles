@@ -1,17 +1,8 @@
-
-请[relase链接](https://github.com/tracyone/dotfiles/releases)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
-
-```
-git clone https://github.com/tracyone/dotfiles && cd dotfiles && git co $(git describe --tags)
-```
-
 # dotfiles
 
 `.zshrc`:需要安装`oh-my-zsh`，请参考 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)。
 
-`.hgrc`:mercurial source code management system.
-
-`minirc.dfl`:默认使用`/dev/ttyUSB0`连接.
+`minirc.dfl`:minicom的配置文件，默认连接`/dev/ttyUSB0`。
 
 `10-monitor.conf`:当外接vga或者HDMI时，对应屏幕的分辨率信息，请将此文件放置于`/usr/share/X11/xorg.conf.d/`之下
 
@@ -19,14 +10,20 @@ git clone https://github.com/tracyone/dotfiles && cd dotfiles && git co $(git de
 
 `desktop_files`:文件夹放一些第三方软件所编写的desktop文件。
 
-`tfptd-hpa`:tftpd-hap服务器的配置文件，主目录是`/tftpboot`
-
 `.gitconfig`:我的git配置。
+
+`.tmux.conf`:我的tmux配置，强烈推荐。
 
 
 # 安装
 
-支持debain系的linux发行版本和Mac OS X系统还有win下的msys2。
+请到[relase链接](https://github.com/tracyone/dotfiles/releases)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
+
+```
+git clone https://github.com/tracyone/dotfiles && cd dotfiles && git co $(git describe --tags)
+```
+
+然后在dotfiles文件夹下执行：
 
 ```bash
 ./install.sh
