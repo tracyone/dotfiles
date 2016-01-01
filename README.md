@@ -1,3 +1,10 @@
+
+请[relase链接](https://github.com/tracyone/dotfiles/relase)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
+
+```
+git clone https://github.com/tracyone/dotfiles && cd dotfiles && git co $(git describe --tags)
+```
+
 # dotfiles
 
 `.zshrc`:需要安装`oh-my-zsh`，请参考 [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)。
