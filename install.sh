@@ -5,7 +5,7 @@
 OS=$(uname)
 echo OS is $OS
 cur_dir=$(pwd)
-echo "\nStart install zsh tmux git....\n"
+echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
 	sudo apt-get install zsh git xclip
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
