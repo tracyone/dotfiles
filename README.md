@@ -1,5 +1,5 @@
 
-请[relase链接](https://github.com/tracyone/dotfiles/relase)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
+请[relase链接](https://github.com/tracyone/dotfiles/releases)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
 
 ```
 git clone https://github.com/tracyone/dotfiles && cd dotfiles && git co $(git describe --tags)
