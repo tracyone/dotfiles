@@ -20,7 +20,7 @@
 请到[relase链接](https://github.com/tracyone/dotfiles/releases)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
 
 ```
-git clone https://github.com/tracyone/dotfiles && cd dotfiles && git co $(git describe --tags)
+git clone https://github.com/tracyone/dotfiles && cd dotfiles && git checkout $(git describe --tags)
 ```
 
 然后在dotfiles文件夹下执行：
