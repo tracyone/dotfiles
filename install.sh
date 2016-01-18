@@ -3,7 +3,7 @@
 # Email:tracyone@live.cn
 
 OS=$(uname)
-echo OS is $OS
+echo -e "\nOS is $OS\n"
 cur_dir=$(pwd)
 echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
@@ -23,21 +23,21 @@ elif [[ $OS =~ MSYS_NT.* ]]; then
 fi
 
 if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
-	echo "\nInstall oh-my-zsh ...\n"
+	echo -e "\nInstall oh-my-zsh ...\n"
 	sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
 fi
 
 if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
 	if [[ ! -d ${HOME}/.oh-my-zsh/plugins/zshmarks ]]; then
-		git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo "\nInstall zshmarks successfully!\n"
+		git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo -e "\nInstall zshmarks successfully!\n"
 	fi
 else
-	echo "\nError!Please install oh-my-zsh first.\n"
+	echo -e "\nError!Please install oh-my-zsh first.\n"
 fi
 
 if [[ ! -d ${HOME}/.tmux/plugins/tpm ]]; then
-	echo "\nInstall tmux plugin manager ...\n"
-	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo "\nInstall tpm successfully!\n"
+	echo -e "\nInstall tmux plugin manager ...\n"
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo -e "\nInstall tpm successfully!\n"
 fi
 
 read -n1 -p "Copy  or Link(soft link) the dotfiles ? (c|l)" ans
@@ -52,7 +52,6 @@ ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
 
-echo 
 read -n1 -p "Install desktop files(y/n)" ans
 if [[ $ans =~ [yY] ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
