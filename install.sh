@@ -40,6 +40,7 @@ if [[ ! -d ${HOME}/.tmux/plugins/tpm ]]; then
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo -e "\nInstall tpm successfully!\n"
 fi
 
+echo -e "\n"
 read -n1 -p "Copy  or Link(soft link) the dotfiles ? (c|l)" ans
 if [[ ${ans} =~ [Cc] ]]; then
 	install_cmd="cp -a"
@@ -52,8 +53,9 @@ ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
 
+echo -e "\n"
 read -n1 -p "Install desktop files(y/n)" ans
 if [[ $ans =~ [yY] ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
 fi
-echo -e "\nInstall Finish...\n"
+echo -e "\n\nInstall Finish..."
