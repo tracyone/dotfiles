@@ -8,7 +8,8 @@
 [diff]
 	tool = vimdiff
 [merge]
-	tool = meld
+	tool = vimdiff
+	conflictstyle = diff3
 [difftool]
 	prompt = 0
 [filter "lfs"]
@@ -20,3 +21,6 @@
 	co = checkout
 	ci = commit
 	br = branch
+	mt = mergetool
+[mergetool]
+	prompt = false
