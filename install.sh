@@ -17,7 +17,7 @@ if [[ $OS == "Linux" ]] ;then
 
 	fi
 elif [[ $OS == 'Darwin' ]]; then
-	brew install zsh tmux git xclip
+	brew install zsh tmux git
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	pacman -S zsh tmux git 
 fi
