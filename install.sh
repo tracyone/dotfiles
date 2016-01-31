@@ -17,7 +17,7 @@ if [[ $OS == "Linux" ]] ;then
 
 	fi
 elif [[ $OS == 'Darwin' ]]; then
-	brew install zsh tmux git xclip
+	brew install zsh tmux git
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	pacman -S zsh tmux git 
 fi
@@ -51,7 +51,7 @@ ${install_cmd} ${cur_dir}/.zshrc ${HOME}
 ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
-
+echo -e "\n"
 read -n1 -p "Install desktop files(y/n)" ans
 if [[ $ans =~ [yY] ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
