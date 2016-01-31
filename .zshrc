@@ -20,7 +20,7 @@ if [[ ${OS} == "Linux" ]]; then
 	alias ll='ls -ahl'
 	alias la='ls -A'
 	alias gvim='gvim 2>/dev/null'
-	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin
+	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin:/opt/CodeSourcery/Sourcery_G++_Lite/bin
 	export PATH=$PATH:/nfsroot/arm-linux-gdb/bin
 elif [[ ${OS} == "Darwin" ]]; then
 	alias locate="locate"  #regular expression support
@@ -92,7 +92,7 @@ alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
 DISABLE_AUTO_UPDATE="true"
 
 # Uncomment to change how often before auto-updates occur? (in days)
-# export UPDATE_ZSH_DAYS=13
+export UPDATE_ZSH_DAYS=30
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
