@@ -141,4 +141,14 @@ if [[ $? -eq 0  ]]; then
 	esac
 fi
 export TERM=xterm-256color
+
+ssh-add -l >/dev/null 
+if [[ $? -ne 0 ]]; then
+	echo -e "ssh-add..."
+	file_lst=$(find ${HOME}/.ssh/ -name "*.pub")
+	for i in ${file_lst}; do
+		ssh-add ${i%.pub}
+	done
+fi
+
 # vim: set fdm=marker foldlevel=0:
