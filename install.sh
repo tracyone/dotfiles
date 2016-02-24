@@ -59,7 +59,7 @@ function configure()
 echo -e "\nInstall start ...\n"
 echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
-	configure "apt cp which mv "
+	configure "apt-get cp which mv "
 	clean_screen
 	AptInstall "zsh git xclip autoconf automake curl wget git-core"
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
