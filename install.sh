@@ -12,7 +12,7 @@ function AptInstall()
 {
 	read -n1 -p "Install $1 ?(y/n)" ans
 	if [[ $ans =~ [Yy] ]]; then
-		sudo apt-get install $1 --allow-unauthenticated -y || AptSignelInstall "$1"
+		sudo apt-get install $1 --allow-unauthenticated -y || AptSingleInstall "$1"
 	else
 		echo -e  "\nAbort install\n"
 	fi
