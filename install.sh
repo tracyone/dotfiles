@@ -3,34 +3,98 @@
 # Email:tracyone@live.cn
 
 OS=$(uname)
-echo -e "\nOS is $OS\n"
+echo -e "\nOS Kernel is $OS\n"
 cur_dir=$(pwd)
+mkdir -p temp
+
+# Function definition {{{
+function AptInstall()
+{
+	read -n1 -p "Install $1 ?(y/n)" ans
+	if [[ $ans =~ [Yy] ]]; then
+		sudo apt-get install $1 --allow-unauthenticated -y || AptSignelInstall "$1"
+	else
+		echo -e  "\nAbort install\n"
+	fi
+	sleep 2
+}
+
+# $1:software list to install..
+function AptSingleInstall()
+{
+for i in $1
+do
+	sudo apt-get install $i --allow-unauthenticated -y
+done
+}
+
+# clean screen
+function clear_screen()
+{
+	# clear screen
+	echo -e "\e[2J\e[1;1H"
+}
+
+# accept one argument:command line programs name to be tested
+function configure()
+{
+	local package_lack=""
+	for i in $1
+	do
+		which $i > /dev/null 2>&1
+		if [[ $? -ne 0 ]]; then
+			echo -e "Checking for $i ..... no"
+			package_lack="$i ${package_lack}"
+		else
+			echo -e "Checking for $i ..... yes"
+		fi
+	done	
+	if [[ ${package_lack} != "" ]]; then
+		echo "Please install ${package_lack} manually!"
+		exit 3
+	fi
+}
+# }}}
+
+echo -e "\nInstall start ...\n"
 echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
-	sudo apt-get install zsh git xclip autoconf automake curl wget
+	configure "apt cp which mv "
+	clean_screen
+	AptInstall "zsh git xclip autoconf automake curl wget git-core"
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
 	which tmux > /dev/null
 	if [[ $? -ne 0 ]]; then
 		lsb_release -a | grep 10.04
 		if [[  $? -eq 0 ]]; then
 			echo "OS is Ubuntu 10.04"
-			echo "get libevent 2.0 from internet then build and install"
-			curl -fLo libevent.tar.gz https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
-			tar xvf libevent.tar.gz
-			mv libevent-* libevent && cd libevent && ./configure --prefix=/usr && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
-			echo "get latest tmux from internet then build and install"
-			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
+			if [[ ! -d "./temp/libevent" ]]; then
+				echo "get libevent 2.0 from internet then build and install"
+				cd temp
+				curl -fLo libevent.tar.gz https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
+				tar xvf libevent.tar.gz
+				mv libevent-* libevent && cd libevent && ./configure --prefix=/usr && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
+				echo "get latest tmux from internet then build and install"
+				git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
+			fi
 			cd ${cur_dir}
 		else
-			sudo apt-get install libevent-dev libcurses-ocaml-dev
-			echo "get latest tmux from internet then build and install"
-			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
+			if [[ ! -d "./temp/tmux" ]]; then
+				cd temp
+				AptInstall libevent-dev libcurses-ocaml-dev
+				echo "get latest tmux from internet then build and install"
+				git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
+			fi
 			cd ${cur_dir}
 		fi
 	fi
 elif [[ $OS == 'Darwin' ]]; then
+	configure "brew cp which mv "
+	clean_screen
 	brew install zsh tmux git
 elif [[ $OS =~ MSYS_NT.* ]]; then
+	configure "pacman cp which mv "
+	clean_screen
 	pacman -S zsh tmux git 
 fi
 
@@ -72,3 +136,5 @@ if [[ $ans =~ [yY] ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
 fi
 echo -e "\n\nInstall Finish..."
+
+# vim: set fdm=marker foldlevel=0 foldmarker&:
