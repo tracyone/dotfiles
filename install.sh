@@ -11,10 +11,9 @@ if [[ $OS == "Linux" ]] ;then
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
 	which tmux > /dev/null
 	if [[ $? -ne 0 ]]; then
-		sudo apt-get install libevent-dev libcurses-ocaml-dev
+		sudo apt-get install libevent-dev libcurses-ocaml-dev autoconf automake
 		git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install
 		cd ${cur_dir}
-
 	fi
 elif [[ $OS == 'Darwin' ]]; then
 	brew install zsh tmux git
@@ -24,7 +23,7 @@ fi
 
 if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
 	echo -e "\nInstall oh-my-zsh ...\n"
-	sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)" 
+	git clone https://github.com/robbyrussell/oh-my-zsh && cd oh-my-zsh/tools && ./install.sh
 fi
 
 if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
