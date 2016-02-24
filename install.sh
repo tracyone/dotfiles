@@ -17,14 +17,14 @@ if [[ $OS == "Linux" ]] ;then
 			echo "get libevent 2.0 from internet then build and install"
 			curl -fLo libevent.tar.gz https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
 			tar xvf libevent.tar.gz
-			mv libevent-* libevent && cd libevent && ./configure --prefix=/usr && make && sudo make install || echo "Error occured!exit.";exit 3
+			mv libevent-* libevent && cd libevent && ./configure --prefix=/usr && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
 			echo "get latest tmux from internet then build and install"
-			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || echo "Error occured!exit.";exit 3
+			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
 			cd ${cur_dir}
 		else
 			sudo apt-get install libevent-dev libcurses-ocaml-dev
 			echo "get latest tmux from internet then build and install"
-			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || echo "Error occured!exit.";exit 3
+			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
 			cd ${cur_dir}
 		fi
 	fi
@@ -36,13 +36,13 @@ fi
 
 if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
 	echo -e "\nInstall oh-my-zsh ...\n"
-	git clone https://github.com/robbyrussell/oh-my-zsh && cd oh-my-zsh/tools && ./install.sh || echo "Error occured!exit.";exit 3
+	git clone https://github.com/robbyrussell/oh-my-zsh && cd oh-my-zsh/tools && ./install.sh || ( echo "Error occured!exit.";exit 3 )
 fi
 
 if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
 	if [[ ! -d ${HOME}/.oh-my-zsh/plugins/zshmarks ]]; then
 		git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo -e "\nInstall zshmarks successfully!\n" \
-			|| echo "Error occured!exit.";exit 3
+			|| ( echo "Error occured!exit.";exit 3 )
 	fi
 else
 	echo -e "\nError!Please install oh-my-zsh first.\n"
@@ -50,7 +50,7 @@ fi
 
 if [[ ! -d ${HOME}/.tmux/plugins/tpm ]]; then
 	echo -e "\nInstall tmux plugin manager ...\n"
-	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo -e "\nInstall tpm successfully!\n"  || echo "Error occured!exit.";exit 3
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo -e "\nInstall tpm successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
 fi
 
 echo -e "\n"
