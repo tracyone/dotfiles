@@ -60,7 +60,7 @@ echo -e "\nInstall start ...\n"
 echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
 	configure "apt-get cp which mv "
-	clean_screen
+	clear_screen
 	AptInstall "zsh git xclip autoconf automake curl wget git-core"
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
 	which tmux > /dev/null
@@ -90,11 +90,11 @@ if [[ $OS == "Linux" ]] ;then
 	fi
 elif [[ $OS == 'Darwin' ]]; then
 	configure "brew cp which mv "
-	clean_screen
+	clear_screen
 	brew install zsh tmux git
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	configure "pacman cp which mv "
-	clean_screen
+	clear_screen
 	pacman -S zsh tmux git 
 fi
 
