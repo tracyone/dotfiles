@@ -27,6 +27,7 @@ elif [[ ${OS} == "Darwin" ]]; then
 	alias gvim=mvim
 	# instead of coreutils 
 	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
+	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 fi
 
 which nvim > /dev/null
