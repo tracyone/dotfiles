@@ -18,6 +18,7 @@ if [[ ${OS} == "Linux" ]]; then
 	alias locate='locate -r'  #regular expression support
 	alias ls='ls --color=auto'
 	alias ll='ls -ahl'
+	alias open='xdg-open'
 	alias la='ls -A'
 	alias gvim='gvim 2>/dev/null'
 	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin/nfsroot/arm-linux-gdb/bin:/opt/CodeSourcery/Sourcery_G++_Lite/bin:/opt/Clang/bin
