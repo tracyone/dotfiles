@@ -100,7 +100,10 @@ fi
 
 if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
 	echo -e "\nInstall oh-my-zsh ...\n"
-	git clone https://github.com/robbyrussell/oh-my-zsh && cd oh-my-zsh/tools && ./install.sh || ( echo "Error occured!exit.";exit 3 )
+    if [[ ! -d "oh-my-zsh" ]]; then
+        git clone https://github.com/robbyrussell/oh-my-zsh   
+    fi
+    cd oh-my-zsh/tools && ./install.sh || ( echo "Error occured!exit.";exit 3 )
 fi
 
 if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
