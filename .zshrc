@@ -35,11 +35,9 @@ which nvim > /dev/null
 if [[ $? -eq 0 ]]; then
 	#alias nvim='nvim -u ~/.nvimrc'
 	alias nvim="stty stop '' -ixoff ; nvim"
-	# {{{deal with ctrl-s in vim
 	# `Frozing' tty, so after any command terminal settings will be restored
 	ttyctl -f
-
-	# {{{
+	# ctrl-s in nvim{{{
 	# bash
 	# No ttyctl, so we need to save and then restore terminal settings
 	nvim()
@@ -49,7 +47,6 @@ if [[ $? -eq 0 ]]; then
 		command nvim "$@"
 		stty "$STTYOPTS"
 	}
-	# }}}
 	# }}}
 fi
 #{{{vim()
@@ -124,8 +121,8 @@ export MINICOM='-m -c on'
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git OSX autojump mvn gradle history-substring-search command-not-found \
-	 svn web-search zshmarks ssh-agent) 
+plugins=(git OSX autojump history-substring-search command-not-found \
+	 svn web-search zshmarks ssh-agent github git-flow sudo ) 
 
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
@@ -137,6 +134,7 @@ autoload -U compinit promptinit
 compinit
 # }}}
 
+# {{{tmux
 which tmux > /dev/null
 if [[ $? -eq 0  ]]; then
 	case $- in *i*)
@@ -144,6 +142,7 @@ if [[ $? -eq 0  ]]; then
 	esac
 fi
 export TERM=xterm-256color
+# }}}"
 
 ssh-add -l >/dev/null 
 if [[ $? -ne 0 ]]; then
