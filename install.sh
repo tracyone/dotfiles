@@ -108,7 +108,7 @@ fi
 
 if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
 	if [[ ! -d ${HOME}/.oh-my-zsh/plugins/zshmarks ]]; then
-		git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && echo -e "\nInstall zshmarks successfully!\n" \
+		git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && chmod 755 ~/.oh-my-zsh/plugins/zshmarks -R  && echo -e "\nInstall zshmarks successfully!\n" \
 			|| ( echo "Error occured!exit.";exit 3 )
 	fi
 else
