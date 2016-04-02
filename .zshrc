@@ -79,7 +79,8 @@ alias j='jump'
 alias b='bookmark'
 alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
-alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
+alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
+alias vi="vim -u NONE"
 #}}}
 
 # {{{shell basic setting
