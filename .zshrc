@@ -79,7 +79,8 @@ alias j='jump'
 alias b='bookmark'
 alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
-alias minicom="minicom -C ~/work/debug_info/$(date +%Y%m%d%H%M%S).log"
+alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
+alias vi="vim -u NONE"
 #}}}
 
 # {{{shell basic setting
@@ -146,10 +147,12 @@ export TERM=xterm-256color
 
 ssh-add -l >/dev/null 
 if [[ $? -ne 0 ]]; then
-	file_lst=$(find ${HOME}/.ssh/ -name "*.pub")
-	for i in ${file_lst}; do
-		ssh-add ${i%.pub}
-	done
+    if [[  -d "${HOME}/.ssh/" ]]; then
+        file_lst=$(find ${HOME}/.ssh/ -name "*.pub")
+        for i in ${file_lst}; do
+            ssh-add ${i%.pub}
+        done
+    fi
 fi
 
 # vim: set fdm=marker foldlevel=0:
