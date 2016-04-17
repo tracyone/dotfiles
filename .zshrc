@@ -9,9 +9,7 @@ if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
     zcompile ~/.zshrc
 fi
 
-#####################################################################
-# zplug
-#####################################################################
+# zplug {{{
 
 # Check if zplug is installed
 if [[ ! -f ~/.zplug/zplug ]]; then
@@ -25,9 +23,15 @@ source ~/.zplug/zplug
 zplug "arzzen/calc.plugin.zsh"
 zplug "rimraf/k"
 zplug "zsh-users/zsh-history-substring-search"
-zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-syntax-highlighting", nice:10
 zplug "b4b4r07/auto-fu.zsh"
+zplug "b4b4r07/emoji-cli"
 
+zplug "jocelynmallon/zshmarks"
+
+zplug "plugins/git", from:oh-my-zsh, if:"which git"
+zplug "plugins/ssh-agent", from:oh-my-zsh
+zplug "themes/mortalscumbag", from:oh-my-zsh
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -41,10 +45,9 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load
 
+# }}}
 
-#####################################################################
-# environment
-#####################################################################
+# environment {{{
 
 export EDITOR=vim
 export LANG=en_US.UTF-8
@@ -63,10 +66,9 @@ WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 # improved less option
 export LESS='--tabs=4 --no-init --LONG-PROMPT --ignore-case --quit-if-one-screen --RAW-CONTROL-CHARS'
 
+# }}}
 
-#####################################################################
-# completions
-#####################################################################
+# completions {{{
 
 # Enable completions
 if [ -d ~/.zsh/comp ]; then
@@ -112,75 +114,29 @@ cdpath=($HOME)
 
 zstyle ':completion:*:processes' command "ps -u $USER -o pid,stat,%cpu,%mem,cputime,command"
 
-# auto-fu.zsh
-# function zle-line-init () {
-#     auto-fu-init
-# }
-# zle -N zle-line-init
-# zstyle ':completion:*' completer _oldlist _complete
+#auto-fu.zsh
+#function zle-line-init () {
+    #auto-fu-init
+#}
+#zle -N zle-line-init
+#zstyle ':completion:*' completer _oldlist _complete
 
+# }}}
 
-#####################################################################
-# colors
-#####################################################################
+# colors {{{
+# Color settings for zsh complete candidates
+alias ls='ls -F --show-control-chars --color=always'
+alias la='ls -aF --show-control-chars --color=always'
+alias ll='ls -lF --show-control-chars --color=always'
+alias l.='ls -dF .[a-zA-Z]* --color=always'
+export LSCOLORS=ExFxCxdxBxegedabagacad
+export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'bd=46;34' 'cd=43;34'
 
-if [ $TERM = "dumb" ]; then
-    # Disable colors in GVim
-    alias ls="ls -F --show-control-chars"
-    alias la='ls -aF --show-control-chars'
-    alias ll='ls -lF --show-control-chars'
-    alias l.='ls -dF .[a-zA-Z]*'
-else
-    # Color settings for zsh complete candidates
-    alias ls='ls -F --show-control-chars --color=always'
-    alias la='ls -aF --show-control-chars --color=always'
-    alias ll='ls -lF --show-control-chars --color=always'
-    alias l.='ls -dF .[a-zA-Z]* --color=always'
-    export LSCOLORS=ExFxCxdxBxegedabagacad
-    export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
-    zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'bd=46;34' 'cd=43;34'
-fi
+# }}}
 
-# use prompt colors feature
-autoload -U colors
-colors
+# options  {{{
 
-if [ $TERM = "dumb" ]; then
-    # Use simple prompt in GVim
-    PROMPT='%n%# '
-else
-    PROMPT='%{[$[31+$RANDOM % 7]m%}%U%B%n%#'"%b%{[m%}%u "
-
-    if [ ${VIMSHELL_TERM:-""} = "terminal" ] \
-        || [ ${VIMSHELL_TERM:-""} = "" ]; then
-    RPROMPT="%{[33m%}[%35<..<%~]%{[m%}"
-else
-    PROMPT='%{[$[31+$RANDOM % 7]m%}%B%n%#'"%b%{[m%}%u "
-
-    # For test
-    # PROMPT="%{$fg[green]%}%B%~$%b%{${reset_color}%} "
-fi
-fi
-
-if [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] ; then
-    PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
-fi
-
-if [ $UID = "0" ]; then
-    PROMPT="%B%{[31m%}%/#%{^[[m%}%b "
-    PROMPT2="%B%{[31m%}%_#%{^[[m%}%b "
-fi
-
-# Multi line prompt
-PROMPT2="%_%% "
-# Spell miss prompt
-SPROMPT="correct> %R -> %r [n,y,a,e]? "
-
-
-#####################################################################
-# options
-######################################################################
-#{{{
 setopt auto_resume
 # Ignore <C-d> logout
 setopt ignore_eof
@@ -265,9 +221,7 @@ setopt complete_aliases
 unsetopt hist_verify
 # }}}
 
-#####################################################################
-# alias
-######################################################################
+# alias {{{
 # Global aliases {{{
 alias -g A="| awk"
 alias -g G="| grep"
@@ -307,6 +261,8 @@ alias -s mp3=amarok
 alias -s m4a=amarok
 alias -s ogg=amarok
 # }}}
+
+alias vim="stty stop '' -ixoff ; vim"
 
 # Improve lv
 alias lv='lv -c -T8192'
@@ -352,17 +308,14 @@ alias hexd=hexdump
 # Better where
 alias where="command -v"
 
-# Better jobs
-alias j="jobs -l"
+alias j="jump"
+alias b="bookmark"
 
-alias vim='nvim'
 alias termite='termite --exec=zsh'
 alias lock='i3exit lock'
+#}}}
 
-
-#####################################################################
-# keybinds
-######################################################################
+# keybinds {{{
 
 # emacs keybinds
 bindkey -e
@@ -379,10 +332,9 @@ bindkey -M emacs '^N' history-substring-search-down
 # Like bash
 bindkey "^u" backward-kill-line
 
+# }}}
 
-#####################################################################
-# functions
-######################################################################
+# functions {{{
 
 # Set environment variables easily
 setenv () { export $1="$@[2,-1]" }
@@ -417,11 +369,16 @@ r() {
     fi
 }
 
+vim()
+{
+	local STTYOPTS="$(stty --save)"
+	stty stop '' -ixoff
+	command vim "$@"
+	stty "$STTYOPTS"
+}
+# }}}
 
-#####################################################################
-# others
-######################################################################
-
+# others {{{
 # Improve terminal title
 case "${TERM}" in
     kterm*|xterm*|vt100)
@@ -441,5 +398,27 @@ setopt share_history
 # Enable math functions
 zmodload zsh/mathfunc
 
+# {{{tmux
+which tmux > /dev/null
+if [[ $? -eq 0  ]]; then
+	case $- in *i*)
+		[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
+	esac
+fi
+export TERM=xterm-256color
+# }}}
+
+ssh-add -l >/dev/null 
+if [[ $? -ne 0 ]]; then
+    if [[  -d "${HOME}/.ssh/" ]]; then
+        file_lst=$(find ${HOME}/.ssh/ -name "*.pub")
+        for i in ${file_lst}; do
+            ssh-add ${i%.pub}
+        done
+    fi
+fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# }}}
+
+# vim: set fdm=marker foldlevel=0:
