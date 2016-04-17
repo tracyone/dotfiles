@@ -1,158 +1,445 @@
-# author      :tracyone
-# date        :2013-08-25/17:25:29
-# lastchange  :2014-02-23/01:20:00
-# ---------------------------------------------------
+# File:zsh config for zplug
+# author:tracyone
+# date:2016-04-16 23:02 
+# url:https://github.com/tracyone/dotfiles
 
-# Path to your oh-my-zsh configuration.
-ZSH=$HOME/.oh-my-zsh
-
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="mortalscumbag"
-
-
-OS=$(uname)
-
-if [[ ${OS} == "Linux" ]]; then
-	alias locate='locate -r'  #regular expression support
-	alias ls='ls --color=auto'
-	alias ll='ls -ahl'
-	alias open='xdg-open'
-	alias la='ls -A'
-	alias gvim='gvim 2>/dev/null'
-	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin/nfsroot/arm-linux-gdb/bin:/opt/CodeSourcery/Sourcery_G++_Lite/bin:/opt/Clang/bin
-elif [[ ${OS} == "Darwin" ]]; then
-	alias locate="locate"  #regular expression support
-	alias gvim=mvim
-	# instead of coreutils 
-	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
-	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+# for faster loading,we use zsh buildin command zcompile
+# to compile the .zshrc
+if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+    zcompile ~/.zshrc
 fi
 
-which nvim > /dev/null
-if [[ $? -eq 0 ]]; then
-	#alias nvim='nvim -u ~/.nvimrc'
-	alias nvim="stty stop '' -ixoff ; nvim"
-	# `Frozing' tty, so after any command terminal settings will be restored
-	ttyctl -f
-	# ctrl-s in nvim{{{
-	# bash
-	# No ttyctl, so we need to save and then restore terminal settings
-	nvim()
-	{
-		local STTYOPTS="$(stty --save)"
-		stty stop '' -ixoff
-		command nvim "$@"
-		stty "$STTYOPTS"
-	}
-	# }}}
+#####################################################################
+# zplug
+#####################################################################
+
+# Check if zplug is installed
+if [[ ! -f ~/.zplug/zplug ]]; then
+    echo -e "Get zplug from github ... "
+    git clone https://github.com/b4b4r07/zplug ~/.zplug/ || return
 fi
-#{{{vim()
-alias vim="stty stop '' -ixoff ; vim"
-vim()
-{
-	local STTYOPTS="$(stty --save)"
-	stty stop '' -ixoff
-	command vim "$@"
-	stty "$STTYOPTS"
-}
-#}}}
 
-#{{{ aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-alias l='ls -CF'
-alias c='clear'
-alias cls='clear'
-alias o='nautilus'
-alias -s gz='tar -xzvf'
-alias -s bz2='tar -xjvf'
-alias -s zip='unzip'
-alias gtab='gvim --remote-tab-silent '
-alias wps='wps 2>/dev/null'
-alias j='jump'
-alias b='bookmark'
-alias evince='evince 2>/dev/null'
-alias et='et 2>/dev/null'
-alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
-alias vi="vim -u NONE"
-#}}}
+# Essential
+source ~/.zplug/zplug
 
-# {{{shell basic setting
+zplug "arzzen/calc.plugin.zsh"
+zplug "rimraf/k"
+zplug "zsh-users/zsh-history-substring-search"
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "b4b4r07/auto-fu.zsh"
 
-# Set to this to use case-sensitive completion
-# CASE_SENSITIVE="true"
-
-# Comment this out to disable bi-weekly auto-update checks
-DISABLE_AUTO_UPDATE="true"
-
-# Uncomment to change how often before auto-updates occur? (in days)
-export UPDATE_ZSH_DAYS=30
-
-# Uncomment following line if you want to disable colors in ls
-# DISABLE_LS_COLORS="true"
-
-# Uncomment following line if you want to disable autosetting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment following line if you want to disable command autocorrection
-# DISABLE_CORRECTION="true"
-
-# Uncomment following line if you want red dots to be displayed while waiting for completion
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment following line if you want to disable marking untracked files under
-# VCS as dirty. This makes repository status check for large repositories much,
-# much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
-export SVN_EDITOR=vim
-export MINICOM='-m -c on' 
-
-
-# }}}
-
-# {{{plugin setting
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git OSX autojump history-substring-search command-not-found \
-	 svn web-search zshmarks ssh-agent github git-flow sudo ) 
-
-zmodload zsh/terminfo
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
-source $ZSH/oh-my-zsh.sh
-[[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
-
-autoload -U compinit promptinit
-compinit
-# }}}
-
-# {{{tmux
-which tmux > /dev/null
-if [[ $? -eq 0  ]]; then
-	case $- in *i*)
-		[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
-	esac
-fi
-export TERM=xterm-256color
-# }}}"
-
-ssh-add -l >/dev/null 
-if [[ $? -ne 0 ]]; then
-    if [[  -d "${HOME}/.ssh/" ]]; then
-        file_lst=$(find ${HOME}/.ssh/ -name "*.pub")
-        for i in ${file_lst}; do
-            ssh-add ${i%.pub}
-        done
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    else
+        echo
     fi
 fi
 
-# vim: set fdm=marker foldlevel=0:
+# Then, source plugins and add commands to $PATH
+zplug load
+
+
+#####################################################################
+# environment
+#####################################################################
+
+export EDITOR=vim
+export LANG=en_US.UTF-8
+
+# Better umask
+umask 022
+
+WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+
+# Print core files?
+#unlimit
+#limit core 0
+#limit -s
+#limit coredumpsize  0
+
+# improved less option
+export LESS='--tabs=4 --no-init --LONG-PROMPT --ignore-case --quit-if-one-screen --RAW-CONTROL-CHARS'
+
+
+#####################################################################
+# completions
+#####################################################################
+
+# Enable completions
+if [ -d ~/.zsh/comp ]; then
+    fpath=(~/.zsh/comp $fpath)
+    autoload -U ~/.zsh/comp/*(:t)
+fi
+
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*:messages' format '%d'
+zstyle ':completion:*:descriptions' format '%d'
+zstyle ':completion:*:options' verbose yes
+zstyle ':completion:*:values' verbose yes
+zstyle ':completion:*:options' prefix-needed yes
+# Use cache completion
+# apt-get, dpkg (Debian), rpm (Redhat), urpmi (Mandrake), perl -M,
+# bogofilter (zsh 4.2.1 >=), fink, mac_apps...
+zstyle ':completion:*' use-cache true
+zstyle ':completion:*:default' menu select=1
+zstyle ':completion:*' matcher-list \
+    '' \
+    'm:{a-z}={A-Z}' \
+    'l:|=* r:|[.,_-]=* r:|=* m:{a-z}={A-Z}'
+# sudo completions
+zstyle ':completion:*:sudo:*' command-path /usr/local/sbin /usr/local/bin \
+    /usr/sbin /usr/bin /sbin /bin /usr/X11R6/bin
+zstyle ':completion:*' menu select
+zstyle ':completion:*' keep-prefix
+zstyle ':completion:*' completer _oldlist _complete _match _ignored \
+    _approximate _list _history
+
+autoload -U compinit
+if [ ! -f ~/.zcompdump -o ~/.zshrc -nt ~/.zcompdump ]; then
+    compinit -d ~/.zcompdump
+fi
+
+# Original complete functions
+compdef '_files -g "*.hs"' runhaskell
+compdef _man w3mman
+compdef _tex platex
+
+# cd search path
+cdpath=($HOME)
+
+zstyle ':completion:*:processes' command "ps -u $USER -o pid,stat,%cpu,%mem,cputime,command"
+
+# auto-fu.zsh
+# function zle-line-init () {
+#     auto-fu-init
+# }
+# zle -N zle-line-init
+# zstyle ':completion:*' completer _oldlist _complete
+
+
+#####################################################################
+# colors
+#####################################################################
+
+if [ $TERM = "dumb" ]; then
+    # Disable colors in GVim
+    alias ls="ls -F --show-control-chars"
+    alias la='ls -aF --show-control-chars'
+    alias ll='ls -lF --show-control-chars'
+    alias l.='ls -dF .[a-zA-Z]*'
+else
+    # Color settings for zsh complete candidates
+    alias ls='ls -F --show-control-chars --color=always'
+    alias la='ls -aF --show-control-chars --color=always'
+    alias ll='ls -lF --show-control-chars --color=always'
+    alias l.='ls -dF .[a-zA-Z]* --color=always'
+    export LSCOLORS=ExFxCxdxBxegedabagacad
+    export LS_COLORS='di=01;34:ln=01;35:so=01;32:ex=01;31:bd=46;34:cd=43;34:su=41;30:sg=46;30:tw=42;30:ow=43;30'
+    zstyle ':completion:*' list-colors 'di=;34;1' 'ln=;35;1' 'so=;32;1' 'ex=31;1' 'bd=46;34' 'cd=43;34'
+fi
+
+# use prompt colors feature
+autoload -U colors
+colors
+
+if [ $TERM = "dumb" ]; then
+    # Use simple prompt in GVim
+    PROMPT='%n%# '
+else
+    PROMPT='%{[$[31+$RANDOM % 7]m%}%U%B%n%#'"%b%{[m%}%u "
+
+    if [ ${VIMSHELL_TERM:-""} = "terminal" ] \
+        || [ ${VIMSHELL_TERM:-""} = "" ]; then
+    RPROMPT="%{[33m%}[%35<..<%~]%{[m%}"
+else
+    PROMPT='%{[$[31+$RANDOM % 7]m%}%B%n%#'"%b%{[m%}%u "
+
+    # For test
+    # PROMPT="%{$fg[green]%}%B%~$%b%{${reset_color}%} "
+fi
+fi
+
+if [ -n "${REMOTEHOST}${SSH_CONNECTION}" ] ; then
+    PROMPT="%{[37m%}${HOST%%.*} ${PROMPT}"
+fi
+
+if [ $UID = "0" ]; then
+    PROMPT="%B%{[31m%}%/#%{^[[m%}%b "
+    PROMPT2="%B%{[31m%}%_#%{^[[m%}%b "
+fi
+
+# Multi line prompt
+PROMPT2="%_%% "
+# Spell miss prompt
+SPROMPT="correct> %R -> %r [n,y,a,e]? "
+
+
+#####################################################################
+# options
+######################################################################
+#{{{
+setopt auto_resume
+# Ignore <C-d> logout
+setopt ignore_eof
+# Disable beeps
+setopt no_beep
+# {a-c} -> a b c
+setopt brace_ccl
+# Enable spellcheck
+setopt correct
+# Enable "=command" feature
+setopt equals
+# Disable flow control
+setopt no_flow_control
+# Ignore dups
+setopt hist_ignore_dups
+# Reduce spaces
+setopt hist_reduce_blanks
+# Ignore add history if space
+setopt hist_ignore_space
+# Save time stamp
+setopt extended_history
+# Expand history
+setopt hist_expand
+# Better jobs
+setopt long_list_jobs
+# Enable completion in "--option=arg"
+setopt magic_equal_subst
+# Add "/" if completes directory
+setopt mark_dirs
+# Disable menu complete for vimshell
+setopt no_menu_complete
+setopt list_rows_first
+# Expand globs when completion
+setopt glob_complete
+# Enable multi io redirection
+setopt multios
+# Can search subdirectory in $PATH
+setopt path_dirs
+# For multi byte
+setopt print_eightbit
+# Print exit value if return code is non-zero
+setopt print_exit_value
+setopt pushd_ignore_dups
+setopt pushd_silent
+# Short statements in for, repeat, select, if, function
+setopt short_loops
+# Ignore history (fc -l) command in history
+setopt hist_no_store
+setopt transient_rprompt
+unsetopt promptcr
+setopt hash_cmds
+setopt numeric_glob_sort
+# Enable comment string
+setopt interactive_comments
+# Improve rm *
+setopt rm_star_wait
+# Enable extended glob
+setopt extended_glob
+# Note: It is a lot of errors in script
+# setopt no_unset
+# Prompt substitution
+setopt prompt_subst
+if [[ ${VIMSHELL_TERM:-""} != "" ]]; then
+    setopt no_always_last_prompt
+else
+    setopt always_last_prompt
+fi
+# List completion
+setopt auto_list
+setopt auto_param_slash
+setopt auto_param_keys
+# List like "ls -F"
+setopt list_types
+# Compact completion
+setopt list_packed
+setopt auto_cd
+setopt auto_pushd
+setopt pushd_minus
+setopt pushd_ignore_dups
+# Check original command in alias completion
+setopt complete_aliases
+unsetopt hist_verify
+# }}}
+
+#####################################################################
+# alias
+######################################################################
+# Global aliases {{{
+alias -g A="| awk"
+alias -g G="| grep"
+alias -g GV="| grep -v"
+alias -g H="| head"
+alias -g L="| $PAGER"
+alias -g P=' --help | less'
+alias -g R="| ruby -e"
+alias -g S="| sed"
+alias -g T="| tail"
+alias -g V="| vim -R -"
+alias -g U=' --help | head'
+alias -g W="| wc"
+# }}}
+
+# Suffix aliases {{{
+alias -s zip=zipinfo
+alias -s tgz=gzcat
+alias -s gz=gzcat
+alias -s tbz=bzcat
+alias -s bz2=bzcat
+alias -s java=vim
+alias -s c=vim
+alias -s h=vim
+alias -s C=vim
+alias -s cpp=vim
+alias -s txt=vim
+alias -s xml=vim
+alias -s html=opera
+alias -s xhtml=opera
+alias -s gif=display
+alias -s jpg=display
+alias -s jpeg=display
+alias -s png=display
+alias -s bmp=display
+alias -s mp3=amarok
+alias -s m4a=amarok
+alias -s ogg=amarok
+# }}}
+
+# Improve lv
+alias lv='lv -c -T8192'
+
+# Better mv, cp, mkdir
+alias mv='nocorrect mv'
+alias cp='nocorrect cp'
+alias mkdir='nocorrect mkdir'
+
+# emacs no window
+alias emacsnw="env TERM=xterm-256color emacs -nw"
+
+# Automatic exec emacs
+alias emacsclient="emacsclient -a emacs"
+
+# Use rlwrap commands
+if [ -x '/usr/bin/rlwrap' -o  -x '/usr/local/bin/rlwrap' ]; then
+    alias irb='rlwrap irb'
+    alias ghci='rlwrap ghci'
+    alias clisp="rlwrap -b '(){}[],#\";| ' clisp"
+    alias gcl="rlwrap -b '(){}[],#\";| ' gcl"
+    alias gosh="rlwrap -b '(){}[],#\";| ' gosh"
+fi
+
+# Move to previous directory
+alias gd='dirs -v; echo -n "select number: "; read newdir; cd -"$newdir"'
+
+# development
+alias py='python'
+alias rb='ruby'
+alias gdb='gdb -silent'
+alias gpp='g++'
+
+# Improve du, df
+alias du="du -h"
+alias df="df -h"
+
+# Improve od for hexdump
+alias od='od -Ax -tx1z'
+alias hexdump='hexdump -C'
+alias hexd=hexdump
+
+# Better where
+alias where="command -v"
+
+# Better jobs
+alias j="jobs -l"
+
+alias vim='nvim'
+alias termite='termite --exec=zsh'
+alias lock='i3exit lock'
+
+
+#####################################################################
+# keybinds
+######################################################################
+
+# emacs keybinds
+bindkey -e
+
+# History completion
+# autoload history-search-end
+# zle -N history-beginning-search-backward-end history-search-end
+# zle -N history-beginning-search-forward-end history-search-end
+# bindkey "^p" history-beginning-search-backward-end
+# bindkey "^n" history-beginning-search-forward-end
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
+
+# Like bash
+bindkey "^u" backward-kill-line
+
+
+#####################################################################
+# functions
+######################################################################
+
+# Set environment variables easily
+setenv () { export $1="$@[2,-1]" }
+
+#-------------------------------------------------------
+# Print all histories
+function history-all { history -E 1 }
+
+#-------------------------------------------------------
+# File encode conversion
+euc() {
+    for i in $@; do;
+        nkf -e -Lu $i >! /tmp/euc.$$ # -Lu : New line is LF
+        mv -f /tmp/euc.$$ $i
+    done;
+}
+sjis() {
+    for i in $@; do;
+        nkf -s -Lw $i >! /tmp/euc.$$ # -Lw : New line is CRLF
+        mv -f /tmp/euc.$$ $i
+    done;
+}
+
+r() {
+    source ~/.zshrc
+    if [ -d ~/.zsh/comp ]; then
+        # Reload complete functions
+        local f
+        f=(~/.zsh/comp/*(.))
+        unfunction $f:t 2> /dev/null
+        autoload -U $f:t
+    fi
+}
+
+
+#####################################################################
+# others
+######################################################################
+
+# Improve terminal title
+case "${TERM}" in
+    kterm*|xterm*|vt100)
+        precmd() {
+            echo -ne "\033]0;${USER}@${HOST%%.*}:${PWD}\007"
+        }
+        ;;
+esac
+
+# Share zsh histories
+HISTFILE=$HOME/.zsh-history
+HISTSIZE=10000
+SAVEHIST=50000
+setopt inc_append_history
+setopt share_history
+
+# Enable math functions
+zmodload zsh/mathfunc
+
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
