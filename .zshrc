@@ -6,61 +6,88 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="mortalscumbag"
+# for faster loading,we use zsh buildin command zcompile
+# to compile the .zshrc
+if [ ! -f ~/.zshrc.zwc -o ~/.zshrc -nt ~/.zshrc.zwc ]; then
+    zcompile ~/.zshrc
+fi
 
+# environment {{{
+
+export EDITOR=vim
+export LANG=en_US.UTF-8
+
+# Better umask
+umask 022
+
+WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+
+# Print core files?
+#unlimit
+#limit core 0
+#limit -s
+#limit coredumpsize  0
+
+# improved less option
+export LESS='--tabs=4 --no-init --LONG-PROMPT --ignore-case --quit-if-one-screen --RAW-CONTROL-CHARS'
+
+export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
+export SVN_EDITOR=vim
+export MINICOM='-m -c on' 
 
 OS=$(uname)
 
 if [[ ${OS} == "Linux" ]]; then
-	alias locate='locate -r'  #regular expression support
-	alias ls='ls --color=auto'
-	alias ll='ls -ahl'
-	alias open='xdg-open'
-	alias la='ls -A'
-	alias gvim='gvim 2>/dev/null'
 	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin/nfsroot/arm-linux-gdb/bin:/opt/CodeSourcery/Sourcery_G++_Lite/bin:/opt/Clang/bin
 elif [[ ${OS} == "Darwin" ]]; then
-	alias locate="locate"  #regular expression support
 	alias gvim=mvim
 	# instead of coreutils 
 	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 fi
 
-which nvim > /dev/null
-if [[ $? -eq 0 ]]; then
-	#alias nvim='nvim -u ~/.nvimrc'
-	alias nvim="stty stop '' -ixoff ; nvim"
-	# `Frozing' tty, so after any command terminal settings will be restored
-	ttyctl -f
-	# ctrl-s in nvim{{{
-	# bash
-	# No ttyctl, so we need to save and then restore terminal settings
-	nvim()
-	{
-		local STTYOPTS="$(stty --save)"
-		stty stop '' -ixoff
-		command nvim "$@"
-		stty "$STTYOPTS"
-	}
-	# }}}
-fi
-#{{{vim()
-alias vim="stty stop '' -ixoff ; vim"
-vim()
-{
-	local STTYOPTS="$(stty --save)"
-	stty stop '' -ixoff
-	command vim "$@"
-	stty "$STTYOPTS"
-}
-#}}}
+# }}}
 
-#{{{ aliases
+# aliases {{{
+# Global aliases {{{
+alias -g A="| awk"
+alias -g G="| grep"
+alias -g GV="| grep -v"
+alias -g H="| head"
+alias -g L="| $PAGER"
+alias -g P=' --help | less'
+alias -g R="| ruby -e"
+alias -g S="| sed"
+alias -g T="| tail"
+alias -g V="| vim -R -"
+alias -g U=' --help | head'
+alias -g W="| wc"
+# }}}
+# you can type filename with following subffix and zsh will open it with default specifial command
+# Suffix aliases {{{
+alias -s zip=zipinfo
+alias -s tgz=gzcat
+alias -s gz=gzcat
+alias -s tbz=bzcat
+alias -s bz2=bzcat
+alias -s java=vim
+alias -s c=vim
+alias -s h=vim
+alias -s C=vim
+alias -s cpp=vim
+alias -s txt=vim
+alias -s xml=vim
+alias -s html=chrome
+alias -s xhtml=chrome
+alias -s gif=display
+alias -s jpg=display
+alias -s jpeg=display
+alias -s png=display
+alias -s bmp=display
+alias -s mp3=amarok
+alias -s m4a=amarok
+alias -s ogg=amarok
+# }}}
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias grep='grep --color=auto'
@@ -81,9 +108,38 @@ alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
 alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
 alias vi="vim -u NONE"
+alias locate='locate -r'  #regular expression support
+alias open='xdg-open'
+alias gvim='gvim 2>/dev/null'
+alias vim="stty stop '' -ixoff ; vim"
 #}}}
 
-# {{{shell basic setting
+# keybinds {{{
+
+# emacs keybinds
+bindkey -e
+
+# History completion
+# autoload history-search-end
+# zle -N history-beginning-search-backward-end history-search-end
+# zle -N history-beginning-search-forward-end history-search-end
+# bindkey "^p" history-beginning-search-backward-end
+# bindkey "^n" history-beginning-search-forward-end
+bindkey -M emacs '^P' history-substring-search-up
+bindkey -M emacs '^N' history-substring-search-down
+
+# Like bash
+bindkey "^u" backward-kill-line
+
+# }}}
+
+# oh-my-zsh setting {{{
+
+# Set name of the theme to load.
+# Look in ~/.oh-my-zsh/themes/
+# Optionally, if you set this to "random", it'll load a random theme each
+# time that oh-my-zsh is loaded.
+ZSH_THEME="mortalscumbag"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -111,13 +167,6 @@ export UPDATE_ZSH_DAYS=30
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-export MGLS_LICENSE_FILE="C:\\flexlm\\license.dat"
-export SVN_EDITOR=vim
-export MINICOM='-m -c on' 
-
-
-# }}}
-
 # {{{plugin setting
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -134,7 +183,32 @@ source $ZSH/oh-my-zsh.sh
 autoload -U compinit promptinit
 compinit
 # }}}
+# }}}
 
+# Functions {{{
+
+# source config
+r() {
+    source ~/.zshrc
+    if [ -d ~/.zsh/comp ]; then
+        # Reload complete functions
+        local f
+        f=(~/.zsh/comp/*(.))
+        unfunction $f:t 2> /dev/null
+        autoload -U $f:t
+    fi
+}
+
+vim()
+{
+	local STTYOPTS="$(stty --save)"
+	stty stop '' -ixoff
+	command vim "$@"
+	stty "$STTYOPTS"
+}
+# }}}
+
+# other {{{
 # {{{tmux
 which tmux > /dev/null
 if [[ $? -eq 0  ]]; then
@@ -154,5 +228,7 @@ if [[ $? -ne 0 ]]; then
         done
     fi
 fi
+
+# }}}
 
 # vim: set fdm=marker foldlevel=0:
