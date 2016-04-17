@@ -132,6 +132,10 @@ ${install_cmd} ${cur_dir}/.zshrc ${HOME}
 ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
+mkdir -p ${HOME}/.config/nvim
+ln -sf ${HOME}/.vim ${HOME}/.config/nvim
+${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.vimrc
+${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.config/nvim/init.vim
 
 echo -e "\n"
 read -n1 -p "Install desktop files(y/n)" ans
