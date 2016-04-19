@@ -175,8 +175,6 @@ plugins=(git OSX autojump history-substring-search command-not-found \
 	 svn web-search zshmarks ssh-agent github git-flow sudo ) 
 
 zmodload zsh/terminfo
-bindkey "$terminfo[kcuu1]" history-substring-search-up
-bindkey "$terminfo[kcud1]" history-substring-search-down
 source $ZSH/oh-my-zsh.sh
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
 
