@@ -1,0 +1,10 @@
+Host github.com
+    HostName github.com
+    User tracyone
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/github_id_rsa
+Host bitbucket.org
+    HostName bitbucket.org
+    User tracyone
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/bitbucket_id_rsa
