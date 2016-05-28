@@ -133,7 +133,9 @@ ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
 mkdir -p ${HOME}/.config/nvim
+mkdir -p ${HOME}/.emacs.d
 ln -sf ${HOME}/.vim ${HOME}/.config/nvim
+${install_cmd} ${cur_dir}/init.el ${HOME}/.emacs.d/init.el
 ${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.vimrc
 ${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.config/nvim/init.vim
 
