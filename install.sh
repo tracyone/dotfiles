@@ -138,6 +138,7 @@ ln -sf ${HOME}/.vim ${HOME}/.config/nvim
 ${install_cmd} ${cur_dir}/init.el ${HOME}/.emacs.d/init.el
 ${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.vimrc
 ${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.config/nvim/init.vim
+${install_cmd} ${cur_dir}/ssh_config ${HOME}/.ssh/config
 
 echo -e "\n"
 read -n1 -p "Install desktop files(y/n)" ans
