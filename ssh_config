@@ -8,3 +8,8 @@ Host bitbucket.org
     User tracyone
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/bitbucket_id_rsa
+Host gitlab.edukit.com
+    HostName http://192.168.4.250:8000
+    User zxb 
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/gitlab_id_rsa
