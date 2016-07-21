@@ -55,8 +55,8 @@ j <书签名>
 * **prefix**按键是**Ctrl-a**。
 * **prefix +  -**是水平分屏
 * **prefix +  \**是垂直分屏
-* **prefix + m**是关闭鼠标功能
-* **prefix + M**是开启鼠标功能，默认开启。
+* **prefix + m**是开启鼠标功能
+* **prefix + M**是关闭鼠标功能，默认关闭。
 * **prefix + Ctrl-K**是关闭当前session并跳到下一个。
 * 按**prefix + [**进入复制模式的时候，是使用vi模式的快捷键进行选中、复制、搜索和移动。
 * **prefix +  r**重新加载tmux配置文件
