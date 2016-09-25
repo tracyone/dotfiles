@@ -42,6 +42,7 @@ if [[ ${OS} == "Linux" ]]; then
 	alias open='xdg-open'
 elif [[ ${OS} == "Darwin" ]]; then
 	alias gvim=mvim
+	export EVENT_NOKQUEUE=1
 	# instead of coreutils 
 	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
