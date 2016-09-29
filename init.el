@@ -1,4 +1,5 @@
 
+
 ;; Added by Package.el.  This must come before configurations of
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
@@ -10,7 +11,8 @@
 (when (>= emacs-major-version 24)
   (require 'package)
   (package-initialize)
-  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+  (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
   )
 
 (require 'cl)
@@ -22,6 +24,7 @@
 			    smex
 			    swiper
 			    counsel
+			    popwin
                             ) "Default packages" )
 
 (defun tracyone/packages-installed-p ()
@@ -51,8 +54,9 @@
 (global-company-mode t)
 
 ;; 细条状的光标
-(setq-default cursor-type 'bar)
- (setq make-backup-files nil)
+(setq-default cursor-type 'box)
+(setq make-backup-files nil)
+
 
 
 ;;支持最近文件
