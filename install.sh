@@ -134,11 +134,12 @@ mkdir -p ${HOME}/.emacs.d
 mkdir -p ${HOME}/.ssh
 ln -sf ${HOME}/.vim ${HOME}/.config/nvim
 
+cd t-macs && ./install.sh && cd -
+
 ${install_cmd} ${cur_dir}/.zshrc ${HOME}
 ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
-${install_cmd} ${cur_dir}/init.el ${HOME}/.emacs.d/init.el
 ${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.vimrc
 ${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.config/nvim/init.vim
 ${install_cmd} ${cur_dir}/ssh_config ${HOME}/.ssh/config
