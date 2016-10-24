@@ -112,7 +112,7 @@ alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
 alias vi="vim -u NONE"
 alias locate='locate -r'  #regular expression support
 alias gvim='gvim 2>/dev/null'
-alias vim=nvim
+export MANPAGER="vim -c 'set ft=neoman' -"
 #}}}
 
 # keybinds {{{
