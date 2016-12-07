@@ -153,6 +153,7 @@ echo -e "\n"
 if [[ $OS == "Linux" ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
 fi
+rm -rf temp
 echo -e "\n\nInstall Finish..."
 
 # vim: set fdm=marker foldlevel=0 foldmarker&:
