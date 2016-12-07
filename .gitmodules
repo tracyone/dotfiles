@@ -1,6 +1,6 @@
-[submodule "vim"]
+[submodule "t-vim"]
 	path = vim
-	url = https://github.com/tracyone/t-vim
+	url = https://github.com/tracyone/t-vim.git
 [submodule "t-macs"]
 	path = t-macs
 	url = https://github.com/tracyone/t-macs.git
