@@ -1,5 +1,5 @@
 [submodule "t-vim"]
-	path = vim
+	path = t-vim
 	url = https://github.com/tracyone/t-vim.git
 [submodule "t-macs"]
 	path = t-macs
