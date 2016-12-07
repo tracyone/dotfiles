@@ -28,12 +28,6 @@ do
 done
 }
 
-# clean screen
-function clear_screen()
-{
-	# clear screen
-	echo -e "\e[2J\e[1;1H"
-}
 
 # accept one argument:command line programs name to be tested
 function configure()
@@ -60,7 +54,6 @@ echo -e "\nInstall start ...\n"
 echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
 	configure "apt-get cp which mv "
-	clear_screen
 	AptInstall "zsh git xclip autoconf automake curl wget git-core"
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
 	which tmux > /dev/null
@@ -90,11 +83,9 @@ if [[ $OS == "Linux" ]] ;then
 	fi
 elif [[ $OS == 'Darwin' ]]; then
 	configure "brew cp which mv "
-	clear_screen
 	brew install zsh tmux git
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	configure "pacman cp which mv "
-	clear_screen
 	pacman -S zsh tmux git 
 fi
 
@@ -120,33 +111,46 @@ if [[ ! -d ${HOME}/.tmux/plugins/tpm ]]; then
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo -e "\nInstall tpm successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
 fi
 
-echo -e "\n"
-read -n1 -p "Copy  or Link(soft link) the dotfiles ? (c|l)" ans
+if [[ ! -d ${HOME}/.tmux/plugins/tmux-resurrect ]]; then
+	echo -e "\nInstall tmux plugin tmux-resurrect ...\n"
+	git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect && echo -e "\nInstall tmux-resurrect successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
+fi
+
+if [[ ! -d ${HOME}/.tmux/plugins/tmux-copycat ]]; then
+	echo -e "\nInstall tmux plugin tmux-copycat ...\n"
+	git clone https://github.com/tmux-plugins/tmux-copycat ~/.tmux/plugins/tmux-copycat && echo -e "\nInstall tmux-copycat successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
+fi
+
+if [[ $# -eq 1 ]]; then
+	ans=$1
+else
+	echo -e "\n"
+	read -n1 -p "Copy  or Link(soft link) the dotfiles ? (c|l)" ans
+fi
+
 if [[ ${ans} =~ [Cc] ]]; then
 	install_cmd="cp -a"
-fi
-if [[ ${ans} =~ [lL] ]]; then
-	install_cmd="ln -sf"
+
+elif [[ ${ans} =~ [lL] ]]; then
+	install_cmd="ln -sFf"
+else
+	echo -e "\nWrong argument\n";exit 3
+
 fi
 
-mkdir -p ${HOME}/.config/nvim
-mkdir -p ${HOME}/.emacs.d
 mkdir -p ${HOME}/.ssh
-ln -sf ${HOME}/.vim ${HOME}/.config/nvim
 
 cd t-macs && ./install.sh && cd -
+cd t-vim && ./install.sh 1 && cd -
 
-${install_cmd} ${cur_dir}/.zshrc ${HOME}
-${install_cmd} ${cur_dir}/.tmux.conf ${HOME}
-${install_cmd} ${cur_dir}/.gitconfig ${HOME}
+${install_cmd} ${cur_dir}/.zshrc ${HOME}/.zshrc
+${install_cmd} ${cur_dir}/.tmux.conf ${HOME}/.tmux.conf
+${install_cmd} ${cur_dir}/.gitconfig ${HOME}/.gitconfig
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
-${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.vimrc
-${install_cmd} ${cur_dir}/vim/vimrc ${HOME}/.config/nvim/init.vim
 ${install_cmd} ${cur_dir}/ssh_config ${HOME}/.ssh/config
 
 echo -e "\n"
-read -n1 -p "Install desktop files(y/n)" ans
-if [[ $ans =~ [yY] ]]; then
+if [[ $OS == "Linux" ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
 fi
 echo -e "\n\nInstall Finish..."
