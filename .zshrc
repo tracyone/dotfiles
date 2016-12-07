@@ -50,71 +50,6 @@ fi
 
 # }}}
 
-# aliases {{{
-# Global aliases {{{
-alias -g A="| awk"
-alias -g G="| grep"
-alias -g GV="| grep -v"
-alias -g H="| head"
-alias -g L="| $PAGER"
-alias -g P=' --help | less'
-alias -g R="| ruby -e"
-alias -g S="| sed"
-alias -g T="| tail"
-alias -g V="| vim -R -"
-alias -g U=' --help | head'
-alias -g W="| wc"
-# }}}
-# you can type filename with following subffix and zsh will open it with default specifial command
-# Suffix aliases {{{
-alias -s zip=zipinfo
-alias -s tgz=gzcat
-alias -s gz=gzcat
-alias -s tbz=bzcat
-alias -s bz2=bzcat
-alias -s java=vim
-alias -s c=vim
-alias -s h=vim
-alias -s C=vim
-alias -s cpp=vim
-alias -s txt=vim
-alias -s xml=vim
-alias -s html=chrome
-alias -s xhtml=chrome
-alias -s gif=display
-alias -s jpg=display
-alias -s jpeg=display
-alias -s png=display
-alias -s bmp=display
-alias -s mp3=amarok
-alias -s m4a=amarok
-alias -s ogg=amarok
-# }}}
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-alias l='ls -CF'
-alias c='clear'
-alias cls='clear'
-alias o='nautilus'
-alias -s gz='tar -xzvf'
-alias -s bz2='tar -xjvf'
-alias -s zip='unzip'
-alias gtab='gvim --remote-tab-silent '
-alias wps='wps 2>/dev/null'
-alias j='jump'
-alias b='bookmark'
-alias evince='evince 2>/dev/null'
-alias et='et 2>/dev/null'
-alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
-alias vi="vim -u NONE"
-alias locate='locate -r'  #regular expression support
-alias gvim='gvim 2>/dev/null'
-export MANPAGER="vim -c 'set ft=neoman' -"
-#}}}
-
 # keybinds {{{
 
 # emacs keybinds
@@ -183,6 +118,72 @@ autoload -U compinit promptinit
 compinit
 # }}}
 # }}}
+
+# aliases {{{
+# Global aliases {{{
+alias -g A="| awk"
+alias -g G="| grep"
+alias -g GV="| grep -v"
+alias -g H="| head"
+alias -g L="| $PAGER"
+alias -g P=' --help | less'
+alias -g R="| ruby -e"
+alias -g S="| sed"
+alias -g T="| tail"
+alias -g V="| vim -R -"
+alias -g U=' --help | head'
+alias -g W="| wc"
+# }}}
+# you can type filename with following subffix and zsh will open it with default specifial command
+# Suffix aliases {{{
+alias -s zip=zipinfo
+alias -s tgz=gzcat
+alias -s gz=gzcat
+alias -s tbz=bzcat
+alias -s bz2=bzcat
+alias -s java=vim
+alias -s c=vim
+alias -s h=vim
+alias -s C=vim
+alias -s cpp=vim
+alias -s txt=vim
+alias -s xml=vim
+alias -s html=chrome
+alias -s xhtml=chrome
+alias -s gif=display
+alias -s jpg=display
+alias -s jpeg=display
+alias -s png=display
+alias -s bmp=display
+alias -s mp3=amarok
+alias -s m4a=amarok
+alias -s ogg=amarok
+# }}}
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias l='ls -CF'
+alias ll='ls -alh'
+alias c='clear'
+alias cls='clear'
+alias o='nautilus'
+alias -s gz='tar -xzvf'
+alias -s bz2='tar -xjvf'
+alias -s zip='unzip'
+alias gtab='gvim --remote-tab-silent '
+alias wps='wps 2>/dev/null'
+alias j='jump'
+alias b='bookmark'
+alias evince='evince 2>/dev/null'
+alias et='et 2>/dev/null'
+alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
+alias vi="vim -u NONE"
+alias locate='locate -r'  #regular expression support
+alias gvim='gvim 2>/dev/null'
+export MANPAGER="vim -c 'set ft=neoman' -"
+#}}}
 
 # Functions {{{
 
