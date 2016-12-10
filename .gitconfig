@@ -21,6 +21,7 @@
 	co = checkout
 	ci = commit
 	br = branch
+	sb = branch -a
 	mt = mergetool
 	d = difftool
 	dst = diff --staged
