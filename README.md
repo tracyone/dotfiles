@@ -6,13 +6,11 @@
 
 `10-monitor.conf`:当外接vga或者HDMI时，对应屏幕的分辨率信息，请将此文件放置于`/usr/share/X11/xorg.conf.d/`之下
 
-`compiz.profile`:compiz的配置文件
-
 `desktop_files`:文件夹放一些第三方软件所编写的desktop文件。
 
-`.gitconfig`:我的git配置。
+`.gitconfig`:我的git配置
 
-`.tmux.conf`:我的tmux配置，强烈推荐。
+`.tmux.conf`:我的tmux配置(tmux 2.1或者以上)
 
 
 # 安装
@@ -20,7 +18,7 @@
 请到[relase链接](https://github.com/tracyone/dotfiles/releases)下载最新稳定版本，或者通过下面的命令来获取最新稳定版本:
 
 ```
-git clone https://github.com/tracyone/dotfiles && cd dotfiles && git checkout $(git describe --tags)
+git clone https://github.com/tracyone/dotfiles && cd dotfiles && git checkout $(git describe --tags `git rev-list --tags --max-count=1`)
 ```
 
 然后在dotfiles文件夹下执行：

@@ -148,6 +148,7 @@ ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}/.tmux.conf
 ${install_cmd} ${cur_dir}/.gitconfig ${HOME}/.gitconfig
 ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
 ${install_cmd} ${cur_dir}/ssh_config ${HOME}/.ssh/config
+${install_cmd} ${cur_dir}/.tigrc ${HOME}/.tigrc
 
 echo -e "\n"
 if [[ $OS == "Linux" ]]; then
