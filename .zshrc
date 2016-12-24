@@ -181,6 +181,7 @@ alias evince='evince 2>/dev/null'
 alias et='et 2>/dev/null'
 alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
 alias vi="vim -u NONE"
+alias v="vim" # life saver...
 alias locate='locate -r'  #regular expression support
 alias gvim='gvim 2>/dev/null'
 export MANPAGER="vim -c 'set ft=neoman' -"
