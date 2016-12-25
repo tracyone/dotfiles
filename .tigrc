@@ -2,15 +2,34 @@
 # Author      : tracyone<tracyone@live.cn>
 # Date        : 2016-12-25 14:18
 
+# variable setting
+
+set commit-order = default
+set mouse = yes
+set main-options = -n 1000
+
 # vim-fugitive like keybinding in status-view
 bind status - status-update
 bind status U status-revert
+bind status c none
+bind status cc !git commit
+bind status D !git difftool
+bind status ca !git commit --amend
+
+# vim-like keybinding
+bind generic g  none
+bind generic gg move-first-line
+bind main    G  none
+bind generic G  move-last-line
+bind generic <C-f> move-page-down
+bind generic <C-b> move-page-up
 
 # User-defined external command to amend the last commit
 bind status + !git commit --amend
 
 # User-defined internal command that reloads ~/.tigrc
 bind generic S :source ~/.tigrc
+
 
 
 # limit the max load log history
