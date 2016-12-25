@@ -1,0 +1,18 @@
+# Description : config for tig
+# Author      : tracyone<tracyone@live.cn>
+# Date        : 2016-12-25 14:18
+
+# vim-fugitive like keybinding in status-view
+bind status - status-update
+bind status U status-revert
+
+# User-defined external command to amend the last commit
+bind status + !git commit --amend
+
+# User-defined internal command that reloads ~/.tigrc
+bind generic S :source ~/.tigrc
+
+
+# limit the max load log history
+
+# vim: set ft=config:
