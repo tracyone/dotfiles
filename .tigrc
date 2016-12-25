@@ -24,6 +24,8 @@ bind generic G  move-last-line
 bind generic <C-f> move-page-down
 bind generic <C-b> move-page-up
 
+bind status gp !git push %(remote) %(branch)
+
 # User-defined external command to amend the last commit
 bind status + !git commit --amend
 
