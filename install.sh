@@ -58,28 +58,13 @@ if [[ $OS == "Linux" ]] ;then
 	sudo cp 10-monitor.conf /usr/share/X11/xorg.conf.d/
 	which tmux > /dev/null
 	if [[ $? -ne 0 ]]; then
-		lsb_release -a | grep 10.04
-		if [[  $? -eq 0 ]]; then
-			echo "OS is Ubuntu 10.04"
-			if [[ ! -d "./temp/libevent" ]]; then
-				echo "get libevent 2.0 from internet then build and install"
-				cd temp
-				curl -fLo libevent.tar.gz https://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz
-				tar xvf libevent.tar.gz
-				mv libevent-* libevent && cd libevent && ./configure --prefix=/usr && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
-				echo "get latest tmux from internet then build and install"
-				git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
-			fi
-			cd ${cur_dir}
-		else
-			if [[ ! -d "./temp/tmux" ]]; then
-				cd temp
-				AptInstall libevent-dev libcurses-ocaml-dev
-				echo "get latest tmux from internet then build and install"
-				git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
-			fi
-			cd ${cur_dir}
+		if [[ ! -d "./temp/tmux" ]]; then
+			cd temp
+			AptInstall libevent-dev libcurses-ocaml-dev
+			echo "get latest tmux from internet then build and install"
+			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
 		fi
+		cd ${cur_dir}
 	fi
 elif [[ $OS == 'Darwin' ]]; then
 	configure "brew cp which mv "
