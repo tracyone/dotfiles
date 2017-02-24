@@ -135,6 +135,11 @@ ${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
 ${install_cmd} ${cur_dir}/ssh_config ${HOME}/.ssh/config
 ${install_cmd} ${cur_dir}/.tigrc ${HOME}/.tigrc
 
+${install_cmd} ${cur_dir}/.bashrc ${HOME}/.bashrc
+${install_cmd} ${cur_dir}/.bash_prompt ${HOME}/.bash_prompt
+${install_cmd} ${cur_dir}/.bash_profile ${HOME}/.bash_profile
+${install_cmd} ${cur_dir}/.aliases ${HOME}/.aliases
+
 echo -e "\n"
 if [[ $OS == "Linux" ]]; then
 	sudo cp -a ./desktop_files/*.desktop /usr/share/applications/
