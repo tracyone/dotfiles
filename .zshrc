@@ -184,7 +184,7 @@ alias vi="vim -u NONE"
 alias v="vim" # life saver...
 alias locate='locate -r'  #regular expression support
 alias gvim='gvim 2>/dev/null'
-alias man='function Vman() {vim -c "Man $1 $2" -c "silent only"};Vman'
+export MANPAGER="vim -c MANPAGER -"
 #}}}
 
 # Functions {{{
