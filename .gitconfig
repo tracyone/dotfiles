@@ -27,6 +27,7 @@
 	dst = diff --staged
 	sub = submodule
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	c1 = clone --depth=1
 [mergetool]
 	prompt = false
 [web]
