@@ -185,6 +185,12 @@ alias v="vim" # life saver...
 alias locate='locate -r'  #regular expression support
 alias gvim='gvim 2>/dev/null'
 export MANPAGER="vim -c MANPAGER -"
+if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
+  export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
+else
+  export VISUAL="nvim"
+fi
+alias nv="$VISUAL"
 #}}}
 
 # Functions {{{
