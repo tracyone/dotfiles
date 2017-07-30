@@ -68,6 +68,6 @@ j <书签名>
 
 **截图**
 
-![zsh和tmux的结合](https://cloud.githubusercontent.com/assets/4246425/11912547/06507e76-a67c-11e5-9a46-946c1aa9b545.png)
+![zsh和tmux的结合](https://user-images.githubusercontent.com/4246425/28752015-e6c8080c-7547-11e7-9d51-f09c4d00f34e.png)
 
 由于有了vim+tmux+zsh，所以用什么终端对我来说差别不大，所以我用的是Mac OSX自带terminal，主题的话使用solarized，请在这个链接中找[solarized](https://github.com/altercation/solarized)，里面有各种工具的solarized主题配置文件，包括Mac自带终端，iterm2，vim，gnome终端等等。
