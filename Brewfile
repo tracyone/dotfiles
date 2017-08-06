@@ -68,7 +68,7 @@ brew "libyaml"
 brew "lua"
 brew "make"
 brew "unibilium"
-brew "neovim"
+brew "neovim", args: ["HEAD"]
 brew "spdylay"
 brew "nghttp2"
 brew "node"
