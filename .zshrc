@@ -190,7 +190,7 @@ if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
 else
   export VISUAL="nvim"
 fi
-alias nv="$VISUAL"
+alias n="$VISUAL"
 #}}}
 
 # Functions {{{
