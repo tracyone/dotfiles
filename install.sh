@@ -67,8 +67,9 @@ if [[ $OS == "Linux" ]] ;then
 		cd ${cur_dir}
 	fi
 elif [[ $OS == 'Darwin' ]]; then
-	configure "brew cp which mv "
-	brew install zsh tmux git
+	configure "ruby curl"
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+	brew bundle
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	configure "pacman cp which mv "
 	pacman -S zsh tmux git 
@@ -101,11 +102,6 @@ if [[ ! -d ${HOME}/.tmux/plugins/tmux-resurrect ]]; then
 	git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect && echo -e "\nInstall tmux-resurrect successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
 fi
 
-if [[ ! -d ${HOME}/.tmux/plugins/tmux-copycat ]]; then
-	echo -e "\nInstall tmux plugin tmux-copycat ...\n"
-	git clone https://github.com/tmux-plugins/tmux-copycat ~/.tmux/plugins/tmux-copycat && echo -e "\nInstall tmux-copycat successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
-fi
-
 if [[ $# -eq 1 ]]; then
 	ans=$1
 else
@@ -126,7 +122,8 @@ fi
 mkdir -p ${HOME}/.ssh
 
 cd t-macs && ./install.sh && cd -
-cd t-vim && ./install.sh 1 && cd -
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/tracyone/t-vim/master/install.sh)"
+
 
 ${install_cmd} ${cur_dir}/.zshrc ${HOME}/.zshrc
 ${install_cmd} ${cur_dir}/.tmux.conf ${HOME}/.tmux.conf
