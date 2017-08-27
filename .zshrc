@@ -183,7 +183,7 @@ alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
 alias vi="vim -u NONE"
 alias v="vim" # life saver...
 alias locate='locate -r'  #regular expression support
-alias gvim='gvim 2>/dev/null'
+alias gvim='gvim --remote-tab-silent 2>/dev/null '
 export MANPAGER="vim -c MANPAGER -"
 if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
   export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
