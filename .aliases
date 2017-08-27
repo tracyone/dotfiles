@@ -11,6 +11,15 @@ alias -- -="cd -"
 # Shortcuts
 alias g="git"
 alias h="history"
+alias gvim='gvim --remote-tab-silent 2>/dev/null '
+alias vi="vim -u NONE"
+alias v="vim" # life saver...
+if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
+  export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
+else
+  export VISUAL="nvim"
+fi
+alias n="$VISUAL"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
