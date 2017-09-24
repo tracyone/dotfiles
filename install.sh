@@ -136,6 +136,7 @@ ${install_cmd} ${cur_dir}/.bashrc ${HOME}/.bashrc
 ${install_cmd} ${cur_dir}/.bash_prompt ${HOME}/.bash_prompt
 ${install_cmd} ${cur_dir}/.bash_profile ${HOME}/.bash_profile
 ${install_cmd} ${cur_dir}/.aliases ${HOME}/.aliases
+${install_cmd} ${cur_dir}/.path ${HOME}/.path
 
 echo -e "\n"
 if [[ $OS == "Linux" ]]; then
