@@ -11,7 +11,6 @@ alias -- -="cd -"
 # Shortcuts
 alias g="git"
 alias h="history"
-alias gvim='gvim --remote-tab-silent 2>/dev/null '
 alias vi="vim -u NONE"
 alias v="vim" # life saver...
 if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
@@ -165,3 +164,37 @@ alias reload="exec $SHELL -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+alias l='ls -CF --color=auto'
+alias ls='ls -G --color=auto'
+alias ll='ls -alh --color=auto'
+alias c='clear'
+alias cls='clear'
+alias o='nautilus'
+alias wps='wps 2>/dev/null'
+alias j='jump'
+alias b='bookmark'
+alias evince='evince 2>/dev/null'
+alias et='et 2>/dev/null'
+alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
+alias vi="vim -u NONE"
+alias v="vim" # life saver...
+alias locate='locate -r'  #regular expression support
+export MANPAGER="vim -c MANPAGER -"
+if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
+  export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
+else
+  export VISUAL="nvim"
+fi
+alias n="$VISUAL"
+
+if [[ ${OS} == "Linux" ]]; then
+    alias open='xdg-open'
+    alias g='gvim --remote-tab-silent 2>/dev/null '
+elif [[ ${OS} == "Darwin" ]]; then
+    alias gvim='/Applications/MacVim.app/Contents/bin/mvim'
+    alias g='/Applications/MacVim.app/Contents/bin/mvim --remote-tab-silent 2>/dev/null'
+fi

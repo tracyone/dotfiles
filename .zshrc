@@ -37,17 +37,6 @@ export MINICOM='-m -c on'
 
 OS=$(uname)
 
-if [[ ${OS} == "Linux" ]]; then
-	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin/nfsroot/arm-linux-gdb/bin:/opt/CodeSourcery/Sourcery_G++_Lite/bin:/opt/Clang/bin::${HOME}/local/bin:/opt/clang/bin
-	alias open='xdg-open'
-elif [[ ${OS} == "Darwin" ]]; then
-	alias gvim=mvim
-	export EVENT_NOKQUEUE=1
-	# instead of coreutils 
-	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
-	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
-fi
-
 # }}}
 
 # keybinds {{{
@@ -158,40 +147,18 @@ alias -s bmp=display
 alias -s mp3=amarok
 alias -s m4a=amarok
 alias -s ogg=amarok
-# }}}
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-alias l='ls -CF --color=auto'
-alias ls='ls -G --color=auto'
-alias ll='ls -alh --color=auto'
-alias c='clear'
-alias cls='clear'
-alias o='nautilus'
 alias -s gz='tar -xzvf'
 alias -s bz2='tar -xjvf'
 alias -s zip='unzip'
-alias gtab='gvim --remote-tab-silent '
-alias wps='wps 2>/dev/null'
-alias j='jump'
-alias b='bookmark'
-alias evince='evince 2>/dev/null'
-alias et='et 2>/dev/null'
-alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
-alias vi="vim -u NONE"
-alias v="vim" # life saver...
-alias locate='locate -r'  #regular expression support
-alias gvim='gvim --remote-tab-silent 2>/dev/null '
-export MANPAGER="vim -c MANPAGER -"
-if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
-  export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
-else
-  export VISUAL="nvim"
-fi
-alias n="$VISUAL"
+# }}}
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 #}}}
+
+for file in ~/.{path,exports,aliases,functions,extra}; do
+	[ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
 
 # Functions {{{
 
