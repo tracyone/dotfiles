@@ -198,4 +198,5 @@ if [[ ${OS} == "Linux" ]]; then
 elif [[ ${OS} == "Darwin" ]]; then
     alias gvim='/Applications/MacVim.app/Contents/bin/mvim'
     alias g='/Applications/MacVim.app/Contents/bin/mvim --remote-tab-silent 2>/dev/null'
+    alias m='/Applications/MacVim.app/Contents/bin/mvim --remote-tab-silent 2>/dev/null'
 fi
