@@ -68,7 +68,11 @@ if [[ $OS == "Linux" ]] ;then
 	fi
 elif [[ $OS == 'Darwin' ]]; then
 	configure "ruby curl"
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    which brew > /dev/null 2>&1
+    if [[ $? -ne 0 ]]; then
+        echo -e "Install homebrew"
+        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    fi
 	brew bundle
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	configure "pacman cp which mv "
