@@ -183,6 +183,7 @@ alias minicom="minicom -C $(date +%Y%m%d%H%M%S).log"
 alias vi="vim -u NONE"
 alias v="vim" # life saver...
 alias locate='locate -r'  #regular expression support
+alias gfw_git='git -c "http.proxy=socks5://127.0.0.1:1080" '
 export MANPAGER="vim -c MANPAGER -"
 if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
   export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
