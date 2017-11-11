@@ -174,13 +174,6 @@ r() {
     fi
 }
 
-vim()
-{
-	local STTYOPTS="$(stty --save)"
-	stty stop '' -ixoff
-	command vim "$@"
-	stty "$STTYOPTS"
-}
 # }}}
 
 # other {{{

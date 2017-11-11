@@ -56,10 +56,3 @@ then
     bind '"\e[A": history-search-backward'
     bind '"\e[B": history-search-forward'
 fi
-vim()
-{
-	local STTYOPTS="$(stty --save)"
-	stty stop '' -ixoff
-	command vim "$@"
-	stty "$STTYOPTS"
-}

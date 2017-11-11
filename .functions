@@ -1,0 +1,29 @@
+# ctrl-s
+vim()
+{
+	local STTYOPTS="$(stty --save)"
+	stty stop '' -ixoff
+	command vim "$@"
+	stty "$STTYOPTS"
+}
+
+# gfw break
+# download file..
+function gfw_curl()
+{
+    if [[ $# < 1 ]]; then
+        echo -e "usage:$0 <url> [path]"
+    fi
+    local url="$1"
+    if [[ $# -eq 2 ]]; then
+        local filename=$2
+    else
+        local filename=$(curl --socks5 127.0.01:1080 -sIL "$url" | sed -r -e 's/^ *Content-Disposition[ \t]*:[ \t]*[^ \t;]+;[ \t]*filename[ \t]*=[ \t]*("(([^"]|\")*)".*|([^; \t\r"]+)(([^;\r]*[^; \t\r]+)*)[ \t]*(;.*|[\r]?)$)/\2\4\5/' -e 't' -e 'd')
+    fi
+    if [[ $filename =~ ^\s*$ ]]; then
+        read -p "filename is empty!Please input one! " filename
+    fi
+    curl --socks5 127.0.01:1080 -o ${filename} -L $1
+}
+
+# vim: set ft=sh:
