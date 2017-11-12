@@ -1,3 +1,4 @@
+#!/bin/bash
 # ctrl-s
 vim()
 {
@@ -21,7 +22,11 @@ function gfw_curl()
         local filename=$(curl --socks5 127.0.01:1080 -sIL "$url" | sed -r -e 's/^ *Content-Disposition[ \t]*:[ \t]*[^ \t;]+;[ \t]*filename[ \t]*=[ \t]*("(([^"]|\")*)".*|([^; \t\r"]+)(([^;\r]*[^; \t\r]+)*)[ \t]*(;.*|[\r]?)$)/\2\4\5/' -e 't' -e 'd')
     fi
     if [[ $filename =~ ^\s*$ ]]; then
-        read -p "filename is empty!Please input one! " filename
+        if [[ -n ${BASH} ]]; then
+            read -p "filename is empty!Please input one! " filename
+        else
+            read  "?filename is empty!Please input one! " filename
+        fi
     fi
     curl --socks5 127.0.01:1080 -o ${filename} -L $1
 }
