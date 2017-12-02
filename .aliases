@@ -11,14 +11,6 @@ alias -- -="cd -"
 # Shortcuts
 alias g="git"
 alias h="history"
-alias vi="vim -u NONE"
-alias v="vim" # life saver...
-if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
-  export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
-else
-  export VISUAL="nvim"
-fi
-alias n="$VISUAL"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -185,18 +177,9 @@ alias v="vim" # life saver...
 alias locate='locate -r'  #regular expression support
 alias gfw_git='git -c "http.proxy=socks5://127.0.0.1:1080" '
 export MANPAGER="vim -c MANPAGER -"
-if [ -n "$NVIM_LISTEN_ADDRESS" ]; then
-  export VISUAL="nvr -cc tabedit --remote-wait +'set bufhidden=wipe'"
-else
-  export VISUAL="nvim"
-fi
-alias n="$VISUAL"
 
 if [[ ${OS} == "Linux" ]]; then
     alias open='xdg-open'
-    alias g='gvim --remote-tab-silent 2>/dev/null '
 elif [[ ${OS} == "Darwin" ]]; then
     alias gvim='/Applications/MacVim.app/Contents/bin/mvim'
-    alias g='/Applications/MacVim.app/Contents/bin/mvim --remote-tab-silent 2>/dev/null'
-    alias m='/Applications/MacVim.app/Contents/bin/mvim --remote-tab-silent 2>/dev/null'
 fi
