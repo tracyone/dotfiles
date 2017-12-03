@@ -1,8 +1,12 @@
 if [[ ${OS} == "Linux" ]]; then
 	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/local/bin:/home/tracyone/work/vpr_rdk/Source/ti_tools/linux_devkit/bin/nfsroot/arm-linux-gdb/bin:/opt/CodeSourcery/Sourcery_G++_Lite/bin:/opt/Clang/bin::${HOME}/local/bin:/opt/clang/bin
+    export SOCKS5_PORT="1080"
 elif [[ ${OS} == "Darwin" ]]; then
 	export EVENT_NOKQUEUE=1
 	# instead of coreutils 
 	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+    export SOCKS5_PORT="1081"
 fi
+
+# vim: setlocal ft=sh :
