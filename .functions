@@ -28,7 +28,10 @@ function gfw_curl()
             read  "?filename is empty!Please input one! " filename
         fi
     fi
-    curl --socks5 127.0.0.1:${SOCKS5_PORT} -o ${filename} -L $1
+    curl -C - --socks5 127.0.0.1:${SOCKS5_PORT} -o ${filename} -L $1
+    while [[ $? -ne 0 ]]; do
+        curl -C - --socks5 127.0.0.1:${SOCKS5_PORT} -o ${filename} -L $1
+    done
 }
 
 # vim: set ft=sh:
