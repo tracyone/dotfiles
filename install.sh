@@ -126,6 +126,7 @@ fi
 mkdir -p ${HOME}/.ssh
 
 cd t-macs && ./install.sh && cd -
+cd launchd/ && ./install.sh && cd -
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/tracyone/t-vim/master/install.sh)"
 
 
