@@ -126,7 +126,9 @@ fi
 mkdir -p ${HOME}/.ssh
 
 cd t-macs && ./install.sh && cd -
-cd launchd/ && ./install.sh && cd -
+if [[ $OS == 'Darwin' ]]; then
+    cd launchd/ && ./install.sh && cd -
+fi
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/tracyone/t-vim/master/install.sh)"
 
 
