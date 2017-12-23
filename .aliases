@@ -177,6 +177,7 @@ alias v="vim" # life saver...
 alias n="nvim" # life saver...
 alias locate='locate -r'  #regular expression support
 alias gfw_git='git -c "http.proxy=socks5://127.0.0.1:${SOCKS5_PORT}" '
+alias :q='exit'
 export MANPAGER="vim -c MANPAGER -"
 
 if [[ ${OS} == "Linux" ]]; then
