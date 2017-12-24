@@ -56,3 +56,7 @@ then
     bind '"\e[A": history-search-backward'
     bind '"\e[B": history-search-forward'
 fi
+if [[ ${OS} == 'Darwin' ]]; then
+    bind '"\e[1;5D": backward-word'
+    bind '"\e[1;5C": forward-word'
+fi
