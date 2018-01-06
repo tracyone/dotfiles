@@ -2,4 +2,4 @@
 #auto update software
 
 #vim
-brew reinstall vim --HEAD --with-override-system-vi --with-python3 --without-ruby --without-perl 
+brew reinstall vim --HEAD --with-override-system-vi --without-ruby --without-perl 
