@@ -129,7 +129,7 @@ cd t-macs && ./install.sh && cd -
 if [[ $OS == 'Darwin' ]]; then
     cd launchd/ && ./install.sh && cd -
 fi
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/tracyone/t-vim/master/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/tracyone/vinux/master/install.sh)"
 
 
 ${install_cmd} ${cur_dir}/.zshrc ${HOME}/.zshrc
