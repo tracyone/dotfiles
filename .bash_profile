@@ -55,6 +55,8 @@ if [[ $- == *i* ]]
 then
     bind '"\e[A": history-search-backward'
     bind '"\e[B": history-search-forward'
+    bind '"\C-p": history-search-backward'
+    bind '"\C-n": history-search-forward'
 fi
 if [[ ${OS} == 'Darwin' ]]; then
     bind '"\e[1;5D": backward-word'
