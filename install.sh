@@ -4,7 +4,6 @@
 
 OS=$(uname)
 echo -e "\nOS Kernel is $OS\n"
-cur_dir=$(pwd)
 mkdir -p temp
 
 app_name='dotfiles'
@@ -148,7 +147,7 @@ if [[ $OS == "Linux" ]] ;then
 			echo "get latest tmux from internet then build and install"
 			git clone https://github.com/tmux/tmux && cd tmux && ./autogen.sh && ./configure && make && sudo make install || ( echo "Error occured!exit.";exit 3 )
 		fi
-		cd ${cur_dir}
+		cd ${APP_PATH}
 	fi
 elif [[ $OS == 'Darwin' ]]; then
 	configure "ruby curl"
@@ -213,22 +212,22 @@ cd t-macs && ./install.sh && cd -
 if [[ $OS == 'Darwin' ]]; then
     cd launchd/ && ./install.sh && cd -
 fi
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/tracyone/vinux/master/install.sh)"
+bash -c "$(curl -fsSL https://git.io/vNDOQ)"
 
 
-${install_cmd} ${cur_dir}/.zshrc ${HOME}/.zshrc
-${install_cmd} ${cur_dir}/.tmux.conf ${HOME}/.tmux.conf
-${install_cmd} ${cur_dir}/.gitconfig ${HOME}/.gitconfig
-${install_cmd} ${cur_dir}/minirc.dfl ${HOME}/.minirc.dfl
-${install_cmd} ${cur_dir}/ssh_config ${HOME}/.ssh/config
-${install_cmd} ${cur_dir}/.tigrc ${HOME}/.tigrc
+${install_cmd} ${APP_PATH}/.zshrc ${HOME}/.zshrc
+${install_cmd} ${APP_PATH}/.tmux.conf ${HOME}/.tmux.conf
+${install_cmd} ${APP_PATH}/.gitconfig ${HOME}/.gitconfig
+${install_cmd} ${APP_PATH}/minirc.dfl ${HOME}/.minirc.dfl
+${install_cmd} ${APP_PATH}/ssh_config ${HOME}/.ssh/config
+${install_cmd} ${APP_PATH}/.tigrc ${HOME}/.tigrc
 
-${install_cmd} ${cur_dir}/.bashrc ${HOME}/.bashrc
-${install_cmd} ${cur_dir}/.bash_prompt ${HOME}/.bash_prompt
-${install_cmd} ${cur_dir}/.bash_profile ${HOME}/.bash_profile
-${install_cmd} ${cur_dir}/.aliases ${HOME}/.aliases
-${install_cmd} ${cur_dir}/.functions ${HOME}/.functions
-${install_cmd} ${cur_dir}/.path ${HOME}/.path
+${install_cmd} ${APP_PATH}/.bashrc ${HOME}/.bashrc
+${install_cmd} ${APP_PATH}/.bash_prompt ${HOME}/.bash_prompt
+${install_cmd} ${APP_PATH}/.bash_profile ${HOME}/.bash_profile
+${install_cmd} ${APP_PATH}/.aliases ${HOME}/.aliases
+${install_cmd} ${APP_PATH}/.functions ${HOME}/.functions
+${install_cmd} ${APP_PATH}/.path ${HOME}/.path
 
 echo -e "\n"
 if [[ $OS == "Linux" ]]; then
