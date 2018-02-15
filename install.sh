@@ -168,12 +168,14 @@ if [[ ! -d ${HOME}/.oh-my-zsh ]]; then
         git clone https://github.com/robbyrussell/oh-my-zsh   
     fi
     cd oh-my-zsh/tools && ./install.sh || ( echo "Error occured!exit.";exit 3 )
+    cd ${APP_PATH}
 fi
 
 if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
 	if [[ ! -d ${HOME}/.oh-my-zsh/plugins/zshmarks ]]; then
 		git clone https://github.com/jocelynmallon/zshmarks  ~/.oh-my-zsh/plugins/zshmarks && chmod 755 ~/.oh-my-zsh/plugins/zshmarks -R  && echo -e "\nInstall zshmarks successfully!\n" \
 			|| ( echo "Error occured!exit.";exit 3 )
+        cd ${APP_PATH}
 	fi
 else
 	echo -e "\nError!Please install oh-my-zsh first.\n"
@@ -182,11 +184,13 @@ fi
 if [[ ! -d ${HOME}/.tmux/plugins/tpm ]]; then
 	echo -e "\nInstall tmux plugin manager ...\n"
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm && echo -e "\nInstall tpm successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
+    cd ${APP_PATH}
 fi
 
 if [[ ! -d ${HOME}/.tmux/plugins/tmux-resurrect ]]; then
 	echo -e "\nInstall tmux plugin tmux-resurrect ...\n"
 	git clone https://github.com/tmux-plugins/tmux-resurrect ~/.tmux/plugins/tmux-resurrect && echo -e "\nInstall tmux-resurrect successfully!\n"  || ( echo "Error occured!exit.";exit 3 )
+    cd ${APP_PATH}
 fi
 
 if [[ $# -eq 1 ]]; then
@@ -208,7 +212,8 @@ fi
 
 mkdir -p ${HOME}/.ssh
 
-cd t-macs && ./install.sh && cd -
+bash -c "$(curl -fsSL https://git.io/vAZ0K)"
+
 if [[ $OS == 'Darwin' ]]; then
     cd launchd/ && ./install.sh && cd -
 fi
