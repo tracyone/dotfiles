@@ -7,7 +7,29 @@ echo -e "\nOS Kernel is $OS\n"
 cur_dir=$(pwd)
 mkdir -p temp
 
+app_name='dotfiles'
+[ -z "$APP_PATH" ] && APP_PATH="$HOME/.dotfiles"
+[ -z "$REPO_URI" ] && REPO_URI='https://github.com/tracyone/dotfiles.git'
+[ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
+
 # Function definition {{{
+
+function msg() {
+    printf '%b\n' "$1" >&2
+}
+
+function success() {
+    if [ "$ret" -eq '0' ];
+    then
+        msg "\33[32m[✔]\33[0m ${1}${2}"
+    fi
+}
+
+function error() {
+    msg "\33[31m[✘]\33[0m ${1}${2}"
+    exit 1
+}
+
 function AptInstall()
 {
 	read -n1 -p "Install $1 ?(y/n)" ans
@@ -48,9 +70,71 @@ function configure()
 		exit 3
 	fi
 }
+
+function sync_repo() {
+    local repo_path="$1"
+    local repo_uri="$2"
+    local repo_branch="$3"
+    local repo_name="$4"
+
+    #.vim is exist and is a git repo
+    if [ -d "$repo_path/.git" ];
+    then
+        cd ${repo_path}
+        local git_remote_url=$(git remote get-url `git remote` | grep tracyone | grep dotfiles)
+        #not my repo
+        if [ -z ${git_remote_url} ];
+        then
+            msg "\033[1;34m==>\033[0m Find git repo $(git remote get-url `git remote`) in $repo_path!"
+            msg "\033[1;34m==>\033[0m Backup to other place"
+            backup "${repo_path}"
+        fi
+        cd -
+    elif [ -d "${repo_path}" ];
+    then
+        # find ~/.vim and is not a git repo
+        msg "\033[1;34m==>\033[0m Find $repo_path"
+        msg "\033[1;34m==>\033[0m Backup to other place"
+        backup "${repo_path}"
+    fi
+
+    if [ ! -d "$repo_path" ];
+    then
+        msg "\033[1;34m==>\033[0m Trying to clone $repo_name"
+        mkdir -p "$repo_path"
+        git clone  -b "$repo_branch" "$repo_uri" "$repo_path" 
+        ret="$?"
+        if [ $ret -eq 0 ]; then
+            success "Successfully cloned $repo_name."
+            cd ${repo_path}
+            local latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+            git checkout ${latest_tag}
+            cd -
+        fi
+    else
+        msg "\033[1;34m==>\033[0m Trying to update $repo_name"
+        cd "$repo_path" && git fetch --all
+        ret="$?"
+        if [ $ret -eq 0 ]; then
+            success "Successfully updated $repo_name"
+            local latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+            git checkout ${latest_tag}
+        fi
+    fi
+
+}
 # }}}
 
 echo -e "\nInstall start ...\n"
+
+sync_repo       "$APP_PATH" \
+                "$REPO_URI" \
+                "$REPO_BRANCH" \
+                "$app_name"
+
+
+cd $APP_PATH
+
 echo -e "\nStart install zsh tmux git....\n"
 if [[ $OS == "Linux" ]] ;then
 	configure "apt-get cp which mv "
