@@ -212,11 +212,13 @@ fi
 
 mkdir -p ${HOME}/.ssh
 
+#install emacs config
 bash -c "$(curl -fsSL https://git.io/vAZ0K)"
 
 if [[ $OS == 'Darwin' ]]; then
     cd launchd/ && ./install.sh && cd -
 fi
+#install vim config
 bash -c "$(curl -fsSL https://git.io/vNDOQ)"
 
 
