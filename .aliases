@@ -179,6 +179,7 @@ alias locate='locate -r'  #regular expression support
 alias gfw_git='git -c "http.proxy=socks5://127.0.0.1:${SOCKS5_PORT}" '
 alias :q='exit'
 export MANPAGER="vim -c MANPAGER -"
+alias gfw_apt='apt-get -o Acquire::socks::proxy="socks5://127.0.0.1:8000" ' 
 
 if [[ ${OS} == "Linux" ]]; then
     alias open='xdg-open'
