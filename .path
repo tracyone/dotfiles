@@ -1,5 +1,5 @@
 if [[ ${OS} == "Linux" ]]; then
-	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/games:/usr/local/games:/opt/local/bin:/opt/Clang/bin:${HOME}/local/bin:/opt/clang/bin
+	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/games:/usr/local/games:/opt/local/bin:/opt/Clang/bin:${HOME}/local/bin:/opt/clang/bin:${HOME}/.local/bin
     export SOCKS5_PORT="1080"
 elif [[ ${OS} == "Darwin" ]]; then
 	export EVENT_NOKQUEUE=1
