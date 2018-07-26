@@ -2,4 +2,4 @@
 #auto update software
 
 #vim
-brew reinstall vim --HEAD --with-override-system-vi 
+brew upgrade vim neovim
