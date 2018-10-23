@@ -20,7 +20,8 @@
 [alias]
 	st = status
 	co = checkout
-	ci = commit
+	ci = commit --signoff
+	commit = commit --signoff
 	br = branch
 	sb = branch -a
 	mt = mergetool
