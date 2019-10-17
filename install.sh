@@ -223,7 +223,12 @@ bash -c "$(curl -fsSL https://git.io/vNDOQ)"
 
 
 ${install_cmd} ${APP_PATH}/.zshrc ${HOME}/.zshrc
-${install_cmd} ${APP_PATH}/.tmux.conf ${HOME}/.tmux.conf
+is_tmux_3=$(tmux -V | grep next-3)
+if [[  -z ${is_tmux_3} ]]; then
+    ${install_cmd} ${APP_PATH}/.tmux.conf ${HOME}/.tmux.conf
+else
+    ${install_cmd} ${APP_PATH}/.tmux3.conf ${HOME}/.tmux.conf
+fi
 ${install_cmd} ${APP_PATH}/.gitconfig ${HOME}/.gitconfig
 ${install_cmd} ${APP_PATH}/minirc.dfl ${HOME}/.minirc.dfl
 ${install_cmd} ${APP_PATH}/ssh_config ${HOME}/.ssh/config
