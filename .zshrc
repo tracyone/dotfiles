@@ -190,3 +190,5 @@ export TERM=xterm-256color
 # }}}
 
 # vim: set fdm=marker foldlevel=0:
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -1,11 +1,14 @@
 export SOCKS5_PORT="1080"
 if [[ ${OS} == "Linux" ]]; then
-	export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/games:/usr/local/games:/opt/local/bin:/opt/Clang/bin:${HOME}/local/bin:/opt/clang/bin:${HOME}/.local/bin
+	PATH=${HOME}/Bin:$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/games:/usr/local/games:/opt/local/bin:/opt/clang/bin
+    PATH=$PATH:${HOME}/Bin/lichee:${HOME}/Bin/LiveSuit
+    export SOCKS5_PORT="1080"
 elif [[ ${OS} == "Darwin" ]]; then
 	export EVENT_NOKQUEUE=1
 	# instead of coreutils 
 	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:$PATH"
 	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 fi
+
 
 # vim: set ft=sh :
