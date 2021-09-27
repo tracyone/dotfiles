@@ -34,3 +34,6 @@
 	prompt = false
 [web]
 	browser = open
+[http]
+	proxy = 127.0.0.1:1087
+	sslverify = false
