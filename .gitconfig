@@ -35,5 +35,7 @@
 [web]
 	browser = open
 [http]
-	proxy = 127.0.0.1:1087
-	sslverify = false
+	proxy = http://127.0.0.1:31181
+	sslVerify = false
+[https]
+	proxy = http://127.0.0.1:31181
