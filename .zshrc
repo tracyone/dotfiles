@@ -97,7 +97,7 @@ export UPDATE_ZSH_DAYS=30
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git OSX autojump history-substring-search command-not-found \
-	 svn web-search zshmarks  github git-flow sudo ) 
+	 svn web-search zshmarks  github git-flow sudo fzf-tab ) 
 
 zmodload zsh/terminfo
 source $ZSH/oh-my-zsh.sh
@@ -186,6 +186,10 @@ if [[ $? -eq 0  ]]; then
 fi
 export TERM=xterm-256color
 # }}}"
+
+
+export GTAGSCONF=/usr/local/etc/gtags.conf
+export GTAGSLABEL=native-pygments
 
 # }}}
 

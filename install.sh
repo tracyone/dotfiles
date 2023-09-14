@@ -177,6 +177,9 @@ if [[ -d ${HOME}/.oh-my-zsh/plugins ]]; then
 			|| ( echo "Error occured!exit.";exit 3 )
         cd ${APP_PATH}
 	fi
+    if [[ ! -d ${HOME}/.oh-my-zsh/plugins/fzf-tab ]]; then
+        git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+    fi
 else
 	echo -e "\nError!Please install oh-my-zsh first.\n"
 fi
@@ -233,6 +236,7 @@ ${install_cmd} ${APP_PATH}/.gitconfig ${HOME}/.gitconfig
 ${install_cmd} ${APP_PATH}/minirc.dfl ${HOME}/.minirc.dfl
 ${install_cmd} ${APP_PATH}/ssh_config ${HOME}/.ssh/config
 ${install_cmd} ${APP_PATH}/.tigrc ${HOME}/.tigrc
+${install_cmd} ${APP_PATH}/.npmrc ${HOME}/.npmrc
 
 ${install_cmd} ${APP_PATH}/.bashrc ${HOME}/.bashrc
 ${install_cmd} ${APP_PATH}/.bash_prompt ${HOME}/.bash_prompt
