@@ -184,7 +184,6 @@ if [[ $? -eq 0  ]]; then
 		[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
 	esac
 fi
-export TERM=xterm-256color
 # }}}"
 
 
