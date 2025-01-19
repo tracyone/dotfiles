@@ -6,7 +6,7 @@ if [[ ${OS} == "Linux" ]]; then
 elif [[ ${OS} == "Darwin" ]]; then
 	export EVENT_NOKQUEUE=1
 	# instead of coreutils 
-	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/opt/curl/bin:$PATH"
+	PATH="/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/opt/curl/bin:/usr/local/platform-tools:$PATH"
 	export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 fi
 
