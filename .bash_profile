@@ -62,3 +62,6 @@ if [[ ${OS} == 'Darwin' ]]; then
     bind '"\e[1;5D": backward-word'
     bind '"\e[1;5C": forward-word'
 fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
