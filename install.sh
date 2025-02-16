@@ -215,7 +215,9 @@ fi
 
 mkdir -p ${HOME}/.ssh
 
-ssh-keygen -t rsa -b 4096 -C "tracyone@live.cn" -f ~/.ssh/github_id_rsa
+if [[ ! -f  '~/.ssh/github_id_rsa' ]]; then
+    ssh-keygen -t rsa -b 4096 -C "tracyone@live.cn" -f ~/.ssh/github_id_rsa
+fi
 
 
 ${install_cmd} ${APP_PATH}/.zshrc ${HOME}/.zshrc
