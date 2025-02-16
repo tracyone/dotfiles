@@ -154,7 +154,7 @@ elif [[ $OS == 'Darwin' ]]; then
     which brew > /dev/null 2>&1
     if [[ $? -ne 0 ]]; then
         echo -e "Install homebrew"
-        /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     fi
 	brew bundle
 elif [[ $OS =~ MSYS_NT.* ]]; then
@@ -215,14 +215,7 @@ fi
 
 mkdir -p ${HOME}/.ssh
 
-#install emacs config
-bash -c "$(curl -fsSL https://git.io/vAZ0K)"
-
-if [[ $OS == 'Darwin' ]]; then
-    cd launchd/ && ./install.sh && cd -
-fi
-#install vim config
-bash -c "$(curl -fsSL https://git.io/vNDOQ)"
+ssh-keygen -t rsa -b 4096 -C "tracyone@live.cn" -f ~/.ssh/github_id_rsa
 
 
 ${install_cmd} ${APP_PATH}/.zshrc ${HOME}/.zshrc
