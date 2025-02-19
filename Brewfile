@@ -1,76 +1,75 @@
-tap "homebrew/bundle"
-brew "aria2"
-brew "asciinema"
-brew "astyle"
-brew "gettext"
-brew "pixman"
-brew "autoconf"
-brew "bash-completion"
-brew "bdw-gc"
-brew "binutils"
-brew "clang-format"
-brew "cowsay"
-brew "gmp"
-brew "mpfr"
-brew "gawk"
-brew "gnu-sed"
-brew "grep"
-brew "libtool"
-brew "crosstool-ng"
-brew "cscope"
-brew "ctags"
-brew "curl"
-brew "diffutils"
-brew "lame"
-brew "xvid"
-brew "ffmpeg"
-brew "figlet"
-brew "file-formula"
-brew "findutils"
-brew "fortune"
-brew "git-flow"
-brew "gnu-getopt"
-brew "gnu-indent"
-brew "gnu-tar"
-brew "gnu-which"
-brew "nettle"
-brew "gnupg"
-brew "go"
-brew "gzip"
-brew "hub"
-brew "irssi"
-brew "libav"
-brew "libcaca"
-brew "libcroco"
-brew "libelf"
-brew "libidn"
-brew "pango"
-brew "librsvg"
-brew "libssh2"
-brew "libvterm"
-brew "libyaml"
-brew "llvm"
-brew "lrzsz"
-brew "lua"
-brew "unibilium"
-brew "node"
-brew "ranger"
-brew "reattach-to-user-namespace"
-brew "ripgrep"
-brew "rtmpdump"
-brew "rtv"
-brew "ruby"
-brew "screenfetch"
-brew "sl"
-brew "sphinx-doc"
-brew "thefuck"
-brew "tig"
-brew "tmux"
-brew "toilet"
-brew "tree"
-brew "unrar"
-brew "unzip"
-brew "w3m"
-brew "wget"
-brew "youtube-dl"
-brew "zsh-completions"
+#!/usr/bin/env bash
+brew install asciinema
+brew install astyle
+brew install gettext
+brew install pixman
+brew install autoconf
+brew install bashcompletion"
+brew install bdwgc"
+brew install binutils
+brew install clangformat"
+brew install cowsay
+brew install gmp
+brew install mpfr
+brew install gawk
+brew install gnused"
+brew install grep
+brew install libtool
+brew install crosstoolng"
+brew install cscope
+brew install ctags
+brew install curl
+brew install diffutils
+brew install lame
+brew install xvid
+brew install ffmpeg
+brew install figlet
+brew install fileformula"
+brew install findutils
+brew install fortune
+brew install gitflow"
+brew install gnugetopt"
+brew install gnuindent"
+brew install gnutar"
+brew install gnuwhich"
+brew install nettle
+brew install gnupg
+brew install go
+brew install gzip
+brew install hub
+brew install irssi
+brew install libav
+brew install libcaca
+brew install libcroco
+brew install libelf
+brew install libidn
+brew install pango
+brew install librsvg
+brew install libssh2
+brew install libvterm
+brew install libyaml
+brew install llvm
+brew install lrzsz
+brew install lua
+brew install unibilium
+brew install node
+brew install ranger
+brew install reattachto-user-namespace"
+brew install ripgrep
+brew install rtmpdump
+brew install rtv
+brew install ruby
+brew install screenfetch
+brew install sl
+brew install sphinxdoc"
+brew install thefuck
+brew install tig
+brew install tmux
+brew install toilet
+brew install tree
+brew install unrar
+brew install unzip
+brew install w3m
+brew install wget
+brew install youtubedl"
+brew install zshcompletions"

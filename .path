@@ -6,6 +6,7 @@ if [[ ${OS} == "Linux" ]]; then
 elif [[ ${OS} == "Darwin" ]]; then
 	export EVENT_NOKQUEUE=1
 	# instead of coreutils 
+    export LD_LIBRARY_PATH="/opt/Homebrew/lib:/opt/homebrew/Cellar/ncurses/6.5/lib:/opt/homebrew/Cellar/openssl@3/3.4.1/lib"
 	PATH="/usr/local/opt/coreutils/libexec/gnubin:/opt/Homebrew/bin:/usr/local/bin:/usr/local/opt/curl/bin:/usr/local/platform-tools:$PATH"
 fi
 

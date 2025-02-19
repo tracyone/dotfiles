@@ -156,7 +156,7 @@ elif [[ $OS == 'Darwin' ]]; then
         echo -e "Install homebrew"
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     fi
-	brew bundle
+    ./Brewfile
 elif [[ $OS =~ MSYS_NT.* ]]; then
 	configure "pacman cp which mv "
 	pacman -S zsh tmux git 

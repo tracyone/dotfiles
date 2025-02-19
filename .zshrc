@@ -96,8 +96,8 @@ export UPDATE_ZSH_DAYS=30
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git OSX autojump history-substring-search command-not-found \
-	 svn web-search zshmarks  github git-flow sudo fzf-tab ) 
+plugins=(git history-substring-search command-not-found \
+	 svn web-search zshmarks  github git-flow sudo ) 
 
 zmodload zsh/terminfo
 source $ZSH/oh-my-zsh.sh
@@ -178,11 +178,14 @@ r() {
 
 # other {{{
 # {{{tmux
-which tmux > /dev/null
-if [[ $? -eq 0  ]]; then
-	case $- in *i*)
-		[ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
-	esac
+
+if [[ -z "$VIM" ]]; then
+    which tmux > /dev/null
+    if [[ $? -eq 0  ]]; then
+        case $- in *i*)
+            [ -z "$TMUX" ] && exec $(TERM=xterm-256color tmux -2)
+    esac
+    fi
 fi
 # }}}"
 
