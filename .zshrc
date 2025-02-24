@@ -179,7 +179,7 @@ r() {
 # other {{{
 # {{{tmux
 
-if [[ -z "$VIM" ]]; then
+if [[ -z "$VIMFILES" ]]; then
     which tmux > /dev/null
     if [[ $? -eq 0  ]]; then
         case $- in *i*)
