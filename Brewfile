@@ -70,5 +70,6 @@ brew install w3m
 brew install wget
 brew install zsh-completions
 brew install fzf
+brew install cmake
 brew install neovim --HEAD
 brew install bash-completion
