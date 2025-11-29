@@ -150,6 +150,8 @@ if [[ $OS == "Linux" ]] ;then
 		cd ${APP_PATH}
 	fi
 elif [[ $OS == 'Darwin' ]]; then
+    echo "Update ssl cert, please input the passwd"
+    sudo curl -o /etc/ssl/cert.pem "https://curl.se/ca/cacert.pem"
 	configure "ruby curl"
     which brew > /dev/null 2>&1
     if [[ $? -ne 0 ]]; then
